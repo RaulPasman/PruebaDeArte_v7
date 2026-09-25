@@ -1,0 +1,521 @@
+{
+  "A01": {
+    "status": "OK",
+    "source": "Commons (búsqueda)",
+    "file": "Wassily Kandinsky Composition VIII.jpg",
+    "repo": "commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Wassily_Kandinsky_Composition_VIII.jpg",
+    "width": 1600,
+    "height": 1120
+  },
+  "A02": {
+    "status": "OK",
+    "source": "Commons (archivo fijado)",
+    "file": "Piet Mondriaan, 1930 - Mondrian Composition II in Red, Blue, and Yellow.jpg",
+    "repo": "commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Piet_Mondriaan,_1930_-_Mondrian_Composition_II_in_Red,_Blue,_and_Yellow.jpg",
+    "width": 1578,
+    "height": 1600
+  },
+  "A03": {
+    "status": "OK",
+    "source": "Wikipedia: Black Square (painting)",
+    "file": "Kazimir_Malevich,_1915,_Black_Suprematic_Square,_oil_on_linen_canvas,_79.5_x_79.5_cm,_Tretyakov_Gallery,_Moscow.jpg",
+    "repo": "commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Kazimir_Malevich,_1915,_Black_Suprematic_Square,_oil_on_linen_canvas,_79.5_x_79.5_cm,_Tretyakov_Gallery,_Moscow.jpg",
+    "width": 1600,
+    "height": 1600
+  },
+  "A04": {
+    "status": "OK",
+    "source": "Wikipedia: Suprematist Composition",
+    "file": "Suprematist_Composition_-_Kazimir_Malevich.jpg",
+    "repo": "commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Suprematist_Composition_-_Kazimir_Malevich.jpg",
+    "width": 1281,
+    "height": 1600
+  },
+  "A05": {
+    "status": "OK",
+    "source": "Wikipedia: Broadway Boogie-Woogie",
+    "file": "Piet_Mondrian,_1942_-_Broadway_Boogie_Woogie.jpg",
+    "repo": "commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Piet_Mondrian,_1942_-_Broadway_Boogie_Woogie.jpg",
+    "width": 1598,
+    "height": 1600
+  },
+  "A06": {
+    "status": "OK",
+    "source": "Wikipedia: Ad Parnassum",
+    "file": "Ad_Parnassum_(originaler,_gefasster_Holzrahmen),_Paul_Klee_(1932).jpg",
+    "repo": "commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Ad_Parnassum_(originaler,_gefasster_Holzrahmen),_Paul_Klee_(1932).jpg",
+    "width": 1600,
+    "height": 1260
+  },
+  "B01": {
+    "status": "OK",
+    "source": "Wikipedia: The Starry Night",
+    "file": "Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+    "repo": "commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+    "width": 1600,
+    "height": 1267
+  },
+  "B02": {
+    "status": "OK",
+    "source": "Wikipedia: Composition VII",
+    "file": "Composition_VII_-_Wassily_Kandinsky,_GAC.jpg",
+    "repo": "commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Composition_VII_-_Wassily_Kandinsky,_GAC.jpg",
+    "width": 1600,
+    "height": 1063
+  },
+  "B03": {
+    "status": "LOW_RES",
+    "source": "Commons (búsqueda)",
+    "file": "Improvisation 31 (Sea Battle).png",
+    "repo": "commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Improvisation_31_(Sea_Battle).png",
+    "width": 342,
+    "height": 402
+  },
+  "B04": {
+    "status": "LOW_RES",
+    "source": "Wikipedia: No. 5, 1948",
+    "file": "No._5,_1948.jpg",
+    "repo": "wikipedia-en (uso limitado)",
+    "page": "https://en.wikipedia.org/wiki/File:No._5,_1948.jpg",
+    "width": 221,
+    "height": 449
+  },
+  "B05": {
+    "status": "OK",
+    "source": "Wikipedia: The Scream",
+    "file": "Edvard_Munch,_1893,_The_Scream,_oil,_tempera_and_pastel_on_cardboard,_91_x_73_cm,_National_Gallery_of_Norway.jpg",
+    "repo": "commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Edvard_Munch,_1893,_The_Scream,_oil,_tempera_and_pastel_on_cardboard,_91_x_73_cm,_National_Gallery_of_Norway.jpg",
+    "width": 1289,
+    "height": 1600
+  },
+  "B06": {
+    "status": "OK",
+    "source": "Wikipedia: Dance (Matisse)",
+    "file": "Matissedance.jpg",
+    "repo": "commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Matissedance.jpg",
+    "width": 874,
+    "height": 575
+  },
+  "C01": {
+    "status": "OK",
+    "source": "Wikipedia: American Gothic",
+    "file": "Grant_Wood_-_American_Gothic_(1930).jpg",
+    "repo": "commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Grant_Wood_-_American_Gothic_(1930).jpg",
+    "width": 1324,
+    "height": 1600
+  },
+  "C02": {
+    "status": "OK",
+    "source": "Wikipedia: Nighthawks (Hopper)",
+    "file": "Nighthawks_by_Edward_Hopper_1942.jpg",
+    "repo": "commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Nighthawks_by_Edward_Hopper_1942.jpg",
+    "width": 1600,
+    "height": 873
+  },
+  "C03": {
+    "status": "LOW_RES",
+    "source": "Wikipedia: Christina's World",
+    "file": "Christinasworld.jpg",
+    "repo": "wikipedia-en (uso limitado)",
+    "page": "https://en.wikipedia.org/wiki/File:Christinasworld.jpg",
+    "width": 395,
+    "height": 265
+  },
+  "C04": {
+    "status": "OK",
+    "source": "Wikipedia: Las Meninas",
+    "file": "Las_Meninas,_by_Diego_Velázquez,_from_Prado_in_Google_Earth.jpg",
+    "repo": "commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Las_Meninas,_by_Diego_Vel%C3%A1zquez,_from_Prado_in_Google_Earth.jpg",
+    "width": 1390,
+    "height": 1600
+  },
+  "C05": {
+    "status": "OK",
+    "source": "Wikipedia: Girl with a Pearl Earring",
+    "file": "1665_Girl_with_a_Pearl_Earring.jpg",
+    "repo": "commons",
+    "page": "https://commons.wikimedia.org/wiki/File:1665_Girl_with_a_Pearl_Earring.jpg",
+    "width": 1351,
+    "height": 1600
+  },
+  "C06": {
+    "status": "LOW_RES",
+    "source": "Wikipedia: Self-Portrait with Thorn Necklace and Hummingbird",
+    "file": "Frida_Kahlo_(self_portrait).jpg",
+    "repo": "wikipedia-en (uso limitado)",
+    "page": "https://en.wikipedia.org/wiki/File:Frida_Kahlo_(self_portrait).jpg",
+    "width": 277,
+    "height": 360
+  },
+  "C07": {
+    "status": "LOW_RES",
+    "source": "Wikipedia: The Son of Man",
+    "file": "Magritte_TheSonOfMan.jpg",
+    "repo": "wikipedia-en (uso limitado)",
+    "page": "https://en.wikipedia.org/wiki/File:Magritte_TheSonOfMan.jpg",
+    "width": 276,
+    "height": 362
+  },
+  "D01": {
+    "status": "OK",
+    "source": "Wikipedia: Impression, Sunrise",
+    "file": "Monet_-_Impression,_Sunrise.jpg",
+    "repo": "commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Monet_-_Impression,_Sunrise.jpg",
+    "width": 1600,
+    "height": 1241
+  },
+  "D02": {
+    "status": "OK",
+    "source": "Wikipedia: Water Lilies (Monet series)",
+    "file": "Reflections_of_Clouds_on_the_Water-Lily_Pond.jpg",
+    "repo": "commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Reflections_of_Clouds_on_the_Water-Lily_Pond.jpg",
+    "width": 1600,
+    "height": 914
+  },
+  "D03": {
+    "status": "OK",
+    "source": "Wikipedia: Wanderer above the Sea of Fog",
+    "file": "Caspar_David_Friedrich_-_Wanderer_above_the_Sea_of_Fog.jpeg",
+    "repo": "commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Wanderer_above_the_Sea_of_Fog.jpeg",
+    "width": 1247,
+    "height": 1600
+  },
+  "D04": {
+    "status": "OK",
+    "source": "Wikipedia: The Hay Wain",
+    "file": "John_Constable_-_The_Hay_Wain_(1821).jpg",
+    "repo": "commons",
+    "page": "https://commons.wikimedia.org/wiki/File:John_Constable_-_The_Hay_Wain_(1821).jpg",
+    "width": 1600,
+    "height": 1103
+  },
+  "D05": {
+    "status": "OK",
+    "source": "Wikipedia: Moonrise, Hernandez, New Mexico",
+    "file": "Moonrise,_Hernandez,_New_Mexico_(cropped).jpg",
+    "repo": "commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Moonrise,_Hernandez,_New_Mexico_(cropped).jpg",
+    "width": 1600,
+    "height": 1282
+  },
+  "D06": {
+    "status": "OK",
+    "source": "Commons (búsqueda)",
+    "file": "Winslow Homer - The Blue Boat (1892).jpg",
+    "repo": "commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Winslow_Homer_-_The_Blue_Boat_(1892).jpg",
+    "width": 1600,
+    "height": 1110
+  },
+  "E01": {
+    "status": "OK",
+    "source": "Wikipedia: Migrant Mother",
+    "file": "Lange-MigrantMother02.jpg",
+    "repo": "commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Lange-MigrantMother02.jpg",
+    "width": 1231,
+    "height": 1600
+  },
+  "E02": {
+    "status": "OK",
+    "source": "Wikipedia: Lunch atop a Skyscraper",
+    "file": "Lunch_atop_a_Skyscraper_-_Charles_Clyde_Ebbets.jpg",
+    "repo": "commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Lunch_atop_a_Skyscraper_-_Charles_Clyde_Ebbets.jpg",
+    "width": 1600,
+    "height": 1258
+  },
+  "E03": {
+    "status": "LOW_RES",
+    "source": "Wikipedia (búsqueda): Untitled Film Still 21",
+    "file": "Untitled_Film_Still_21_(Cindy_Sherman_photograph).jpg",
+    "repo": "wikipedia-en (uso limitado)",
+    "page": "https://en.wikipedia.org/wiki/File:Untitled_Film_Still_21_(Cindy_Sherman_photograph).jpg",
+    "width": 350,
+    "height": 279
+  },
+  "E04": {
+    "status": "OK",
+    "source": "Wikipedia: The Steerage",
+    "file": "Alfred_Stieglitz_-_The_Steerage_-_Google_Art_Project.jpg",
+    "repo": "commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Alfred_Stieglitz_-_The_Steerage_-_Google_Art_Project.jpg",
+    "width": 1276,
+    "height": 1600
+  },
+  "E05": {
+    "status": "MANUAL",
+    "source": "manual: E05.jpg",
+    "width": 960,
+    "height": 720
+  },
+  "E06": {
+    "status": "OK",
+    "source": "Wikipedia: Le Violon d'Ingres",
+    "file": "Le_Violon_d'Ingres.png",
+    "repo": "wikipedia-en (uso limitado)",
+    "page": "https://en.wikipedia.org/wiki/File:Le_Violon_d%27Ingres.png",
+    "width": 1238,
+    "height": 1600
+  },
+  "E07": {
+    "status": "LOW_RES",
+    "source": "Wikipedia: Workers Leaving the Lumière Factory",
+    "file": "SortiedesOuvriersdel1895-01.jpg",
+    "repo": "commons",
+    "page": "https://commons.wikimedia.org/wiki/File:SortiedesOuvriersdel1895-01.jpg",
+    "width": 254,
+    "height": 200
+  },
+  "F01": {
+    "status": "OK",
+    "source": "Wikipedia: David (Michelangelo)",
+    "file": "'David'_by_Michelangelo_Fir_JBU004.jpg",
+    "repo": "commons",
+    "page": "https://commons.wikimedia.org/wiki/File:%27David%27_by_Michelangelo_Fir_JBU004.jpg",
+    "width": 1067,
+    "height": 1600
+  },
+  "F02": {
+    "status": "OK",
+    "source": "Wikipedia: The Thinker",
+    "file": "Le_Penseur_by_Rodin_(Kunsthalle_Bielefeld)_2014-04-10.JPG",
+    "repo": "commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Le_Penseur_by_Rodin_(Kunsthalle_Bielefeld)_2014-04-10.JPG",
+    "width": 1200,
+    "height": 1600
+  },
+  "F03": {
+    "status": "OK",
+    "source": "Wikipedia: Bird in Space",
+    "file": "Bird_in_Space.jpg",
+    "repo": "commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Bird_in_Space.jpg",
+    "width": 1137,
+    "height": 1600
+  },
+  "F04": {
+    "status": "OK",
+    "source": "Wikipedia: The Kiss (Rodin sculpture)",
+    "file": "Rodin_-_Le_Baiser_06.jpg",
+    "repo": "commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Rodin_-_Le_Baiser_06.jpg",
+    "width": 1092,
+    "height": 1600
+  },
+  "F05": {
+    "status": "OK",
+    "source": "Wikipedia: Apollo and Daphne (Bernini)",
+    "file": "Apollo_and_Daphne_(Bernini)_(cropped).jpg",
+    "repo": "commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Apollo_and_Daphne_(Bernini)_(cropped).jpg",
+    "width": 952,
+    "height": 1600
+  },
+  "F06": {
+    "status": "OK",
+    "source": "Wikipedia: The Gates of Hell",
+    "file": "La_puerta_del_Infierno_de_Rodin_del_museo_Soumaya_(con_fondo_negro).jpg",
+    "repo": "commons",
+    "page": "https://commons.wikimedia.org/wiki/File:La_puerta_del_Infierno_de_Rodin_del_museo_Soumaya_(con_fondo_negro).jpg",
+    "width": 1066,
+    "height": 1600
+  },
+  "G01": {
+    "status": "LOW_RES",
+    "source": "Wikipedia: The Snail",
+    "file": "Matissesnail.jpg",
+    "repo": "wikipedia-en (uso limitado)",
+    "page": "https://en.wikipedia.org/wiki/File:Matissesnail.jpg",
+    "width": 300,
+    "height": 298
+  },
+  "G02": {
+    "status": "LOW_RES",
+    "source": "Wikipedia: The Persistence of Memory",
+    "file": "The_Persistence_of_Memory.jpg",
+    "repo": "wikipedia-en (uso limitado)",
+    "page": "https://en.wikipedia.org/wiki/File:The_Persistence_of_Memory.jpg",
+    "width": 371,
+    "height": 268
+  },
+  "G03": {
+    "status": "MANUAL",
+    "source": "manual: G03.jpg",
+    "width": 960,
+    "height": 1157
+  },
+  "G04": {
+    "status": "MANUAL",
+    "source": "manual: G04.jpg",
+    "width": 800,
+    "height": 997
+  },
+  "G05": {
+    "status": "MANUAL",
+    "source": "manual: G05.jpg",
+    "width": 1269,
+    "height": 1600
+  },
+  "G06": {
+    "status": "LOW_RES",
+    "source": "Wikipedia (búsqueda): Jazz (Henri Matisse)",
+    "file": "Jazz_Henri_Matisse.JPG",
+    "repo": "wikipedia-en (uso limitado)",
+    "page": "https://en.wikipedia.org/wiki/File:Jazz_Henri_Matisse.JPG",
+    "width": 386,
+    "height": 249
+  },
+  "G07": {
+    "status": "LOW_RES",
+    "source": "Wikipedia: Blue Poles",
+    "file": "Blue_Poles_(Jackson_Pollock_painting).jpg",
+    "repo": "wikipedia-en (uso limitado)",
+    "page": "https://en.wikipedia.org/wiki/File:Blue_Poles_(Jackson_Pollock_painting).jpg",
+    "width": 485,
+    "height": 206
+  },
+  "H01": {
+    "status": "OK",
+    "source": "Wikipedia: I and the Village",
+    "file": "Chagall_IandTheVillage.jpg",
+    "repo": "wikipedia-en (uso limitado)",
+    "page": "https://en.wikipedia.org/wiki/File:Chagall_IandTheVillage.jpg",
+    "width": 1257,
+    "height": 1600
+  },
+  "H02": {
+    "status": "LOW_RES",
+    "source": "Wikipedia: The Treachery of Images",
+    "file": "MagrittePipe.jpg",
+    "repo": "wikipedia-en (uso limitado)",
+    "page": "https://en.wikipedia.org/wiki/File:MagrittePipe.jpg",
+    "width": 378,
+    "height": 264
+  },
+  "H03": {
+    "status": "LOW_RES",
+    "source": "Wikipedia: Marilyn Diptych",
+    "file": "Marilyndiptych.jpg",
+    "repo": "wikipedia-en (uso limitado)",
+    "page": "https://en.wikipedia.org/wiki/File:Marilyndiptych.jpg",
+    "width": 375,
+    "height": 265
+  },
+  "H04": {
+    "status": "OK",
+    "source": "Wikipedia: Campbell's Soup Cans",
+    "file": "Campbell's_Soup_Cans_by_Andy_Warhol.jpg",
+    "repo": "commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Campbell%27s_Soup_Cans_by_Andy_Warhol.jpg",
+    "width": 1600,
+    "height": 930
+  },
+  "H05": {
+    "status": "OK",
+    "source": "Wikipedia: L.H.O.O.Q.",
+    "file": "Marcel_Duchamp,_1919,_L.H.O.O.Q.jpg",
+    "repo": "wikipedia-en (uso limitado)",
+    "page": "https://en.wikipedia.org/wiki/File:Marcel_Duchamp,_1919,_L.H.O.O.Q.jpg",
+    "width": 1239,
+    "height": 1600
+  },
+  "H06": {
+    "status": "OK",
+    "source": "Wikipedia: The Great Wave off Kanagawa",
+    "file": "Tsunami_by_hokusai_19th_century.jpg",
+    "repo": "commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Tsunami_by_hokusai_19th_century.jpg",
+    "width": 1600,
+    "height": 1076
+  },
+  "I01": {
+    "status": "OK",
+    "source": "Wikipedia: Fountain (Duchamp)",
+    "file": "Marcel_Duchamp,_1917,_Fountain,_photograph_by_Alfred_Stieglitz.jpg",
+    "repo": "commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Marcel_Duchamp,_1917,_Fountain,_photograph_by_Alfred_Stieglitz.jpg",
+    "width": 1225,
+    "height": 1600
+  },
+  "I02": {
+    "status": "OK",
+    "source": "Wikipedia: One and Three Chairs",
+    "file": "One_and_Three_Chair.jpg",
+    "repo": "commons",
+    "page": "https://commons.wikimedia.org/wiki/File:One_and_Three_Chair.jpg",
+    "width": 1600,
+    "height": 1035
+  },
+  "I03": {
+    "status": "OK",
+    "source": "Commons (búsqueda)",
+    "file": "Neue Nationalgalerie zur Art Week 2023 Yoko Ono Cut Piece.jpg",
+    "repo": "commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Neue_Nationalgalerie_zur_Art_Week_2023_Yoko_Ono_Cut_Piece.jpg",
+    "width": 1600,
+    "height": 1038
+  },
+  "I04": {
+    "status": "LOW_RES",
+    "source": "Wikipedia: The Physical Impossibility of Death in the Mind of Someone Living",
+    "file": "Hirst-Shark.jpg",
+    "repo": "wikipedia-en (uso limitado)",
+    "page": "https://en.wikipedia.org/wiki/File:Hirst-Shark.jpg",
+    "width": 389,
+    "height": 255
+  },
+  "J01": {
+    "status": "MANUAL",
+    "source": "manual: J01.jpg",
+    "width": 359,
+    "height": 557
+  },
+  "J02": {
+    "status": "LOW_RES",
+    "source": "Wikipedia: One and Three Chairs",
+    "file": "Kosuth_OneAndThreeChairs.jpg",
+    "repo": "wikipedia-en (uso limitado)",
+    "page": "https://en.wikipedia.org/wiki/File:Kosuth_OneAndThreeChairs.jpg",
+    "width": 360,
+    "height": 276
+  },
+  "J03": {
+    "status": "MANUAL",
+    "source": "manual: J03.jpg",
+    "width": 384,
+    "height": 512
+  },
+  "J04": {
+    "status": "MANUAL",
+    "source": "manual: J04.jpg",
+    "width": 366,
+    "height": 546
+  },
+  "J05": {
+    "status": "OK",
+    "source": "Wikipedia: Spiral Jetty",
+    "file": "Spiral-jetty-from-rozel-point.png",
+    "repo": "commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Spiral-jetty-from-rozel-point.png",
+    "width": 800,
+    "height": 450
+  }
+}

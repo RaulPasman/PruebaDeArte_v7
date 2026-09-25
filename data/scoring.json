@@ -1,0 +1,14 @@
+{
+  "weights": {
+    "direct": 1.0,
+    "both": 0.35,
+    "neither": 0.75,
+    "question_default": 0.5,
+    "live_with_work": 0.7
+  },
+  "duel_phase_weights": [
+    1.0,
+    1.05,
+    1.1
+  ]
+}

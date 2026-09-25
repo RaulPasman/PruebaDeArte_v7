@@ -1,0 +1,146 @@
+[
+  {
+    "id": "D01",
+    "a": "A02",
+    "b": "B01",
+    "rationale": "estructura vs gesto / intensidad"
+  },
+  {
+    "id": "D02",
+    "a": "A03",
+    "b": "C02",
+    "rationale": "abstracción extrema vs figuración atmosférica"
+  },
+  {
+    "id": "D03",
+    "a": "D03",
+    "b": "F03",
+    "rationale": "paisaje imaginario vs objeto abstracto"
+  },
+  {
+    "id": "D04",
+    "a": "C05",
+    "b": "H02",
+    "rationale": "reconocimiento vs ambigüedad conceptual"
+  },
+  {
+    "id": "D05",
+    "a": "A05",
+    "b": "G07",
+    "rationale": "orden rítmico vs gesto energético"
+  },
+  {
+    "id": "D06",
+    "a": "C01",
+    "b": "E03",
+    "rationale": "figuración directa vs identidad/ficción"
+  },
+  {
+    "id": "D07",
+    "a": "D01",
+    "b": "B05",
+    "rationale": "serenidad lumínica vs intensidad"
+  },
+  {
+    "id": "D08",
+    "a": "F01",
+    "b": "F03",
+    "rationale": "figuración monumental vs abstracción material"
+  },
+  {
+    "id": "D09",
+    "a": "A06",
+    "b": "G01",
+    "rationale": "geometría cromática vs collage material"
+  },
+  {
+    "id": "D10",
+    "a": "C02",
+    "b": "E05",
+    "rationale": "escena reconocible vs atmósfera documental"
+  },
+  {
+    "id": "D11",
+    "a": "B02",
+    "b": "H03",
+    "rationale": "abstracción expresiva vs cultura visual"
+  },
+  {
+    "id": "D12",
+    "a": "D05",
+    "b": "F04",
+    "rationale": "fotografía vs objeto/presencia"
+  },
+  {
+    "id": "D13",
+    "a": "C06",
+    "b": "G04",
+    "rationale": "autorretrato vs montaje/ruptura"
+  },
+  {
+    "id": "D14",
+    "a": "A01",
+    "b": "J01",
+    "rationale": "composición vs objeto mínimo"
+  },
+  {
+    "id": "D15",
+    "a": "D02",
+    "b": "G02",
+    "rationale": "atmósfera vs mundo imaginario"
+  },
+  {
+    "id": "D16",
+    "a": "E01",
+    "b": "C03",
+    "rationale": "fotografía documental vs figuración íntima"
+  },
+  {
+    "id": "D17",
+    "a": "H05",
+    "b": "I01",
+    "rationale": "apropiación visual vs idea/concepto"
+  },
+  {
+    "id": "D18",
+    "a": "B03",
+    "b": "G06",
+    "rationale": "gesto vs superficie/collage"
+  },
+  {
+    "id": "D19",
+    "a": "C07",
+    "b": "H04",
+    "rationale": "símbolo vs imagen de cultura de masas"
+  },
+  {
+    "id": "D20",
+    "a": "F05",
+    "b": "I04",
+    "rationale": "virtuosismo corporal vs objeto conceptual"
+  },
+  {
+    "id": "D21",
+    "a": "A04",
+    "b": "J05",
+    "rationale": "sistema visual vs instalación/idea"
+  },
+  {
+    "id": "D22",
+    "a": "E06",
+    "b": "H02",
+    "rationale": "fotografía construida vs pintura conceptual"
+  },
+  {
+    "id": "D23",
+    "a": "D06",
+    "b": "J03",
+    "rationale": "paisaje observacional vs objeto/assemblage"
+  },
+  {
+    "id": "D24",
+    "a": "H06",
+    "b": "I02",
+    "rationale": "imagen gráfica y presencia vs idea explícita"
+  }
+]

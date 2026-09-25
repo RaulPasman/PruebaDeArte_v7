@@ -1,0 +1,152 @@
+[
+  {
+    "id": "P01",
+    "name": "El coleccionista de atmósferas",
+    "subtitle": "Clima, luz, silencio y emoción contenida",
+    "vector": {
+      "E1 Abstracto↔Figurativo": 0.1,
+      "E2 Estructurado↔Espontáneo": -0.1,
+      "E3 Sereno↔Expresivo": -0.4,
+      "E4 Contenido↔Saturado": -0.2,
+      "E5 Plano↔Material": 0,
+      "E6 Cotidiano↔Imaginario": 0.2,
+      "E7 Íntimo↔Dominante": 0.7,
+      "E8 Transparente↔Conceptual": 0
+    }
+  },
+  {
+    "id": "P02",
+    "name": "El explorador de la materia",
+    "subtitle": "Textura, superficie, gesto y presencia física",
+    "vector": {
+      "E1 Abstracto↔Figurativo": -0.3,
+      "E2 Estructurado↔Espontáneo": 0.4,
+      "E3 Sereno↔Expresivo": 0.5,
+      "E4 Contenido↔Saturado": 0.4,
+      "E5 Plano↔Material": 0.8,
+      "E6 Cotidiano↔Imaginario": 0.1,
+      "E7 Íntimo↔Dominante": 0.7,
+      "E8 Transparente↔Conceptual": 0
+    }
+  },
+  {
+    "id": "P03",
+    "name": "El equilibrador",
+    "subtitle": "Tensión entre estructura y espontaneidad",
+    "vector": {
+      "E1 Abstracto↔Figurativo": -0.3,
+      "E2 Estructurado↔Espontáneo": 0,
+      "E3 Sereno↔Expresivo": 0.1,
+      "E4 Contenido↔Saturado": 0,
+      "E5 Plano↔Material": 0,
+      "E6 Cotidiano↔Imaginario": 0.1,
+      "E7 Íntimo↔Dominante": 0.4,
+      "E8 Transparente↔Conceptual": 0
+    }
+  },
+  {
+    "id": "P04",
+    "name": "El buscador de intensidad",
+    "subtitle": "Color, energía, movimiento y contraste",
+    "vector": {
+      "E1 Abstracto↔Figurativo": -0.3,
+      "E2 Estructurado↔Espontáneo": 0.6,
+      "E3 Sereno↔Expresivo": 0.8,
+      "E4 Contenido↔Saturado": 0.8,
+      "E5 Plano↔Material": 0.3,
+      "E6 Cotidiano↔Imaginario": 0.2,
+      "E7 Íntimo↔Dominante": 0.7,
+      "E8 Transparente↔Conceptual": 0
+    }
+  },
+  {
+    "id": "P05",
+    "name": "El observador de lo cotidiano",
+    "subtitle": "Personas, objetos y escenas reconocibles",
+    "vector": {
+      "E1 Abstracto↔Figurativo": 0.7,
+      "E2 Estructurado↔Espontáneo": -0.1,
+      "E3 Sereno↔Expresivo": 0,
+      "E4 Contenido↔Saturado": -0.2,
+      "E5 Plano↔Material": 0,
+      "E6 Cotidiano↔Imaginario": -0.1,
+      "E7 Íntimo↔Dominante": 0.6,
+      "E8 Transparente↔Conceptual": -0.2
+    }
+  },
+  {
+    "id": "P06",
+    "name": "El imaginador",
+    "subtitle": "Ambigüedad, símbolo y mundos posibles",
+    "vector": {
+      "E1 Abstracto↔Figurativo": 0,
+      "E2 Estructurado↔Espontáneo": 0.1,
+      "E3 Sereno↔Expresivo": 0.5,
+      "E4 Contenido↔Saturado": 0.3,
+      "E5 Plano↔Material": 0.2,
+      "E6 Cotidiano↔Imaginario": 0.9,
+      "E7 Íntimo↔Dominante": 0.7,
+      "E8 Transparente↔Conceptual": 0.5
+    }
+  },
+  {
+    "id": "P07",
+    "name": "El arquitecto visual",
+    "subtitle": "Estructura, geometría, proporción y ritmo",
+    "vector": {
+      "E1 Abstracto↔Figurativo": -0.7,
+      "E2 Estructurado↔Espontáneo": -0.8,
+      "E3 Sereno↔Expresivo": -0.1,
+      "E4 Contenido↔Saturado": -0.3,
+      "E5 Plano↔Material": -0.1,
+      "E6 Cotidiano↔Imaginario": 0,
+      "E7 Íntimo↔Dominante": 0.4,
+      "E8 Transparente↔Conceptual": 0.1
+    }
+  },
+  {
+    "id": "P08",
+    "name": "El explorador conceptual",
+    "subtitle": "Ideas, preguntas, contexto e interpretación",
+    "vector": {
+      "E1 Abstracto↔Figurativo": -0.2,
+      "E2 Estructurado↔Espontáneo": 0,
+      "E3 Sereno↔Expresivo": 0.2,
+      "E4 Contenido↔Saturado": 0,
+      "E5 Plano↔Material": 0.2,
+      "E6 Cotidiano↔Imaginario": 0.5,
+      "E7 Íntimo↔Dominante": 0.6,
+      "E8 Transparente↔Conceptual": 0.9
+    }
+  },
+  {
+    "id": "P09",
+    "name": "El cazador de lo inesperado",
+    "subtitle": "Ruptura, humor y soluciones poco convencionales",
+    "vector": {
+      "E1 Abstracto↔Figurativo": 0,
+      "E2 Estructurado↔Espontáneo": 0.5,
+      "E3 Sereno↔Expresivo": 0.6,
+      "E4 Contenido↔Saturado": 0.4,
+      "E5 Plano↔Material": 0.4,
+      "E6 Cotidiano↔Imaginario": 0.7,
+      "E7 Íntimo↔Dominante": 0.8,
+      "E8 Transparente↔Conceptual": 0.6
+    }
+  },
+  {
+    "id": "P10",
+    "name": "El explorador sin fronteras",
+    "subtitle": "Curiosidad amplia y baja concentración en un solo lenguaje",
+    "vector": {
+      "E1 Abstracto↔Figurativo": 0,
+      "E2 Estructurado↔Espontáneo": 0,
+      "E3 Sereno↔Expresivo": 0,
+      "E4 Contenido↔Saturado": 0,
+      "E5 Plano↔Material": 0,
+      "E6 Cotidiano↔Imaginario": 0,
+      "E7 Íntimo↔Dominante": 0,
+      "E8 Transparente↔Conceptual": 0
+    }
+  }
+]

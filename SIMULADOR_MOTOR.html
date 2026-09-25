@@ -1,0 +1,33 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Simulador del motor · Prueba de Arte</title>
+<style>body{font-family:Arial;margin:30px;background:#f3f3ef;color:#171717}h1{font:500 30px Georgia}table{border-collapse:collapse;background:#fff;margin:10px 0 28px}td,th{padding:6px 12px;border-bottom:1px solid #ddd;text-align:left;font-size:14px}.bar{height:10px;background:#111;display:inline-block}.bad{color:#c62828}.ok{color:#1a7f37}button{background:#111;color:#fff;border:0;padding:10px 18px;cursor:pointer}</style></head>
+<body><main id="app" hidden></main>
+<h1>Simulador del motor de perfiles</h1>
+<p>Simula miles de recorridos completos con el motor actual (<code>app.js</code> + <code>data/*.json</code>) y mide dos cosas:<br>
+1) <b>Usuarios al azar</b>: si alguien elige sin criterio, el resultado debería repartirse o caer en "Explorador sin fronteras", no concentrarse en un perfil.<br>
+2) <b>Usuarios sintéticos con gusto conocido</b>: generamos personas cuyo gusto real es cada perfil y medimos si el test lo detecta.</p>
+<button id="run">Correr simulación (2.000 recorridos)</button><div id="out"></div>
+<script src="app.js"></script>
+<script>
+const g=()=>Math.sqrt(-2*Math.log(Math.random()))*Math.cos(2*Math.PI*Math.random());
+function play(policy,qpol){Object.assign(state,{index:0,answers:[],qAnswers:[]});for(let i=0;i<24;i++){const d=nextDuel();if(!d)break;state.answers.push({duel:d.id,choice:policy(d),a:d.a,b:d.b});state.index++}
+ state.questions.forEach(q=>state.qAnswers.push({q:q.id,choice:qpol(q)}));const sc=score();return profileResult(sc)}
+function table(title,rows,cols){return `<h2>${title}</h2><table><tr>${cols.map(c=>`<th>${c}</th>`).join('')}</tr>${rows.join('')}</table>`}
+document.getElementById('run').onclick=async()=>{
+ if(!state.artworks.length)await load();const N=2000,out=document.getElementById('out');out.innerHTML='Calculando...';await new Promise(r=>setTimeout(r,30));
+ const rq=q=>Math.floor(Math.random()*q.options.length);
+ const cnt={};for(let n=0;n<N;n++){const r=play(()=>Math.random()<.5?'A':'B',rq);cnt[r.main.name]=(cnt[r.main.name]||0)+1}
+ const r1=Object.entries(cnt).sort((a,b)=>b[1]-a[1]).map(([k,v])=>`<tr><td>${k}</td><td>${(v/N*100).toFixed(1)}%</td><td><span class="bar" style="width:${v/N*300}px"></span></td></tr>`);
+ const profs=state.profiles.filter(p=>p.id!=='P10');const hit={},tot={};let H=0,T2=0;
+ for(let n=0;n<N;n++){const p=profs[n%profs.length];const tv={};AXES.forEach(a=>tv[a]=p.vector[a]+g()*0.2);
+  const u=w=>-AXES.reduce((t,a)=>t+(w[a]-tv[a])**2,0);
+  const r=play(d=>Math.random()<1/(1+Math.exp(-(u(art(d.a))-u(art(d.b)))*3))?'A':'B',rq);
+  tot[p.name]=(tot[p.name]||0)+1;if(r.main.id===p.id){hit[p.name]=(hit[p.name]||0)+1;H++}
+  if(r.main.id===p.id||r.nuances.some(x=>x.id===p.id))T2++}
+ const r2=profs.map(p=>{const v=(hit[p.name]||0)/tot[p.name]*100;return `<tr><td>${p.name}</td><td class="${v>=50?'ok':'bad'}">${v.toFixed(0)}%</td><td><span class="bar" style="width:${v*3}px"></span></td></tr>`});
+ const maxShare=Math.max(...Object.values(cnt))/N*100;
+ out.innerHTML=table('1 · Resultado de usuarios que eligen al azar',r1,['Perfil','% de usuarios',''])+
+ `<p class="${maxShare>35?'bad':'ok'}">${maxShare>35?'⚠ Un solo perfil se lleva '+maxShare.toFixed(0)+'% de los usuarios al azar: el motor está sesgado hacia el promedio del catálogo.':'Distribución razonable.'}</p>`+
+ table('2 · ¿El test detecta el gusto real?',r2,['Gusto real','Detectado como perfil principal',''])+
+ `<p><b>Acierto global: ${(H/N*100).toFixed(1)}%</b> (azar puro ≈ ${(100/profs.length).toFixed(0)}%) · Principal o matiz: ${(T2/N*100).toFixed(1)}%. Objetivo recomendado antes del F&amp;F: ≥ 60% principal y ≥ 85% principal o matiz.</p>`;
+};
+</script></body></html>
