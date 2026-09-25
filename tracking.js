@@ -35,6 +35,8 @@ const Tracking = (() => {
   return {
     send, device,
     newSession() { sid = newId(); },
+    // Al retomar un recorrido guardado, seguimos usando la misma sesión (misma fila en la planilla).
+    setSession(id) { if (typeof id === 'string' && id && id.length <= 64) sid = id; },
     get sessionId() { return sid; },
     get isTest() { return isTest; },
     get enabled() { return !!cfg.webhookUrl; }

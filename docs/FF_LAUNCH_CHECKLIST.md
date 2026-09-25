@@ -12,6 +12,11 @@
 - [ ] Confirmar que la reflexión reaparece en el cierre.
 - [ ] Generar el PDF y revisar saltos de página/imágenes.
 - [ ] Reiniciar y repetir una segunda vez.
+- [ ] En el celular: las dos obras y los botones entran en la pantalla sin scrollear.
+- [ ] Tocar "← Anterior" en un duelo: vuelve al duelo previo y se puede cambiar la respuesta.
+- [ ] Tocar "No estoy seguro": pasa al siguiente duelo normalmente.
+- [ ] A mitad del test, recargar la página: aparece "Continuar donde quedé" y sigue en el mismo duelo.
+- [ ] En la planilla, la persona que retomó sigue en una sola fila (no aparece duplicada).
 
 ## Piloto
 - [ ] 3 personas primero.

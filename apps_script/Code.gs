@@ -95,7 +95,7 @@ function registrarEvento_(ss, d) {
   const detalle = Object.assign({}, d);
   ['v', 'session_id', 'type', 'test', 'ts', 'n', 'duel', 'a', 'b', 'choice', 'ms', 'answers', 'narrative', 'email']
     .forEach(k => delete detalle[k]);
-  const eleccion = { A: 'A', B: 'B', both: 'Ambas', neither: 'Ninguna' }[d.choice] || '';
+  const eleccion = { A: 'A', B: 'B', both: 'Ambas', neither: 'Ninguna', unsure: 'No estoy seguro' }[d.choice] || '';
   sh.appendRow([
     new Date(), d.session_id, d.test ? 'sí' : '', d.type, d.n || '', d.duel || '',
     d.a || '', d.b || '', eleccion, d.ms == null ? '' : d.ms,

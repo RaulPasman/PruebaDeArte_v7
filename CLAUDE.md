@@ -27,7 +27,7 @@ data/
   artworks.json                    → 60 obras, 8 ejes (E1..E8) cada una, -1..1
   duels.json                       → 16 duelos fijos + banco para 8 adaptativos
   profiles.json                    → 10 perfiles (P01..P09 + P10 "explorador sin fronteras" = fallback)
-  scoring.json                     → pesos (ver nota abajo: no se usa del todo)
+  scoring.json                     → pesos del motor, los lee score() en app.js
   questions.json                   → 7 preguntas con señales por eje
   image_sources.json               → de dónde sacar la imagen de cada obra (título de Wikipedia, etc.)
   image_manifest.json              → se genera solo, registro de qué imagen se bajó y de dónde
@@ -116,31 +116,49 @@ REVISAR_IMAGENES.html              → se genera solo, grilla visual de las 60 i
 - Registro de datos en Sheets — funcionando de punta a punta.
 - Encuesta de cierre (feedback) — funcionando.
 - Mail cálido + PDF adjunto — funcionando, confirmado por Raúl.
-- ~53–55 de 60 imágenes descargadas correctamente.
+- Las 60 obras tienen imagen: 38 OK, 15 en baja resolución (obras con derechos, ver
+  `data/image_manifest.json`) y 7 cargadas a mano en `assets/manual/`.
+- **Duelo en mobile**: la sección ocupa el alto de la ventana y las imágenes se achican para que
+  las dos obras y los botones entren sin scrollear (verificado en 320×568, 360×640, 390×844 y
+  compu). En celular se ocultan los textos de ayuda del duelo.
+- **Guardado de progreso** (`save()` / `loadSaved()` / `restore()` en `app.js`): se guarda en
+  `localStorage` del navegador de la persona. Al volver, la portada ofrece "Continuar donde quedé"
+  o "Ver mi resultado". Retoma la misma `session_id`, así que en Sheets sigue siendo una sola
+  fila. Se descarta si tiene más de 14 días o si referencia obras que ya no existen.
+- **Volver al duelo anterior** (`goBack()`): botón "← Anterior" en el duelo. Descarta la última
+  respuesta y manda un evento `back`. Las preguntas y pausas ya vistas no se repiten.
+- **"No estoy seguro"** (choice `unsure`): cuenta como duelo respondido pero no suma señal.
+- **Placeholder a ciegas**: en el duelo, ni el texto alternativo ni el aviso de imagen faltante
+  muestran título o artista (sólo "Obra A" / "Obra B").
+- **`scoring.json` unificado**: `score()` lee los pesos de ahí. Se cargaron los valores que ya
+  usaba el código (los viejos del JSON eran otros y nunca se usaban). El simulador dio igual antes
+  y después del cambio (~53% principal, ~86% principal o matiz, máx. 18% con usuarios al azar).
+- **GitHub**: el repo `RaulPasman/PruebaDeArte_v7` ya es la fuente única; Raúl commitea desde
+  GitHub Desktop (no hay `git` de línea de comandos instalado en su PC).
 
 **A medio camino:**
 - Imágenes en el mail vinculadas al perfil: código listo, falta que Raúl publique el sitio
-  (GitHub Pages) y complete `imagesBaseUrl`.
-- Quedan 6–7 obras de imagen sin resolver (decisión de Raúl: buscarlas a mano o reemplazarlas
-  — ver `docs/IMAGENES.md`).
+  (GitHub Pages; al 25/09/2026 la URL `raulpasman.github.io/PruebaDeArte_v7` da 404) y complete
+  `imagesBaseUrl`.
+- `config.js` en el repo tiene `webhookUrl` vacío: sin eso, lo publicado en GitHub Pages no
+  guarda nada en Sheets. Raúl tiene que pegar la URL `/exec` y commitear.
+- `apps_script/Code.gs` cambió (etiqueta "No estoy seguro" en la hoja Eventos): hay que pegarlo en
+  Apps Script y publicar como *New version* (ver arriba). Sin eso, esa columna queda vacía para
+  esas respuestas; no rompe nada.
+- 15 imágenes en baja resolución: decidir si se reemplazan antes del F&F (va con la curaduría).
 
-**No arrancado — priorizar en este orden:**
-1. **Duelo en mobile**: hoy, en pantallas chicas, las dos obras y los botones "Ambas/Ninguna"
-   no entran en una sola pantalla — hay que scrollear para comparar. Es lo primero que un
-   usuario del F&F va a notar si sigue roto.
-2. **Guardado de progreso** al recargar la página (hoy se pierde todo).
-3. **Volver al duelo anterior** (decisión de diseño ya tomada, nunca implementada).
-4. **Opción "No estoy seguro"** en los duelos (decisión ya tomada, nunca implementada).
-5. **Placeholder de imagen** que no revele el título de la obra cuando la imagen falta (hoy sí
-   lo revela, rompe el duelo "a ciegas").
-6. **`scoring.json` no se usa realmente** — los pesos están escritos a mano dentro de `app.js`.
-   Unificar.
-7. **GitHub como fuente única de versiones** del proyecto (hoy son carpetas sueltas / parches
-   en zip).
-8. **Curaduría 1.1**: aplicar los ~17 reemplazos de obras propuestos (ver conversación con
+**Pendiente — priorizar en este orden:**
+1. **Curaduría 1.1**: aplicar los ~17 reemplazos de obras propuestos (ver conversación con
    Raúl o pedirle el PDF "Revisión Integral" que ya tiene), reclasificar familias, doble
-   evaluación de vectores por dos personas.
-9. Recién después: **piloto moderado con 3–5 personas**, y más adelante el F&F completo.
+   evaluación de vectores por dos personas. Bloqueado hasta tener ese PDF.
+2. Recién después: **piloto moderado con 3–5 personas**, y más adelante el F&F completo.
+
+**Cómo correr el simulador sin abrir el navegador a mano** (Edge viene con Windows):
+armar un HTML con `<base href="file:///C:/.../PruebaDeArte_v7/">` que cargue `app.js` y repita la
+lógica de `SIMULADOR_MOTOR.html`, y correrlo con
+`msedge --headless=new --allow-file-access-from-files --virtual-time-budget=120000 --dump-dom <archivo>`.
+Para capturas de celular, meter la página en un `<iframe>` de 390px: Edge headless no achica la
+ventana por debajo de ~500px.
 
 ## Qué NO hacer
 

@@ -24,3 +24,38 @@
 .feedback.done{text-align:center}
 @media(max-width:500px){.feedback{margin:40px 0;padding:26px 18px}.fb-opts button{flex:1;min-width:0;padding:10px 6px}}
 @media print{.feedback{display:none}}
+
+/* --- Retomar un recorrido guardado --- */
+.resume{margin-top:28px}.resume p{font-size:16px;color:#333;margin:0}
+.resume-actions{display:flex;gap:10px;flex-wrap:wrap}.resume-actions button{margin-top:18px}
+.intro .secondary{background:transparent;color:#222;border:1px solid #aaa}.intro .secondary:hover{background:transparent;border-color:#111}
+
+/* --- Duelo en una sola pantalla: las dos obras y los botones entran sin scrollear.
+   La sección ocupa el alto de la ventana y las imágenes se achican para llenar lo que sobra. --- */
+.duel{height:100vh;height:100dvh;min-height:480px;display:flex;flex-direction:column;padding:22px 34px 18px}
+.duel-head{flex:none;align-items:center}
+.duel-head .back{border:0;background:none;padding:6px 0;margin:-6px 0;font:inherit;letter-spacing:inherit;text-transform:inherit;color:#555}
+.duel-head .back:hover{color:#111}
+.duel .progress{flex:none;margin:14px 0 20px}
+.duel-intro{flex:none;margin-bottom:18px}.duel-intro h2{font-size:34px}
+.cards{flex:1;min-height:0;grid-template-rows:minmax(0,1fr)}
+.art-card{display:flex;flex-direction:column;min-height:0;min-width:0}
+.image-wrap{flex:1;min-height:0;aspect-ratio:auto}
+.card-meta{flex:none}
+.actions{flex:none;margin:14px 0 0;flex-wrap:wrap}
+.duel .hint{flex:none;text-align:center;margin:10px 0 0}
+@media(max-width:800px){
+  .duel{min-height:0;padding:12px 14px calc(12px + env(safe-area-inset-bottom))}
+  .duel .progress{margin:10px 0 12px}
+  .duel-intro{margin-bottom:10px}.duel-intro h2{font-size:24px;margin:0}
+  .duel-intro span,.duel-intro p,.duel .hint{display:none}
+  .cards{grid-template-columns:minmax(0,1fr);grid-template-rows:minmax(0,1fr) minmax(0,1fr);gap:8px}
+  .card-meta{padding:6px 2px}
+  .actions{margin:10px 0 0;gap:6px;flex-wrap:nowrap}
+  .actions button{flex:1;padding:11px 4px;font-size:13px}
+}
+/* Compu o celular acostado con poca altura: se ocultan los textos de ayuda. */
+@media(max-height:620px) and (min-width:801px){
+  .duel{min-height:360px}.duel .progress{margin:10px 0 12px}
+  .duel-intro span,.duel-intro p,.duel .hint{display:none}.duel-intro h2{font-size:26px;margin:0}
+}
