@@ -63,9 +63,17 @@ REVISAR_IMAGENES.html              → se genera solo, grilla visual de las 60 i
   (93% de usuarios al azar caían ahí). La versión nueva usa distancia coseno contra vectores de
   perfil *centrados* (restando el promedio de los perfiles, no el del catálogo). Validado con
   `SIMULADOR_MOTOR.html`. **Referencia actual (26/09/2026, curaduría 2.0 + vectores de perfiles
-  recalibrados): ~82% de acierto exacto, ~95% contando perfil o matiz, máximo ~15% de usuarios
-  al azar en un mismo perfil** (el azar puro da 11%; objetivo de la revisión ≥60% / ≥85%). Con
-  usuarios 3× más inconsistentes: ~74% / ~93%. Con el catálogo v1 era ~59% / ~88%. **Antes de tocar el motor o
+  recalibrados, P03 ajustado): ~79% de acierto exacto, ~92% contando perfil o matiz, máximo ~17%
+  de usuarios al azar en un mismo perfil** (el azar puro da 11%; objetivo de la revisión ≥60% /
+  ≥85%). Con el catálogo v1 era ~59% / ~88%.
+  - **Probá también con "personas"** (gusto definido por una fórmula sobre los ejes, no por un
+    perfil), no sólo con usuarios sintéticos por perfil: el 26/09/2026 el simulador por perfil daba
+    82% pero Raúl real seguía saliendo "equilibrador". Causa: P03 había quedado como "abstracto a
+    secas" y se llevaba al 90% de quien elige abstracción de todo tipo (Raúl mezcla Albers con
+    Frankenthaler). Se redefinió P03 = obras que combinan orden y gesto. Referencia de personas:
+    abstracción serena → arquitecto 84% / atmósferas 16%; abstracto de todo tipo → arquitecto
+    54% / equilibrador 43%; geométrico → arquitecto 100%; intensa → intensidad 90%; materia →
+    materia 99%; figurativo → cotidiano 92%; surreal → inesperado 54% / imaginador 46%. **Antes de tocar el motor o
   los datos, corré el simulador y compará contra estos números** — si algo baja, es una
   regresión. Varía ±1–2 puntos entre corridas.
   - Los vectores de P01–P09 se recalibraron el 26/09/2026 para el catálogo 2.0 (los viejos estaban

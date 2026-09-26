@@ -105,11 +105,15 @@ confundía con el cazador de lo inesperado el 93% de las veces). Resultado del s
 
 | Medida | Antes (catálogo v1) | Ahora |
 |---|---|---|
-| Perfil principal correcto | ~59% | **~82%** |
-| Principal o matiz | ~88% | **~95%** |
-| Máximo de usuarios al azar en un mismo perfil | ~16% | ~15% |
-| Usuarios más inconsistentes (3× ruido) | — | 74% / 93% |
-| Usuario "geométrico" como Raúl | salía "equilibrador" | **arquitecto visual 91%** |
+| Perfil principal correcto | ~59% | **~79%** |
+| Principal o matiz | ~88% | **~92%** |
+| Máximo de usuarios al azar en un mismo perfil | ~16% | ~17% |
+| Persona "abstracción serena" (como Raúl) | salía "equilibrador" | **arquitecto 84% / atmósferas 16%** |
+| Persona "abstracto de todo tipo" | equilibrador 90% | arquitecto 54% / equilibrador 43% |
+
+Ajuste del 26/09/2026 (después de la primera prueba real de Raúl): "equilibrador" (P03) había
+quedado como "abstracto a secas" y se llevaba a casi todo el que elige abstracción variada. Se
+redefinió como "obras que combinan orden y gesto".
 
 Confusiones que quedan: equilibrador ↔ arquitecto/materia, imaginador ↔ inesperado, conceptual ↔
 atmósferas. Se revisan después de la doble evaluación.
