@@ -213,6 +213,16 @@ lógica de `SIMULADOR_MOTOR.html`, y correrlo con
 Para capturas de celular, meter la página en un `<iframe>` de 390px: Edge headless no achica la
 ventana por debajo de ~500px.
 
+## Al publicar cambios (caché del navegador)
+
+GitHub Pages deja que el navegador reuse archivos hasta 10 minutos. El 26/09/2026 eso hizo que
+Raúl viera el catálogo viejo con imágenes rotas justo después de publicar el 2.0. Desde entonces:
+- `load()` en `app.js` pide los JSON de `data/` con `cache:'no-cache'` (siempre revalida).
+- `index.html` carga CSS/JS con `?v=X.Y.Z`. **Subí ese número en cada cambio de `app.js`,
+  `styles.css`, `tracking.js` o `config.js`** (hoy: 2.0.1).
+- Si alguien reporta obras viejas o imágenes rotas: pedirle Ctrl+F5 y "Empezar de nuevo" antes
+  de buscar otro problema.
+
 ## Qué NO hacer
 
 - No agregues dependencias/frameworks pesados — el proyecto es vanilla JS a propósito (simple,

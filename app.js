@@ -5,7 +5,9 @@ const shortAxis=Object.fromEntries(AXES.map(a=>[a,a.split(' ')[1].split('↔')])
 const axisKey=a=>a.split(' ')[0];
 const clamp=(x,a=-1,b=1)=>Math.max(a,Math.min(b,x));
 const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]));
-async function load(){[state.duels,state.artworks,state.profiles,state.scoring,state.questions]=await Promise.all(['data/duels.json','data/artworks.json','data/profiles.json','data/scoring.json','data/questions.json'].map(x=>fetch(x).then(r=>{if(!r.ok)throw Error(x);return r.json()})));prepararMotor_()}
+async function load(){[state.duels,state.artworks,state.profiles,state.scoring,state.questions]=await Promise.all(['data/duels.json','data/artworks.json','data/profiles.json','data/scoring.json','data/questions.json'].map(x=>fetch(x,{cache:'no-cache'}).then(r=>{if(!r.ok)throw Error(x);return r.json()})));prepararMotor_()}
+// cache:'no-cache' = el navegador siempre confirma con el servidor si el JSON cambió. Sin esto, tras publicar un catálogo
+// nuevo, un navegador podía seguir hasta 10 minutos con la lista vieja de obras (y sus imágenes ya borradas).
 // --- Motor de perfiles v2: compara la obra elegida contra la descartada (no promedia obras sueltas). ---
 // Un motor que promedia las obras elegidas converge, para cualquier persona, hacia el promedio del
 // catálogo — y el perfil más cercano a ese promedio se lo queda casi todo el mundo. Comparar cada
