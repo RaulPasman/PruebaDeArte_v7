@@ -13,8 +13,8 @@
       "E7 Íntimo↔Dominante": -0.3,
       "E8 Transparente↔Conceptual": 0.1
     },
-    "description": "Te atraen las obras que crean un clima antes que las que cuentan algo o gritan. Luz tenue, horizontes, silencios, colores que se funden: preferís una imagen que se deja habitar de a poco a una que te impacta de golpe. Lo estridente o lo demasiado explicado tiende a dejarte afuera.",
-    "home": "Buscá obras de paleta acotada y bordes suaves (paisajes, fotografía de luz, abstracción tranquila) para ambientes donde querés bajar un cambio, como el dormitorio o un rincón del living. Rinden más con luz natural y aire alrededor: una sola obra mediana en una pared despejada funciona mejor que varias juntas."
+    "description": "Te atraen las obras que crean un clima antes que las que cuentan algo o gritan. Horizontes brumosos, formas orgánicas, tonos tierra, texturas que se sienten naturales: preferís una imagen que se deja habitar de a poco a una que te impacta de golpe. Lo estridente o lo demasiado explicado tiende a dejarte afuera.",
+    "home": "Buscá obras de paleta acotada y bordes suaves: paisajes brumosos, abstracción de formas orgánicas en terracota, ocre o arena, fotografía en blanco y negro, piezas de cerámica o fibra. Combinan muy bien con materiales nobles como madera, lino y piedra. Rinden más con luz natural y aire alrededor: una sola obra mediana en una pared despejada funciona mejor que varias juntas."
   },
   {
     "id": "P02",
@@ -89,14 +89,14 @@
     "name": "El imaginador",
     "subtitle": "Ambigüedad, símbolo y mundos posibles",
     "vector": {
-      "E1 Abstracto↔Figurativo": 0.4,
-      "E2 Estructurado↔Espontáneo": -0.1,
-      "E3 Sereno↔Expresivo": 0.1,
-      "E4 Contenido↔Saturado": 0.3,
-      "E5 Plano↔Material": -0.3,
-      "E6 Cotidiano↔Imaginario": 1.0,
-      "E7 Íntimo↔Dominante": 0.0,
-      "E8 Transparente↔Conceptual": 0.4
+      "E1 Abstracto↔Figurativo": 0.6,
+      "E2 Estructurado↔Espontáneo": -0.4,
+      "E3 Sereno↔Expresivo": -0.4,
+      "E4 Contenido↔Saturado": 0.1,
+      "E5 Plano↔Material": -0.5,
+      "E6 Cotidiano↔Imaginario": 0.9,
+      "E7 Íntimo↔Dominante": 0.1,
+      "E8 Transparente↔Conceptual": 0.5
     },
     "description": "Te atraen las obras que abren otro mundo: símbolos, sueños, escenas que no podrían pasar, imágenes que admiten varias lecturas. Preferís una obra que te deje preguntas a una que se explique sola. Lo puramente decorativo o documental te dice poco.",
     "home": "Buscá obras con algo de misterio: surrealismo, ilustración, pintura con símbolos, fotografía construida. Rinden en lugares donde uno se detiene (un estudio, un rincón de lectura, el dormitorio) más que en lugares de paso. Una obra rara en un ambiente sobrio se vuelve tema de conversación."
@@ -140,14 +140,14 @@
     "name": "El cazador de lo inesperado",
     "subtitle": "Ruptura, humor y soluciones poco convencionales",
     "vector": {
-      "E1 Abstracto↔Figurativo": 0.3,
+      "E1 Abstracto↔Figurativo": 0.5,
       "E2 Estructurado↔Espontáneo": 0.6,
-      "E3 Sereno↔Expresivo": 0.5,
-      "E4 Contenido↔Saturado": 0.7,
-      "E5 Plano↔Material": 0.5,
-      "E6 Cotidiano↔Imaginario": 0.6,
-      "E7 Íntimo↔Dominante": 0.3,
-      "E8 Transparente↔Conceptual": 0.4
+      "E3 Sereno↔Expresivo": 0.4,
+      "E4 Contenido↔Saturado": 0.6,
+      "E5 Plano↔Material": 0.2,
+      "E6 Cotidiano↔Imaginario": 0.5,
+      "E7 Íntimo↔Dominante": 0.2,
+      "E8 Transparente↔Conceptual": 0.6
     },
     "description": "Te atraen la ruptura, el humor y las soluciones poco convencionales: obras que te sorprenden, te hacen reír o te descolocan. Te aburre lo previsible, aunque esté impecablemente hecho. Preferís una obra que genere reacción antes que consenso.",
     "home": "Buscá piezas con humor o con un giro: collage, objetos, pop, obras que mezclan técnicas. Se lucen en lugares inesperados (la entrada, la cocina, el baño) y en paredes mixtas que combinan formatos y estilos. No hace falta que combinen con el sillón."

@@ -24,7 +24,7 @@ WA = "https://uploads{}.wikiart.org/"
 
 F = {"GE": "Geometric abstraction", "CI": "Kinetic / optical art", "CF": "Color field / atmospheric abstraction",
      "GS": "Gestural abstraction", "MA": "Material: textile, ceramic & sculpture", "FI": "Figuration",
-     "FO": "Photography", "PA": "Landscape", "IM": "Imaginary / surreal", "CO": "Idea, object & pop"}
+     "FO": "Photography", "PA": "Landscape", "IM": "Imaginary / surreal", "CO": "Idea, object & pop", "MC": "Warm minimalism & organic forms"}
 
 # (ID, Título, Artista, Año, Medio, origen A/I, fama 1-3, imagen, fuente, vector, contexto)
 # imagen: "old:ID" = imagen del catálogo anterior; URL = se baja.
@@ -33,10 +33,6 @@ W = [
   "https://uploads1.wikiart.org/images/tomas-maldonado/4-temas-circulares-1953.jpg", "WikiArt",
   [-1, -0.9, -0.2, 0.1, -0.6, 0, 0.2, 0.3],
   "Maldonado fue uno de los fundadores del arte concreto en Buenos Aires: nada representa nada, todo es forma y color. Mirá cómo cuatro círculos alcanzan para armar un ritmo, y cómo el fondo trabaja tanto como las figuras."),
- ("GE02", "Pintura perceptista nº 184", "Raúl Lozza", 1948, "Enamel on wood", "A", 1,
-  "https://uploads3.wikiart.org/images/raul-lozza/pintura-perceptista-n-184-1948.jpg", "WikiArt",
-  [-1, -0.9, -0.3, -0.2, -0.5, 0, 0, 0.3],
-  "Lozza inventó el 'perceptismo': formas planas de color puestas directamente sobre la pared o un fondo liso. Mirá cómo cada forma parece flotar y cómo cambia la sensación según qué color tengas al lado."),
  ("GE03", "1510", "Pablo Siquier", 2015, "Acrylic on canvas", "A", 1,
   "https://ruthbenzacar.com/wp-content/uploads/2017/02/1510-150-x-260-cm.jpg", "Ruth Benzacar",
   [-0.9, -1, 0.1, -0.3, -0.8, 0.2, 0.6, 0.4],
@@ -112,12 +108,6 @@ W = [
   "https://uploads1.wikiart.org/images/gerhard-richter/abstract-painting-780-1.jpg", "WikiArt",
   [-1, 0.6, 0.5, 0.6, 0.8, 0.1, 0.7, 0.2],
   "Richter arrastra capas de pintura con una espátula enorme: lo que aparece es en parte control y en parte azar. Mirá las raspaduras que dejan ver los colores de abajo."),
- ("GS06", "Leda and the Swan", "Cy Twombly", 1962, "Oil, pencil and crayon on canvas", "I", 2,
-  "https://uploads8.wikiart.org/images/cy-twombly/leda-and-the-swan.jpg", "WikiArt",
-  [-0.6, 1, 0.9, 0.3, 0.4, 0.4, 0.6, 0.5],
-  "Twombly pinta un mito griego como si fuera un garabato furioso. Mirá cómo, entre las marcas, aparecen formas que casi se reconocen y enseguida se pierden."),
- ("GS07", "Composition VII", "Wassily Kandinsky", 1913, "Oil on canvas", "I", 3, "old:B02", "Wikimedia Commons",
-  [-0.9, 0.2, 0.9, 0.8, 0.2, 0.2, 0.8, 0.2], None),
 
  ("MA01", "Concetto spaziale, Attesa", "Lucio Fontana", 1966, "Water-based paint on canvas, slashed", "A", 2, "old:I03", "WikiArt",
   [-1, -0.2, 0.3, -0.8, 0.6, 0.2, 0.5, 0.8], None),
@@ -149,11 +139,7 @@ W = [
   "https://uploads0.wikiart.org/images/anni-albers/intersecting-1962.jpg", "WikiArt",
   [-1, -0.8, -0.3, -0.2, 0.7, 0, -0.3, 0.2],
   "Anni Albers llevó la geometría moderna al telar. Mirá cómo las líneas se cruzan y se esconden entre los hilos: es un cuadro abstracto, pero hecho tejiendo."),
- ("MA11", "Bird in Space", "Constantin Brâncuși", 1928, "Bronze", "I", 2, "old:F03", "Wikimedia Commons",
-  [-0.6, -0.8, -0.2, -0.6, 0.7, 0.4, 0.4, 0.2], None),
 
- ("FI01", "Manifestación", "Antonio Berni", 1934, "Tempera on burlap", "A", 2, "old:C04", "WikiArt",
-  [0.9, -0.2, 0.5, 0.3, 0.2, -0.5, 0.8, 0.3], None),
  ("FI02", "Lamp Light Knitt", "Alejandra Seeber", 2025, "Oil on canvas", "A", 1,
   "https://ruthbenzacar.com/wp-content/uploads/2026/04/Captura-de-Pantalla-2026-04-09-a-las-13.25.44.png", "Ruth Benzacar",
   [0.4, 0.3, 0, 0.6, 0.5, 0.2, -0.2, 0.2],
@@ -162,10 +148,6 @@ W = [
   "https://piedrasgaleria.com/wp-content/uploads/2022/06/CarrieBencardino_FeriaMaterial3.jpg", "Piedras",
   [0.9, 0.6, 0.8, 0.5, 0.3, 0.2, 0.6, 0.1],
   "Bencardino pinta escenas de noche, de amigos y de calle, con caras muy cerca. Mirá la luz del encendedor y cómo el encuadre apretado te mete dentro de la escena."),
- ("FI04", "Primavera", "Constanza Giuliani", 2024, "Acrylic on canvas, airbrush", "A", 1,
-  "https://piedrasgaleria.com/wp-content/uploads/2022/03/H3A0763.jpg", "Piedras",
-  [0.6, 0.3, 0.4, 0.7, -0.5, 0.8, 0.2, 0.3],
-  "Giuliani pinta con aerógrafo, como en el grafiti o la historieta, personajes entre tiernos y raros. Mirá cómo la criatura se mezcla con las flores y cómo el color parece de dibujo animado."),
  ("FI05", "A Bigger Splash", "David Hockney", 1967, "Acrylic on canvas", "I", 3, "old:C05", "Wikipedia",
   [0.5, -0.5, -0.2, 0.2, -0.8, -0.3, 0.5, 0.2], None),
  ("FI06", "Morning Sun", "Edward Hopper", 1952, "Oil on canvas", "I", 3,
@@ -193,10 +175,6 @@ W = [
   [0.3, 0.3, -0.2, 0.1, 0, -0.4, -0.4, 0], None),
  ("FO05", "Seascape: Aegean Sea, Pillon", "Hiroshi Sugimoto", 1990, "Gelatin silver print", "I", 2, "old:D03", "WikiArt",
   [-0.4, -0.8, -0.9, -0.9, -0.4, 0.2, 0.3, 0.4], None),
- ("FO06", "The Red Ceiling (Greenwood, Mississippi)", "William Eggleston", 1973, "Dye transfer print", "I", 2,
-  "https://uploads4.wikiart.org/images/william-eggleston/the-red-ceiling-greenwood-mississippi-1973.jpg", "WikiArt",
-  [0.6, -0.2, 0.3, 0.8, -0.4, -0.6, 0.2, 0.1],
-  "Eggleston fue de los primeros en tomarse en serio la foto color de lo cotidiano. Mirá cómo un techo rojo y una lamparita alcanzan para que un cuarto común se vuelva intenso."),
 
  ("PA01", "Trayecto", "Matías Duville", 2010, "Charcoal and pastel on paper", "A", 1,
   "https://barro.cc/images/Image/2666/original/BA_DUVILLE-8.jpg", "Barro",
@@ -232,18 +210,49 @@ W = [
   [0.2, 0, -0.1, 0.1, 0.1, 0.2, 0.1, 0.9], None),
  ("CO02", "Diálogo (con pingüino)", "Liliana Porter", 1998, "Cibachrome on polyester", "A", 1, "old:I04", "Museo Reina Sofía",
   [0.7, -0.3, 0.1, -0.6, -0.2, 0.6, -0.6, 0.8], None),
- ("CO03", "Campbell's Soup Cans", "Andy Warhol", 1962, "Synthetic polymer paint on canvas", "I", 3, "old:H04", "Wikimedia Commons",
-  [0.6, -0.8, 0.1, 0.8, -0.8, 0.2, 0.8, 0.5], None),
  ("CO04", "Pumpkin", "Yayoi Kusama", 1990, "Acrylic on canvas", "I", 3,
   "https://uploads5.wikiart.org/images/yayoi-kusama/pumpkin-1990.jpg", "WikiArt",
   [0.3, -0.5, 0.4, 0.7, -0.3, 0.5, 0.4, 0.4],
   "Kusama cubre todo de puntos, una obsesión que la acompaña desde chica. Mirá cómo la calabaza, un objeto cualquiera, se vuelve un patrón que casi vibra."),
+ ("MC01", "Configuration", "Jean Arp", 1927, "Painted wood relief", "I", 2,
+  "https://uploads2.wikiart.org/images/jean-arp/configuration.jpg", "WikiArt",
+  [-0.8, 0.2, 0.1, 0.3, 0.3, 0.4, 0.2, 0.2],
+  "Arp recortaba formas blandas, como piedras o semillas, que parecen haber crecido solas. Mirá cómo una sola forma curva alcanza para llenar el cuadro: es el origen de muchas de las formas orgánicas que hoy se ven en el diseño."),
+ ("MC02", "Wall of Light Desert Night", "Sean Scully", 1999, "Oil on linen", "I", 2,
+  "https://uploads5.wikiart.org/images/sean-scully/wall-of-light-desert-night-1999.jpg", "WikiArt",
+  [-0.9, -0.4, -0.2, 0.1, 0.5, 0, 0.5, 0],
+  "Scully apila bloques de color como si fueran ladrillos de luz. Mirá los bordes pintados a mano, que nunca son rectos del todo: es geometría, pero cálida y con textura."),
+ ("MC03", "Stairway", "Alexander Rodchenko", 1930, "Gelatin silver print", "I", 2,
+  "https://uploads4.wikiart.org/images/alexander-rodchenko/stairway-1930.jpg", "WikiArt",
+  [0.4, -0.8, 0, -0.6, -0.5, -0.3, 0.2, 0.2],
+  "Rodchenko fotografía una escalera desde arriba y en diagonal, y la vuelve un dibujo de líneas. Mirá cómo la mujer que sube es casi un detalle: lo que manda es el ritmo de luces y sombras."),
+ ("MC04", "Seascape (Cloudy)", "Gerhard Richter", 1969, "Oil on canvas", "I", 2,
+  "https://uploads2.wikiart.org/images/gerhard-richter/seascape-cloudy.jpg", "WikiArt",
+  [0.4, -0.3, -0.6, -0.8, -0.2, 0, 0.3, 0.1],
+  "Richter pinta el mar como si fuera una foto desenfocada. Mirá cómo el cielo y el agua casi se confunden en grises: una imagen que baja el ritmo de cualquier ambiente."),
+ ("MC05", "Pelagos", "Barbara Hepworth", 1946, "Wood with color and strings", "I", 2,
+  "https://uploads2.wikiart.org/00343/images/barbara-hepworth/pelagos-1946-1.jpg", "WikiArt",
+  [-0.8, -0.4, -0.6, -0.6, 0.6, 0.1, -0.1, 0.1],
+  "Hepworth talla la madera como una ola que se enrolla sobre sí misma. Mirá el contraste entre el exterior de madera y el interior pintado de blanco, y cómo las cuerdas tensan el hueco."),
+ ("MC06", "Geo impacto I, II, III", "Marcela Cabutti", 2021, "Stone and modeled clay spheres with colored oxide slips", "A", 1,
+  "https://delinfinito.com/wp-content/uploads/2020/10/marcela-cabutti-del-infinito-475-768x548.jpg", "Del Infinito",
+  [-0.7, -0.2, -0.5, -0.4, 0.9, 0.3, 0, 0.2],
+  "Cabutti pone esferas de arcilla en tonos tierra sobre placas de piedra, como planetas o semillas. Mirá la textura de la piedra y cómo pocas formas, bien ubicadas, alcanzan para armar calma."),
+ ("MC07", "Sin título", "Martín Reyna", 2021, "Ink on paper", "A", 1,
+  "https://delinfinito.com/wp-content/uploads/2020/09/martin-reyna-del-infinito-483-768x605.jpg", "Del Infinito",
+  [-0.7, 0.3, -0.6, 0, 0.2, 0.2, 0.1, 0],
+  "Reyna deja que la tinta corra y se deposite sola sobre el papel. Mirá cómo aparece algo parecido a un bosque en la niebla, sin que nada esté dibujado."),
+ ("MC08", "Círculos XVII", "Carola Zech", 2018, "Aluminum with two-coat paint", "A", 1,
+  "https://www.jorgemaralaruche.com.ar/sitiodos/wp-content/uploads/2014/08/Zech_Circulos-XVII_Aluminio-pintura-bicapa_78x70x4_2018.jpg", "Jorge Mara – La Ruche",
+  [-0.9, -0.3, 0.1, 0.4, 0.3, 0.1, 0.4, 0.1],
+  "Zech superpone círculos de aluminio pintado que se salen del rectángulo del cuadro. Mirá cómo una forma geométrica simple, repetida, termina armando algo blando, como una nube."),
 ]
 
 
 def main():
-    old = json.loads((DATA / "artworks.json").read_text(encoding="utf-8"))
-    old_by = {w["ID"]: w for w in old}
+    # "old:ID" se refiere al catálogo v1: si ya está archivado, se leen de ahí sus textos.
+    old_src = ARCH / "artworks.json" if (ARCH / "artworks.json").exists() else DATA / "artworks.json"
+    old_by = {w["ID"]: w for w in json.loads(old_src.read_text(encoding="utf-8"))}
     if not ARCH.exists():
         ARCH.mkdir()
         for f in ("artworks.json", "duels.json", "image_sources.json", "image_manifest.json", "curaduria_1_1.json"):
@@ -251,13 +260,20 @@ def main():
                 shutil.copyfile(DATA / f, ARCH / f)
         print("Catálogo anterior archivado en data/archivo_v1/")
     assert len(W) == 60 and len({w[0] for w in W}) == 60
+    # Imágenes de obras que ya no están en el catálogo (p. ej. las 8 que salieron el 26/09/2026).
+    ids = {w[0] for w in W}
+    for f in list(MANUAL.glob("*.jpg")) + list(OLD_IMG.glob("*.jpg")):
+        if f.stem not in ids and len(f.stem) == 4 and f.stem[:2].isalpha() and f.stem[2:].isdigit():
+            f.unlink()
+            print(f"  borrada imagen de obra que salió: {f.relative_to(ROOT)}")
 
     out, sources = [], {"_README": "Curaduría 2.0: todas las imágenes vienen de assets/manual/ID.jpg (ver tools/curaduria_2_0.py para la fuente de cada una)."}
     for (code, title, artist, year, medium, origin, fame, img, src, vec, ctx) in W:
         if img.startswith("old:"):
             o = old_by[img[4:]]
             ctx = ctx or o.get("context", "")
-            shutil.copyfile(OLD_IMG / f"{img[4:]}.jpg", MANUAL / f"{code}.jpg")
+            if not (MANUAL / f"{code}.jpg").exists():
+                shutil.copyfile(OLD_IMG / f"{img[4:]}.jpg", MANUAL / f"{code}.jpg")
         elif not (MANUAL / f"{code}.jpg").exists():
             for intento in range(3):
                 try:

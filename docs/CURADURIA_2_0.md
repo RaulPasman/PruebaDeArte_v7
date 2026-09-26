@@ -5,7 +5,7 @@ Raúl:
 
 - **Objetivo:** medir el gusto de cada persona con la mayor precisión posible. Lo comercial
   (vincular con galerías de CABA) viene después, en unos 6 meses.
-- **~60% abstracción** (35 obras) y ~40% otros lenguajes (25).
+- **~60% abstracción** (39 obras, contando la familia de minimalismo cálido) y el resto otros lenguajes.
 - **Mitad argentinas, mitad referencias internacionales** (30 y 30). Todas las argentinas tienen
   galería en Capital, así quedan listas para la etapa comercial.
 
@@ -32,7 +32,6 @@ A = argentina · I = internacional. Fuente de cada imagen en `tools/curaduria_2_
 | ID | Obra | Artista | Año | Origen |
 |---|---|---|---|---|
 | GE01 | 4 temas circulares | Tomás Maldonado | 1953 | A |
-| GE02 | Pintura perceptista nº 184 | Raúl Lozza | 1948 | A |
 | GE03 | 1510 | Pablo Siquier | 2015 | A |
 | GE04 | Vibración al infinito | Lidy Prati | 1953 | A |
 | GE05 | Composition II in Red, Blue, and Yellow | Piet Mondrian | 1930 | I |
@@ -53,32 +52,26 @@ A = argentina · I = internacional. Fuente de cada imagen en `tools/curaduria_2_
 | GS03 | Gracias | Fernanda Laguna | 2025 | A |
 | GS04 | Ladybug | Joan Mitchell | 1957 | I |
 | GS05 | Abstract Painting 780-1 | Gerhard Richter | 1992 | I |
-| GS06 | Leda and the Swan | Cy Twombly | 1962 | I |
-| GS07 | Composition VII | Wassily Kandinsky | 1913 | I |
 | MA01 | Concetto spaziale, Attesa | Lucio Fontana | 1966 | A |
 | MA02 | Deformación de la gota circunvalada | Gyula Kosice | 1965 | A |
 | MA03 | Criollos en la piscina | Chiachio & Giannone | 2019 | A |
-| MA04 | Sin título (cerámica) | Marina De Caro | 2015 | A |
+| MA04 | Sin título | Marina De Caro | 2015 | A |
 | MA05 | Inawop [La primavera] | Claudia Alarcón & Silät | 2023 | A |
 | MA06 | Estoy viva | Josefina Labourt | 2024 | A |
 | MA07 | Grand Prayer Rug | Sheila Hicks | 1966 | I |
 | MA08 | Untitled (S.270) | Ruth Asawa | 1955 | I |
 | MA09 | Lobster Trap and Fish Tail | Alexander Calder | 1939 | I |
 | MA10 | Intersecting | Anni Albers | 1962 | I |
-| MA11 | Bird in Space | Constantin Brâncuși | 1928 | I |
-| FI01 | Manifestación | Antonio Berni | 1934 | A |
 | FI02 | Lamp Light Knitt | Alejandra Seeber | 2025 | A |
 | FI03 | Fuego | Carrie Bencardino | 2022 | A |
-| FI04 | Primavera | Constanza Giuliani | 2024 | A |
 | FI05 | A Bigger Splash | David Hockney | 1967 | I |
 | FI06 | Morning Sun | Edward Hopper | 1952 | I |
 | FI07 | The Red Smile | Alex Katz | 1963 | I |
 | FO01 | Corrientes | Horacio Coppola | 1936 | A |
-| FO02 | Eugenia y Violeta (Madres e hijas) | Adriana Lestido | 1995 | A |
+| FO02 | Eugenia y Violeta, de la serie Madres e hijas | Adriana Lestido | 1995 | A |
 | FO03 | Bruma I – Ministerio I | Santiago Porter | 2007 | A |
 | FO04 | Red Umbrella | Saul Leiter | 1958 | I |
 | FO05 | Seascape: Aegean Sea, Pillon | Hiroshi Sugimoto | 1990 | I |
-| FO06 | The Red Ceiling | William Eggleston | 1973 | I |
 | PA01 | Trayecto | Matías Duville | 2010 | A |
 | PA02 | Mount Tamalpais | Etel Adnan | 1985 | I |
 | PA03 | White Canoe | Peter Doig | 1991 | I |
@@ -89,8 +82,15 @@ A = argentina · I = internacional. Fuente de cada imagen en `tools/curaduria_2_
 | IM05 | Creation of the Birds | Remedios Varo | 1957 | I |
 | CO01 | Buenos Aires Tour | Jorge Macchi | 2003 | A |
 | CO02 | Diálogo (con pingüino) | Liliana Porter | 1998 | A |
-| CO03 | Campbell's Soup Cans | Andy Warhol | 1962 | I |
 | CO04 | Pumpkin | Yayoi Kusama | 1990 | I |
+| MC01 | Configuration | Jean Arp | 1927 | I |
+| MC02 | Wall of Light Desert Night | Sean Scully | 1999 | I |
+| MC03 | Stairway | Alexander Rodchenko | 1930 | I |
+| MC04 | Seascape (Cloudy) | Gerhard Richter | 1969 | I |
+| MC05 | Pelagos | Barbara Hepworth | 1946 | I |
+| MC06 | Geo impacto I, II, III | Marcela Cabutti | 2021 | A |
+| MC07 | Sin título | Martín Reyna | 2021 | A |
+| MC08 | Círculos XVII | Carola Zech | 2018 | A |
 
 Cambios respecto de la propuesta, por disponibilidad de imágenes verificables: Marcolina
 Dipierro → Lidy Prati; Karina Peisajovich → Luis Tomasello; Gimena Macri y Laura Ojeda Bär →
@@ -123,3 +123,21 @@ atmósferas. Se revisan después de la doble evaluación.
 1. Raúl prueba el test en celular y compu, eligiendo distinto cada vez, y manda los PDF.
 2. Doble evaluación de vectores con `docs/evaluacion/plantilla_vectores.csv` (ya regenerada con
    las 60 obras nuevas).
+
+## Familia nueva: minimalismo cálido y formas orgánicas (26/09/2026)
+
+Pedido de Raúl: el estilo que más le gusta para su casa (abstracción orgánica en tonos tierra,
+planos de color serenos, paisaje brumoso, fotografía de arquitectura en blanco y negro) no
+estaba en el test. Es además la tendencia dominante de arte para el hogar en 2026 ("organic
+modern", japandi) y el tipo de obra que muestran sus referentes (Nook At You, Musee).
+
+Entraron 8 obras (prefijo MC): Arp, Scully, Rodchenko, Richter (Seascape), Hepworth, Marcela
+Cabutti, Martín Reyna y Carola Zech. Salieron: Lozza, Twombly, Kandinsky, Brâncuși, Berni,
+Giuliani, Eggleston y Warhol. Descartados por falta de imagen verificable o porque no encajaban
+al verlos: Tomie Ohtake, Lucien Hervé, Esteban Pastorino (sus obras son cajas de luz), Juan
+Tessi (resultó figurativo).
+
+Ese gusto lo detecta "El coleccionista de atmósferas" (P01), cuyo texto y consejo para la casa se
+ampliaron (formas orgánicas, tonos tierra, madera, lino, piedra). Persona "minimalismo cálido" →
+atmósferas 75%. Se recalibraron también P06 (imaginador) y P09 (inesperado), que se confundían.
+Simulador: ~78% principal, ~91% principal o matiz.

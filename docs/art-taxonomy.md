@@ -5,18 +5,21 @@ valor exacto del campo `Familia` en `data/artworks.json`.
 
 | Prefijo | Familia | Obras | Argentinas / internacionales |
 |---|---|---|---|
-| GE | Abstracción geométrica (`Geometric abstraction`) | 8 | 4 / 4 |
+| GE | Abstracción geométrica (`Geometric abstraction`) | 7 | 3 / 4 |
 | CI | Arte cinético y óptico (`Kinetic / optical art`) | 5 | 3 / 2 |
 | CF | Campo de color y abstracción atmosférica (`Color field / atmospheric abstraction`) | 4 | 1 / 3 |
-| GS | Abstracción gestual (`Gestural abstraction`) | 7 | 3 / 4 |
-| MA | Materia: textil, cerámica y escultura (`Material: textile, ceramic & sculpture`) | 11 | 6 / 5 |
-| FI | Figuración (`Figuration`) | 7 | 4 / 3 |
-| FO | Fotografía (`Photography`) | 6 | 3 / 3 |
+| GS | Abstracción gestual (`Gestural abstraction`) | 5 | 3 / 2 |
+| MA | Materia: textil, cerámica y escultura (`Material: textile, ceramic & sculpture`) | 10 | 6 / 4 |
+| MC | Minimalismo cálido y formas orgánicas (`Warm minimalism & organic forms`) | 8 | 3 / 5 |
+| FI | Figuración (`Figuration`) | 5 | 2 / 3 |
+| FO | Fotografía (`Photography`) | 5 | 3 / 2 |
 | PA | Paisaje (`Landscape`) | 3 | 1 / 2 |
 | IM | Imaginario y surreal (`Imaginary / surreal`) | 5 | 3 / 2 |
-| CO | Idea, objeto y pop (`Idea, object & pop`) | 4 | 2 / 2 |
+| CO | Idea, objeto y pop (`Idea, object & pop`) | 3 | 2 / 1 |
 
-Abstracción (GE+CI+CF+GS+MA): 35 obras (58%). Otros lenguajes: 25.
+Abstracción (GE+CI+CF+GS+MA+MC): 39 obras (~65%; MC incluye una foto y un mar de Richter).
+Otros lenguajes: 21. La familia MC se sumó el 26/09/2026: es el estilo "orgánico moderno" que
+domina el arte para el hogar y el que más le gusta a Raúl.
 
 Campos agregados en la 2.0: `Origen` (Argentina / Internacional) y `Fama` (1 = conocida en el
 ambiente, 2 = conocida por quien sigue el arte, 3 = ícono). `Fama` la usa

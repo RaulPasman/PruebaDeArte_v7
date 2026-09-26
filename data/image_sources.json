@@ -5,11 +5,6 @@
   "fuente": "WikiArt",
   "url_original": "https://uploads1.wikiart.org/images/tomas-maldonado/4-temas-circulares-1953.jpg"
  },
- "GE02": {
-  "wiki": [],
-  "fuente": "WikiArt",
-  "url_original": "https://uploads3.wikiart.org/images/raul-lozza/pintura-perceptista-n-184-1948.jpg"
- },
  "GE03": {
   "wiki": [],
   "fuente": "Ruth Benzacar",
@@ -110,16 +105,6 @@
   "fuente": "WikiArt",
   "url_original": "https://uploads1.wikiart.org/images/gerhard-richter/abstract-painting-780-1.jpg"
  },
- "GS06": {
-  "wiki": [],
-  "fuente": "WikiArt",
-  "url_original": "https://uploads8.wikiart.org/images/cy-twombly/leda-and-the-swan.jpg"
- },
- "GS07": {
-  "wiki": [],
-  "fuente": "Wikimedia Commons",
-  "url_original": ""
- },
  "MA01": {
   "wiki": [],
   "fuente": "WikiArt",
@@ -170,16 +155,6 @@
   "fuente": "WikiArt",
   "url_original": "https://uploads0.wikiart.org/images/anni-albers/intersecting-1962.jpg"
  },
- "MA11": {
-  "wiki": [],
-  "fuente": "Wikimedia Commons",
-  "url_original": ""
- },
- "FI01": {
-  "wiki": [],
-  "fuente": "WikiArt",
-  "url_original": ""
- },
  "FI02": {
   "wiki": [],
   "fuente": "Ruth Benzacar",
@@ -189,11 +164,6 @@
   "wiki": [],
   "fuente": "Piedras",
   "url_original": "https://piedrasgaleria.com/wp-content/uploads/2022/06/CarrieBencardino_FeriaMaterial3.jpg"
- },
- "FI04": {
-  "wiki": [],
-  "fuente": "Piedras",
-  "url_original": "https://piedrasgaleria.com/wp-content/uploads/2022/03/H3A0763.jpg"
  },
  "FI05": {
   "wiki": [],
@@ -234,11 +204,6 @@
   "wiki": [],
   "fuente": "WikiArt",
   "url_original": ""
- },
- "FO06": {
-  "wiki": [],
-  "fuente": "WikiArt",
-  "url_original": "https://uploads4.wikiart.org/images/william-eggleston/the-red-ceiling-greenwood-mississippi-1973.jpg"
  },
  "PA01": {
   "wiki": [],
@@ -290,14 +255,49 @@
   "fuente": "Museo Reina Sofía",
   "url_original": ""
  },
- "CO03": {
-  "wiki": [],
-  "fuente": "Wikimedia Commons",
-  "url_original": ""
- },
  "CO04": {
   "wiki": [],
   "fuente": "WikiArt",
   "url_original": "https://uploads5.wikiart.org/images/yayoi-kusama/pumpkin-1990.jpg"
+ },
+ "MC01": {
+  "wiki": [],
+  "fuente": "WikiArt",
+  "url_original": "https://uploads2.wikiart.org/images/jean-arp/configuration.jpg"
+ },
+ "MC02": {
+  "wiki": [],
+  "fuente": "WikiArt",
+  "url_original": "https://uploads5.wikiart.org/images/sean-scully/wall-of-light-desert-night-1999.jpg"
+ },
+ "MC03": {
+  "wiki": [],
+  "fuente": "WikiArt",
+  "url_original": "https://uploads4.wikiart.org/images/alexander-rodchenko/stairway-1930.jpg"
+ },
+ "MC04": {
+  "wiki": [],
+  "fuente": "WikiArt",
+  "url_original": "https://uploads2.wikiart.org/images/gerhard-richter/seascape-cloudy.jpg"
+ },
+ "MC05": {
+  "wiki": [],
+  "fuente": "WikiArt",
+  "url_original": "https://uploads2.wikiart.org/00343/images/barbara-hepworth/pelagos-1946-1.jpg"
+ },
+ "MC06": {
+  "wiki": [],
+  "fuente": "Del Infinito",
+  "url_original": "https://delinfinito.com/wp-content/uploads/2020/10/marcela-cabutti-del-infinito-475-768x548.jpg"
+ },
+ "MC07": {
+  "wiki": [],
+  "fuente": "Del Infinito",
+  "url_original": "https://delinfinito.com/wp-content/uploads/2020/09/martin-reyna-del-infinito-483-768x605.jpg"
+ },
+ "MC08": {
+  "wiki": [],
+  "fuente": "Jorge Mara – La Ruche",
+  "url_original": "https://www.jorgemaralaruche.com.ar/sitiodos/wp-content/uploads/2014/08/Zech_Circulos-XVII_Aluminio-pintura-bicapa_78x70x4_2018.jpg"
  }
 }

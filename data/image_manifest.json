@@ -5,12 +5,6 @@
     "width": 959,
     "height": 965
   },
-  "GE02": {
-    "status": "MANUAL",
-    "source": "manual: GE02.jpg",
-    "width": 945,
-    "height": 808
-  },
   "GE03": {
     "status": "MANUAL",
     "source": "manual: GE03.jpg",
@@ -131,18 +125,6 @@
     "width": 999,
     "height": 1280
   },
-  "GS06": {
-    "status": "MANUAL",
-    "source": "manual: GS06.jpg",
-    "width": 600,
-    "height": 571
-  },
-  "GS07": {
-    "status": "MANUAL",
-    "source": "manual: GS07.jpg",
-    "width": 1600,
-    "height": 1063
-  },
   "MA01": {
     "status": "MANUAL",
     "source": "manual: MA01.jpg",
@@ -203,18 +185,6 @@
     "width": 486,
     "height": 450
   },
-  "MA11": {
-    "status": "MANUAL",
-    "source": "manual: MA11.jpg",
-    "width": 1137,
-    "height": 1600
-  },
-  "FI01": {
-    "status": "MANUAL",
-    "source": "manual: FI01.jpg",
-    "width": 564,
-    "height": 402
-  },
   "FI02": {
     "status": "MANUAL",
     "source": "manual: FI02.jpg",
@@ -226,12 +196,6 @@
     "source": "manual: FI03.jpg",
     "width": 1600,
     "height": 1537
-  },
-  "FI04": {
-    "status": "MANUAL",
-    "source": "manual: FI04.jpg",
-    "width": 1018,
-    "height": 1600
   },
   "FI05": {
     "status": "MANUAL",
@@ -280,12 +244,6 @@
     "source": "manual: FO05.jpg",
     "width": 563,
     "height": 450
-  },
-  "FO06": {
-    "status": "MANUAL",
-    "source": "manual: FO06.jpg",
-    "width": 504,
-    "height": 355
   },
   "PA01": {
     "status": "MANUAL",
@@ -347,16 +305,58 @@
     "width": 1011,
     "height": 1440
   },
-  "CO03": {
-    "status": "MANUAL",
-    "source": "manual: CO03.jpg",
-    "width": 1600,
-    "height": 930
-  },
   "CO04": {
     "status": "MANUAL",
     "source": "manual: CO04.jpg",
     "width": 401,
     "height": 480
+  },
+  "MC01": {
+    "status": "MANUAL",
+    "source": "manual: MC01.jpg",
+    "width": 954,
+    "height": 1200
+  },
+  "MC02": {
+    "status": "MANUAL",
+    "source": "manual: MC02.jpg",
+    "width": 750,
+    "height": 614
+  },
+  "MC03": {
+    "status": "MANUAL",
+    "source": "manual: MC03.jpg",
+    "width": 1280,
+    "height": 914
+  },
+  "MC04": {
+    "status": "MANUAL",
+    "source": "manual: MC04.jpg",
+    "width": 996,
+    "height": 987
+  },
+  "MC05": {
+    "status": "MANUAL",
+    "source": "manual: MC05.jpg",
+    "width": 730,
+    "height": 547
+  },
+  "MC06": {
+    "status": "MANUAL",
+    "source": "manual: MC06.jpg",
+    "width": 1600,
+    "height": 1141
+  },
+  "MC07": {
+    "status": "MANUAL",
+    "source": "manual: MC07.jpg",
+    "width": 768,
+    "height": 605
+  },
+  "MC08": {
+    "status": "MANUAL",
+    "source": "manual: MC08.jpg",
+    "width": 1500,
+    "height": 1233
   }
 }
