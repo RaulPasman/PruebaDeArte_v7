@@ -24,7 +24,7 @@ index.html, app.js, styles.css     → la app (vanilla JS, sin frameworks)
 config.js                          → webhookUrl (Apps Script) e imagesBaseUrl (hosting público)
 tracking.js                        → envía eventos a Apps Script (start/duel/question/result/feedback)
 data/
-  artworks.json                    → 60 obras de la curaduría 2.0 (IDs GE01..CO04, el prefijo = familia),
+  artworks.json                    → 60 obras de la curaduría 2.0 (IDs GE01..MC08, el prefijo = familia; 11 familias),
                                      8 ejes (E1..E8) -1..1, más Origen (Argentina/Internacional) y Fama (1–3)
   duels.json                       → 16 duelos fijos (D01–D16) + banco de 16 (D17–D32) del que salen los 8
                                      adaptativos. Se genera con tools/armar_duelos.py
@@ -63,17 +63,24 @@ REVISAR_IMAGENES.html              → se genera solo, grilla visual de las 60 i
   (93% de usuarios al azar caían ahí). La versión nueva usa distancia coseno contra vectores de
   perfil *centrados* (restando el promedio de los perfiles, no el del catálogo). Validado con
   `SIMULADOR_MOTOR.html`. **Referencia actual (26/09/2026, curaduría 2.0 + vectores de perfiles
-  recalibrados, P03 ajustado): ~79% de acierto exacto, ~92% contando perfil o matiz, máximo ~17%
-  de usuarios al azar en un mismo perfil** (el azar puro da 11%; objetivo de la revisión ≥60% /
-  ≥85%). Con el catálogo v1 era ~59% / ~88%.
+  recalibrados, P03/P06/P09 ajustados, familia MC agregada): ~78% de acierto exacto, ~91%
+  contando perfil o matiz, máximo ~17% de usuarios al azar en un mismo perfil** (el azar puro da
+  11%; objetivo de la revisión ≥60% / ≥85%). Con el catálogo v1 era ~59% / ~88%.
   - **Probá también con "personas"** (gusto definido por una fórmula sobre los ejes, no por un
     perfil), no sólo con usuarios sintéticos por perfil: el 26/09/2026 el simulador por perfil daba
     82% pero Raúl real seguía saliendo "equilibrador". Causa: P03 había quedado como "abstracto a
     secas" y se llevaba al 90% de quien elige abstracción de todo tipo (Raúl mezcla Albers con
-    Frankenthaler). Se redefinió P03 = obras que combinan orden y gesto. Referencia de personas:
-    abstracción serena → arquitecto 84% / atmósferas 16%; abstracto de todo tipo → arquitecto
-    54% / equilibrador 43%; geométrico → arquitecto 100%; intensa → intensidad 90%; materia →
-    materia 99%; figurativo → cotidiano 92%; surreal → inesperado 54% / imaginador 46%. **Antes de tocar el motor o
+    Frankenthaler). Se redefinió P03 = obras que combinan orden y gesto. Referencia de personas
+    (26/09/2026, con familia MC): minimalismo cálido → atmósferas 75%; abstracción serena →
+    arquitecto 96%; abstracto de todo tipo → equilibrador 52% / arquitecto 47%; geométrico →
+    arquitecto 100%; intensa → intensidad 83%; materia → materia 100%; figurativo → cotidiano 73%
+    / conceptual 20%; surreal "suelto" → inesperado 99%. Las fórmulas de las personas están
+    descritas en `docs/CURADURIA_2_0.md` y se pueden rearmar en un HTML de simulación.
+  - Gustos de Raúl (para calibrar sin preguntarle de nuevo): abstracción serena y ordenada
+    (Albers, Maldonado, Cruz-Diez, Gurfein, Frankenthaler, Sugimoto) y, para su casa,
+    "minimalismo cálido": formas orgánicas en tonos tierra, planos de color sobrios, paisaje
+    brumoso, fotografía de arquitectura en blanco y negro. Referentes que marcó: Artsy, Musee,
+    Nook At You (ver `docs/RELEVAMIENTO_TENDENCIAS_2026.md`, sección 6). **Antes de tocar el motor o
   los datos, corré el simulador y compará contra estos números** — si algo baja, es una
   regresión. Varía ±1–2 puntos entre corridas.
   - Los vectores de P01–P09 se recalibraron el 26/09/2026 para el catálogo 2.0 (los viejos estaban

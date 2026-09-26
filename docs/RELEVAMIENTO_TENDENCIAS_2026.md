@@ -109,6 +109,23 @@ Principios:
 Esto implica rehacer también los vectores de las obras, los duelos y (posiblemente) ajustar los
 perfiles, y volver a validar todo con el simulador.
 
+## 6. Referentes directos (agregado el 26/09/2026)
+
+Raúl marcó como referencia/competencia a **Artsy** (descubrimiento y mercado), **Musee**
+(curaduría según espacio y preferencias) y **Nook At You** (recomendaciones para espacios).
+- Nook At You usa un cuestionario de 7 preguntas **declarativas**: ambiente (living, dormitorio,
+  comedor…), una obra o pared armada, estilo (abstracto, paisaje, botánico, blanco y negro,
+  geométrico, fotografía…), color de pared y estilo de la casa (minimal, japandi, escandinavo,
+  boho…). Después ajusta con "me gusta / no me gusta" sobre cada obra.
+- La tendencia 2026 en arte para el hogar es el **"orgánico moderno"**: abstracción cálida,
+  formas orgánicas, tonos tierra (terracota, ocre, verde salvia), texturas y calma.
+
+Qué implica: Prueba de Arte se diferencia porque **no pregunta qué te gusta, te hace elegir** y
+lo mide. Pero el catálogo tiene que incluir el estilo que este público compra para su casa; por
+eso se sumó la familia "Minimalismo cálido y formas orgánicas" (ver `docs/CURADURIA_2_0.md`).
+Para la etapa comercial, conviene sumar las preguntas prácticas de estos referentes (ambiente,
+tamaño, color de pared) **al final**, sin mezclarlas con la medición del gusto.
+
 ## Fuentes
 
 - [Art Basel & UBS — Survey of Global Collecting 2025](https://www.artbasel.com/stories/the-art-basel-and-ubs-survey-of-global-collecting-2025?lang=en) · [ARTnews: mujeres y Gen Z](https://www.artnews.com/art-news/news/art-basel-ubs-report-women-and-gen-z-1234758514/) · [Ocula: resumen](https://ocula.com/magazine/art-news/2025-art-basel-ubs-survey-global-collecting/)
@@ -121,4 +138,5 @@ perfiles, y volver a validar todo con el simulador.
 - [The Art Newspaper — Zona Maco 2026](https://www.theartnewspaper.com/2026/02/06/zona-maco-art-fair-mexico-city-report-2026)
 - [Perfil — arteBA más joven e internacional](https://noticias.perfil.com/noticias/cultura/arteba-mas-joven-e-internacional-que-nunca.phtml) · [La Nación — arteBA 2025](https://www.lanacion.com.ar/cultura/buen-pronostico-para-arteba-la-feria-comenzara-con-muchas-ventas-ya-concretadas-nid20082025/) · [Infobae — Primera Obra Santander](https://www.infobae.com/economia/networking/2025/08/27/santander-impulsa-nuevas-oportunidades-para-artistas-coleccionistas-y-la-comunidad-en-arteba-2025/) · [Arte-Online — arteBA 2025](https://www.arte-online.net/Notas/ArteBA-2025) · [Infobae — galerías jóvenes en arteBA 2025](https://www.infobae.com/cultura/2025/08/29/arteba-2025-las-galerias-debutantes-y-otras-propuestas-jovenes-para-descubrir/)
 - [Infobae — ArPA llega a Buenos Aires](https://www.infobae.com/cultura/2026/09/07/la-feria-de-arte-arpa-desembarca-en-buenos-aires-enfocada-en-atraer-coleccionistas-regionales/) · [La Vereda — NODO 2026](https://lavereda.com.ar/nodo-2026-reune-a-67-galerias-de-arte-en-buenos-aires/)
+- Referentes: [Nook At You — Art Finder](https://www.nookatyou.com/pages/art-finder-quiz) · [Organic modern wall art 2026](https://ymipainting.com/blogs/news/organic-modern-wall-art-in-2026-earthy-paintings-for-warm-sophisticated-interiors) · [PIPA — wall art trends](https://pipafineart.com/blogs/recommendations-insight/artful-forecast-the-wall-art-trends-defining-home-decor-in-2025)
 - Galerías: [Ruth Benzacar](https://ruthbenzacar.com/en/artists/) · [Del Infinito](https://delinfinito.com/artistas/) · [MC Galería](https://mcmcgaleria.com/en/artists) · [Nora Fisch](https://norafisch.com/en/artists/) · [Herlitzka + Faria](https://www.herlitzkafaria.com/es/artistas/galeria) · [Barro](https://barro.cc/en/gallery) · [Calvaresi](https://mapadelarte.museomoderno.org/galerias/calvaresi/) · [Pasto](https://www.arteinformado.com/guia/o/pasto-galeria-116780) · [Rolf Art](https://rolfart.com.ar/galeria/) · [Piedras](https://piedrasgaleria.com/en/artistas_grid/) · [Jorge Mara – La Ruche](https://www.jorgemaralaruche.com.ar/artistas/) · [Isla Flotante](https://www.artbasel.com/news/meet-isla-flotante)
