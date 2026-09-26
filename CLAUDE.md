@@ -55,10 +55,10 @@ REVISAR_IMAGENES.html              → se genera solo, grilla visual de las 60 i
   obras elegidas. La versión vieja promediaba y convergía siempre hacia "El equilibrador"
   (93% de usuarios al azar caían ahí). La versión nueva usa distancia coseno contra vectores de
   perfil *centrados* (restando el promedio de los perfiles, no el del catálogo). Validado con
-  `SIMULADOR_MOTOR.html`. **Referencia actual (25/09/2026, después de reclasificar familias,
-  aplicar A04/C05 y ampliar el banco adaptativo): ~61% de acierto exacto, ~92% contando perfil
-  o matiz, máximo ~15% de usuarios al azar en un mismo perfil** (el azar puro da 11%; objetivo
-  de la revisión ≥60% / ≥85%). La base anterior era ~53% / ~86%. **Antes de tocar el motor o
+  `SIMULADOR_MOTOR.html`. **Referencia actual (25/09/2026, catálogo con los 17 reemplazos de la
+  curaduría 1.1 y banco adaptativo recalculado): ~59–60% de acierto exacto, ~88% contando perfil
+  o matiz, máximo ~16% de usuarios al azar en un mismo perfil** (el azar puro da 11%; objetivo
+  de la revisión ≥60% / ≥85%). Antes de la curaduría era ~53% / ~86%. **Antes de tocar el motor o
   los datos, corré el simulador y compará contra estos números** — si algo baja, es una
   regresión. Varía ±1–2 puntos entre corridas.
   - Debilidad conocida: "El explorador de la materia" (P02) se confunde con "El buscador de
@@ -146,10 +146,13 @@ REVISAR_IMAGENES.html              → se genera solo, grilla visual de las 60 i
 - `config.js` tiene el `webhookUrl` real (verificado: responde "receptor activo").
 - **Revisión Integral (PDF de Raúl, 24/09/2026)** — lo aplicado:
   - Familias reclasificadas (12 familias, ver `docs/art-taxonomy.md`).
-  - Curaduría 1.1: A04 → Hilma af Klint y C05 → Hockney aplicadas con imagen. Las otras 15 en
-    `data/curaduria_1_1.json` con borrador (vector, familia, texto), esperando imagen.
-  - Banco adaptativo real: 16 duelos (D17–D32). Todas las obras entran en algún duelo. D22 antes
-    nunca podía salir (usaba H02, ya vista en D04).
+  - Curaduría 1.1: los 17 reemplazos aplicados con imagen (tabla con fuentes en
+    `docs/CURADURIA_1_1.md`). 15 imágenes las bajó Claude de WikiArt, museos y sitios de
+    artistas, verificando título y año en la fuente; están en `assets/manual/`. Vectores de las
+    obras nuevas = borrador IA hasta la doble evaluación.
+  - Banco adaptativo real: 16 duelos (D17–D32), recalculado con los vectores finales para
+    maximizar el contraste mínimo (≥4.1). Todas las obras entran en algún duelo.
+  - Duelos fijos flojos pendientes: D10 (Hopper vs Atget, contraste 0.7) y D16 (Lange vs Wyeth).
   - Texto propio por perfil (`description`), "por qué te recomendamos esta obra"
     (`recommendReason()`), sección "Para tu casa" (`home`) en el resultado, el mail y el PDF.
   - Precarga de imágenes del siguiente duelo fijo.
@@ -159,18 +162,13 @@ REVISAR_IMAGENES.html              → se genera solo, grilla visual de las 60 i
 - Imágenes en el mail vinculadas al perfil: código listo, falta que Raúl publique el sitio
   (GitHub Pages; al 25/09/2026 la URL `raulpasman.github.io/PruebaDeArte_v7` da 404) y complete
   `imagesBaseUrl`.
-- `apps_script/Code.gs` cambió ("No estoy seguro" en Eventos + bloque "Para tu casa" en mail y
-  PDF): hay que pegarlo en Apps Script y publicar como *New version*. Sin eso no se rompe nada,
-  sólo no aparecen esas dos cosas.
-- Curaduría 1.1: faltan las 15 imágenes (guía para Raúl en `docs/CURADURIA_1_1.md`). Cuando las
-  pase: completar Título/Año en `curaduria_1_1.json`, `python tools/aplicar_curaduria.py --ids ...`,
-  `python tools/fetch_images.py --only ... --force`, mirar las imágenes y correr el simulador.
-  Ojo: `assets/manual/J04.jpg` es la foto vieja de Sherman; hay que reemplazarla.
-- I02 y J02 son la misma obra (Kosuth) hasta que se aplique J02 → Macchi. `validate.py` lo avisa.
+- `apps_script/Code.gs`: Raúl ya publicó la versión nueva (25/09/2026); la URL `/exec` no cambió.
+- El repo ya es público (Raúl lo cambió el 25/09/2026). Falta activar GitHub Pages
+  (Settings → Pages → Deploy from a branch → main / root) y completar `imagesBaseUrl`.
 
 **Pendiente — priorizar en este orden:**
-1. Terminar curaduría 1.1 (imágenes) y la doble evaluación de vectores
-   (`tools/evaluacion_vectores.py`). Después, recalcular y correr el simulador.
+1. Doble evaluación de vectores (`tools/evaluacion_vectores.py`, planilla ya generada). Después,
+   recalcular, revisar D10/D16 y correr el simulador.
 2. **Piloto moderado con 3–5 personas**; medir la duración real (la portada promete 5–8 min, la
    revisión estima 10–14).
 3. Decisiones de Raúl todavía abiertas de la revisión: "¿La tendrías en tu casa?" en varios

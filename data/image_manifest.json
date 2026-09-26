@@ -99,13 +99,10 @@
     "height": 1600
   },
   "B06": {
-    "status": "OK",
-    "source": "Wikipedia: Dance (Matisse)",
-    "file": "Matissedance.jpg",
-    "repo": "commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Matissedance.jpg",
-    "width": 874,
-    "height": 575
+    "status": "MANUAL",
+    "source": "manual: B06.jpg",
+    "width": 577,
+    "height": 450
   },
   "C01": {
     "status": "OK",
@@ -135,13 +132,10 @@
     "height": 265
   },
   "C04": {
-    "status": "OK",
-    "source": "Wikipedia: Las Meninas",
-    "file": "Las_Meninas,_by_Diego_Velázquez,_from_Prado_in_Google_Earth.jpg",
-    "repo": "commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Las_Meninas,_by_Diego_Vel%C3%A1zquez,_from_Prado_in_Google_Earth.jpg",
-    "width": 1390,
-    "height": 1600
+    "status": "MANUAL",
+    "source": "manual: C04.jpg",
+    "width": 564,
+    "height": 402
   },
   "C05": {
     "status": "LOW_RES",
@@ -189,22 +183,16 @@
     "height": 914
   },
   "D03": {
-    "status": "OK",
-    "source": "Wikipedia: Wanderer above the Sea of Fog",
-    "file": "Caspar_David_Friedrich_-_Wanderer_above_the_Sea_of_Fog.jpeg",
-    "repo": "commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Wanderer_above_the_Sea_of_Fog.jpeg",
-    "width": 1247,
-    "height": 1600
+    "status": "MANUAL",
+    "source": "manual: D03.jpg",
+    "width": 563,
+    "height": 450
   },
   "D04": {
-    "status": "OK",
-    "source": "Wikipedia: The Hay Wain",
-    "file": "John_Constable_-_The_Hay_Wain_(1821).jpg",
-    "repo": "commons",
-    "page": "https://commons.wikimedia.org/wiki/File:John_Constable_-_The_Hay_Wain_(1821).jpg",
-    "width": 1600,
-    "height": 1103
+    "status": "MANUAL",
+    "source": "manual: D04.jpg",
+    "width": 557,
+    "height": 475
   },
   "D05": {
     "status": "OK",
@@ -276,31 +264,22 @@
     "height": 1600
   },
   "E07": {
-    "status": "LOW_RES",
-    "source": "Wikipedia: Workers Leaving the Lumière Factory",
-    "file": "SortiedesOuvriersdel1895-01.jpg",
-    "repo": "commons",
-    "page": "https://commons.wikimedia.org/wiki/File:SortiedesOuvriersdel1895-01.jpg",
-    "width": 254,
-    "height": 200
+    "status": "MANUAL",
+    "source": "manual: E07.jpg",
+    "width": 700,
+    "height": 1061
   },
   "F01": {
-    "status": "OK",
-    "source": "Wikipedia: David (Michelangelo)",
-    "file": "'David'_by_Michelangelo_Fir_JBU004.jpg",
-    "repo": "commons",
-    "page": "https://commons.wikimedia.org/wiki/File:%27David%27_by_Michelangelo_Fir_JBU004.jpg",
-    "width": 1067,
-    "height": 1600
+    "status": "MANUAL",
+    "source": "manual: F01.jpg",
+    "width": 953,
+    "height": 771
   },
   "F02": {
-    "status": "OK",
-    "source": "Wikipedia: The Thinker",
-    "file": "Le_Penseur_by_Rodin_(Kunsthalle_Bielefeld)_2014-04-10.JPG",
-    "repo": "commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Le_Penseur_by_Rodin_(Kunsthalle_Bielefeld)_2014-04-10.JPG",
-    "width": 1200,
-    "height": 1600
+    "status": "MANUAL",
+    "source": "manual: F02.jpg",
+    "width": 570,
+    "height": 570
   },
   "F03": {
     "status": "OK",
@@ -321,12 +300,9 @@
     "height": 1600
   },
   "F05": {
-    "status": "OK",
-    "source": "Wikipedia: Apollo and Daphne (Bernini)",
-    "file": "Apollo_and_Daphne_(Bernini)_(cropped).jpg",
-    "repo": "commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Apollo_and_Daphne_(Bernini)_(cropped).jpg",
-    "width": 952,
+    "status": "MANUAL",
+    "source": "manual: F05.jpg",
+    "width": 1200,
     "height": 1600
   },
   "F06": {
@@ -384,13 +360,10 @@
     "height": 249
   },
   "G07": {
-    "status": "LOW_RES",
-    "source": "Wikipedia: Blue Poles",
-    "file": "Blue_Poles_(Jackson_Pollock_painting).jpg",
-    "repo": "wikipedia-en (uso limitado)",
-    "page": "https://en.wikipedia.org/wiki/File:Blue_Poles_(Jackson_Pollock_painting).jpg",
-    "width": 485,
-    "height": 206
+    "status": "MANUAL",
+    "source": "manual: G07.jpg",
+    "width": 439,
+    "height": 640
   },
   "H01": {
     "status": "OK",
@@ -429,13 +402,10 @@
     "height": 930
   },
   "H05": {
-    "status": "OK",
-    "source": "Wikipedia: L.H.O.O.Q.",
-    "file": "Marcel_Duchamp,_1919,_L.H.O.O.Q.jpg",
-    "repo": "wikipedia-en (uso limitado)",
-    "page": "https://en.wikipedia.org/wiki/File:Marcel_Duchamp,_1919,_L.H.O.O.Q.jpg",
-    "width": 1239,
-    "height": 1600
+    "status": "MANUAL",
+    "source": "manual: H05.jpg",
+    "width": 1200,
+    "height": 1205
   },
   "H06": {
     "status": "OK",
@@ -465,22 +435,16 @@
     "height": 1035
   },
   "I03": {
-    "status": "OK",
-    "source": "Commons (búsqueda)",
-    "file": "Neue Nationalgalerie zur Art Week 2023 Yoko Ono Cut Piece.jpg",
-    "repo": "commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Neue_Nationalgalerie_zur_Art_Week_2023_Yoko_Ono_Cut_Piece.jpg",
-    "width": 1600,
-    "height": 1038
+    "status": "MANUAL",
+    "source": "manual: I03.jpg",
+    "width": 840,
+    "height": 1024
   },
   "I04": {
-    "status": "LOW_RES",
-    "source": "Wikipedia: The Physical Impossibility of Death in the Mind of Someone Living",
-    "file": "Hirst-Shark.jpg",
-    "repo": "wikipedia-en (uso limitado)",
-    "page": "https://en.wikipedia.org/wiki/File:Hirst-Shark.jpg",
-    "width": 389,
-    "height": 255
+    "status": "MANUAL",
+    "source": "manual: I04.jpg",
+    "width": 1011,
+    "height": 1440
   },
   "J01": {
     "status": "MANUAL",
@@ -489,13 +453,10 @@
     "height": 557
   },
   "J02": {
-    "status": "LOW_RES",
-    "source": "Wikipedia: One and Three Chairs",
-    "file": "Kosuth_OneAndThreeChairs.jpg",
-    "repo": "wikipedia-en (uso limitado)",
-    "page": "https://en.wikipedia.org/wiki/File:Kosuth_OneAndThreeChairs.jpg",
-    "width": 360,
-    "height": 276
+    "status": "MANUAL",
+    "source": "manual: J02.jpg",
+    "width": 551,
+    "height": 388
   },
   "J03": {
     "status": "MANUAL",
@@ -506,16 +467,13 @@
   "J04": {
     "status": "MANUAL",
     "source": "manual: J04.jpg",
-    "width": 366,
-    "height": 546
+    "width": 570,
+    "height": 381
   },
   "J05": {
-    "status": "OK",
-    "source": "Wikipedia: Spiral Jetty",
-    "file": "Spiral-jetty-from-rozel-point.png",
-    "repo": "commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Spiral-jetty-from-rozel-point.png",
-    "width": 800,
-    "height": 450
+    "status": "MANUAL",
+    "source": "manual: J05.jpg",
+    "width": 372,
+    "height": 500
   }
 }

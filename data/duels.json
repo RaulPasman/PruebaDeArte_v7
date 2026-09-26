@@ -97,98 +97,98 @@
   },
   {
     "id": "D17",
-    "a": "H05",
-    "b": "I01",
-    "rationale": "apropiación visual vs idea/concepto"
+    "a": "B04",
+    "b": "E04",
+    "rationale": "gestural vs artistic photography"
   },
   {
     "id": "D18",
-    "a": "B03",
-    "b": "G06",
-    "rationale": "gesto vs superficie/collage"
+    "a": "F02",
+    "b": "C04",
+    "rationale": "sculpture vs figuration"
   },
   {
     "id": "D19",
-    "a": "C07",
-    "b": "H04",
-    "rationale": "símbolo vs imagen de cultura de masas"
+    "a": "F05",
+    "b": "H01",
+    "rationale": "sculpture vs surrealism"
   },
   {
     "id": "D20",
-    "a": "F05",
-    "b": "I04",
-    "rationale": "virtuosismo corporal vs objeto conceptual"
+    "a": "B06",
+    "b": "I01",
+    "rationale": "surrealism vs accessible conceptual art"
   },
   {
     "id": "D21",
-    "a": "A04",
-    "b": "J05",
-    "rationale": "sistema visual vs instalación/idea"
+    "a": "J04",
+    "b": "E02",
+    "rationale": "kinetic vs artistic photography"
   },
   {
     "id": "D22",
-    "a": "E06",
-    "b": "B04",
-    "rationale": "fotografía construida vs gesto puro"
+    "a": "J02",
+    "b": "H05",
+    "rationale": "minimalism vs kinetic"
   },
   {
     "id": "D23",
-    "a": "D06",
-    "b": "J03",
-    "rationale": "paisaje observacional vs objeto/assemblage"
+    "a": "F06",
+    "b": "A04",
+    "rationale": "sculpture vs geometric abstraction"
   },
   {
     "id": "D24",
-    "a": "H06",
-    "b": "I02",
-    "rationale": "imagen gráfica y presencia vs idea explícita"
+    "a": "G05",
+    "b": "I04",
+    "rationale": "textile vs accessible conceptual art"
   },
   {
     "id": "D25",
-    "a": "F02",
-    "b": "H01",
-    "rationale": "objeto y materia vs mundo imaginario pintado"
+    "a": "H06",
+    "b": "I03",
+    "rationale": "graphic vs accessible conceptual art"
   },
   {
     "id": "D26",
-    "a": "E07",
-    "b": "J02",
-    "rationale": "fotografía de calle vs objeto de ideas"
+    "a": "J03",
+    "b": "E07",
+    "rationale": "minimalism vs artistic photography"
   },
   {
     "id": "D27",
-    "a": "E04",
-    "b": "F06",
-    "rationale": "fotografía documental vs escultura dramática"
+    "a": "B03",
+    "b": "C07",
+    "rationale": "gestural vs surrealism"
   },
   {
     "id": "D28",
-    "a": "E02",
-    "b": "G05",
-    "rationale": "escena reconocible vs collage abstracto"
+    "a": "I02",
+    "b": "G06",
+    "rationale": "accessible conceptual art vs textile"
   },
   {
     "id": "D29",
     "a": "D04",
-    "b": "I03",
-    "rationale": "paisaje de color vs gesto conceptual"
+    "b": "E06",
+    "rationale": "landscape vs artistic photography"
   },
   {
     "id": "D30",
-    "a": "C04",
-    "b": "G03",
-    "rationale": "figuración narrativa vs collage abstracto"
+    "a": "D06",
+    "b": "J05",
+    "rationale": "landscape vs kinetic"
   },
   {
     "id": "D31",
-    "a": "B06",
-    "b": "J04",
-    "rationale": "imaginario simbólico vs percepción óptica"
+    "a": "H04",
+    "b": "G03",
+    "rationale": "graphic vs textile"
   },
   {
     "id": "D32",
-    "a": "A04",
-    "b": "D06",
-    "rationale": "abstracción simbólica vs paisaje observado"
+    "a": "B04",
+    "b": "I04",
+    "rationale": "gestural vs accessible conceptual art"
   }
 ]
