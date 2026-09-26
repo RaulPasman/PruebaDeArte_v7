@@ -24,17 +24,21 @@ index.html, app.js, styles.css     → la app (vanilla JS, sin frameworks)
 config.js                          → webhookUrl (Apps Script) e imagesBaseUrl (hosting público)
 tracking.js                        → envía eventos a Apps Script (start/duel/question/result/feedback)
 data/
-  artworks.json                    → 60 obras, 8 ejes (E1..E8) cada una, -1..1
-  duels.json                       → 16 duelos fijos (D01–D16) + banco de 16 (D17–D32) del que salen los 8 adaptativos
+  artworks.json                    → 60 obras de la curaduría 2.0 (IDs GE01..CO04, el prefijo = familia),
+                                     8 ejes (E1..E8) -1..1, más Origen (Argentina/Internacional) y Fama (1–3)
+  duels.json                       → 16 duelos fijos (D01–D16) + banco de 16 (D17–D32) del que salen los 8
+                                     adaptativos. Se genera con tools/armar_duelos.py
   profiles.json                    → 10 perfiles (P01..P09 + P10 "explorador sin fronteras" = fallback),
                                      con vector, description (texto del resultado) y home (consejo para la casa)
-  curaduria_1_1.json               → los 17 reemplazos de obras: borradores + estado (aplicada / falta_imagen)
+  archivo_v1/                      → catálogo, duelos, perfiles y manifest anteriores (curaduría 1.1)
   scoring.json                     → pesos del motor, los lee score() en app.js
   questions.json                   → 7 preguntas con señales por eje
   image_sources.json               → de dónde sacar la imagen de cada obra (título de Wikipedia, etc.)
   image_manifest.json              → se genera solo, registro de qué imagen se bajó y de dónde
 tools/fetch_images.py              → descarga imágenes de Wikimedia/Commons
-tools/aplicar_curaduria.py         → aplica reemplazos de curaduria_1_1.json a artworks.json (--listar para ver estado)
+tools/curaduria_2_0.py             → fuente de verdad del catálogo 2.0: datos, vector, texto y URL de
+                                     imagen de cada obra. Reconstruye artworks.json + assets/manual/
+tools/armar_duelos.py              → optimiza los 32 duelos (familias distintas, fama pareja, contraste)
 tools/evaluacion_vectores.py       → planilla y comparación para la doble evaluación de vectores
 validate.py                        → chequeo de coherencia de los datos (sin cantidades fijas)
 apps_script/Code.gs                → receptor en Google Sheets + envío de mail con PDF
@@ -43,7 +47,7 @@ docs/DESIGN_SYSTEM.md              → sistema visual (colores, tipografía, com
                                      Leelo antes de agregar o cambiar cualquier pantalla o el mail.
 DESIGN_SYSTEM.html                 → la misma guía, renderizada con el styles.css real
 assets/artworks/                   → imágenes descargadas (.jpg)
-assets/manual/                     → imágenes que Raúl carga a mano cuando el script no las encuentra
+assets/manual/                     → imágenes originales de las 60 obras (ID.jpg); archivo_v1/ = las viejas
 SIMULADOR_MOTOR.html               → corre miles de recorridos simulados para medir el motor de perfiles
 REVISAR_IMAGENES.html              → se genera solo, grilla visual de las 60 imágenes
 ```
@@ -58,15 +62,22 @@ REVISAR_IMAGENES.html              → se genera solo, grilla visual de las 60 i
   obras elegidas. La versión vieja promediaba y convergía siempre hacia "El equilibrador"
   (93% de usuarios al azar caían ahí). La versión nueva usa distancia coseno contra vectores de
   perfil *centrados* (restando el promedio de los perfiles, no el del catálogo). Validado con
-  `SIMULADOR_MOTOR.html`. **Referencia actual (25/09/2026, catálogo con los 17 reemplazos de la
-  curaduría 1.1 y banco adaptativo recalculado): ~59–60% de acierto exacto, ~88% contando perfil
-  o matiz, máximo ~16% de usuarios al azar en un mismo perfil** (el azar puro da 11%; objetivo
-  de la revisión ≥60% / ≥85%). Antes de la curaduría era ~53% / ~86%. **Antes de tocar el motor o
+  `SIMULADOR_MOTOR.html`. **Referencia actual (26/09/2026, curaduría 2.0 + vectores de perfiles
+  recalibrados): ~82% de acierto exacto, ~95% contando perfil o matiz, máximo ~15% de usuarios
+  al azar en un mismo perfil** (el azar puro da 11%; objetivo de la revisión ≥60% / ≥85%). Con
+  usuarios 3× más inconsistentes: ~74% / ~93%. Con el catálogo v1 era ~59% / ~88%. **Antes de tocar el motor o
   los datos, corré el simulador y compará contra estos números** — si algo baja, es una
   regresión. Varía ±1–2 puntos entre corridas.
-  - Debilidad conocida: "El explorador de la materia" (P02) se confunde con "El buscador de
-    intensidad" (P04) porque sus vectores están cerca. Si volvés a tocar `profiles.json`, tené
-    esto en cuenta.
+  - Los vectores de P01–P09 se recalibraron el 26/09/2026 para el catálogo 2.0 (los viejos estaban
+    casi superpuestos y usaban una parte chica de la escala; "equilibrador" se llevaba a usuarios
+    claramente geométricos como Raúl). Confusiones que quedan: equilibrador ↔ arquitecto/materia,
+    imaginador ↔ inesperado, conceptual ↔ atmósferas. Viejos en `data/archivo_v1/profiles.json`.
+  - Las obras del catálogo 2.0 usan toda la escala de E7 (íntimo = negativo); en el v1 ninguna
+    obra tenía E7 negativo.
+- **Imágenes (catálogo 2.0)**: las 60 salen de `assets/manual/` (bajadas por Claude de WikiArt,
+  museos, galerías y sitios de artistas, verificando título y año; URL de cada una en
+  `tools/curaduria_2_0.py`). `fetch_images.py --force` sólo las procesa a JPG web. Lo que sigue
+  vale si se vuelve a usar Wikipedia como fuente.
 - **Imágenes (`tools/fetch_images.py`)**: usa la imagen principal del artículo de Wikipedia de
   cada obra (API `pageimages` con `pilicense=any` para traer también obras con derechos, en baja
   resolución). Detalles importantes:
@@ -127,8 +138,13 @@ REVISAR_IMAGENES.html              → se genera solo, grilla visual de las 60 i
 - Registro de datos en Sheets — funcionando de punta a punta.
 - Encuesta de cierre (feedback) — funcionando.
 - Mail cálido + PDF adjunto — funcionando, confirmado por Raúl.
-- Las 60 obras tienen imagen: 37 OK, 16 en baja resolución (obras con derechos, ver
-  `data/image_manifest.json`) y 7 cargadas a mano en `assets/manual/`.
+- **Curaduría 2.0 aplicada (26/09/2026)**: 60 obras nuevas desde cero para el nicho de Raúl
+  (Argentina, 25–45, ABC1, afinidad con arte moderno/abstracto). 58% abstracción, 30 argentinas
+  con galería en CABA + 30 referencias internacionales. Relevamiento en
+  `docs/RELEVAMIENTO_TENDENCIAS_2026.md`, lista y criterios en `docs/CURADURIA_2_0.md`. Las 60
+  tienen imagen verificada; algunas son chicas (menos de 600 px).
+- Lo de "Revisión Integral / curaduría 1.1" de abajo describe el catálogo v1, ya reemplazado
+  (quedó en `data/archivo_v1/`); los cambios de app, planilla y mail siguen vigentes.
 - **Duelo en mobile**: la sección ocupa el alto de la ventana y las imágenes se achican para que
   las dos obras y los botones entren sin scrollear (verificado en 320×568, 360×640, 390×844 y
   compu). En celular se ocultan los textos de ayuda del duelo.
@@ -178,9 +194,12 @@ REVISAR_IMAGENES.html              → se genera solo, grilla visual de las 60 i
 - **Sitio publicado** (25/09/2026): https://raulpasman.github.io/PruebaDeArte_v7/ (GitHub Pages,
   repo público, rama main / root). `imagesBaseUrl` ya apunta a `.../assets/artworks/`.
 
-**Pendiente — priorizar en este orden:**
-1. Doble evaluación de vectores (`tools/evaluacion_vectores.py`, planilla ya generada). Después,
-   recalcular, revisar D10/D16 y correr el simulador.
+**Pendiente — priorizar en este orden (acordado con Raúl el 26/09/2026):**
+0. Raúl hace el test varias veces en celular y compu, eligiendo distinto, y manda los PDF del
+   mail. Revisarlos: que los perfiles cambien según las elecciones y que todo se vea bien.
+1. Recién después: doble evaluación de vectores (`tools/evaluacion_vectores.py`, planilla ya
+   generada con las 60 obras nuevas). Después, `python tools/armar_duelos.py --escribir` y
+   simulador.
 2. **Piloto moderado con 3–5 personas**; medir la duración real (la portada promete 5–8 min, la
    revisión estima 10–14).
 3. Después del piloto: obras reales de galerías con rango de precio (Raúl consigue galerías).

@@ -1,27 +1,27 @@
-# Taxonomía artística del MVP
+# Taxonomía artística (curaduría 2.0)
 
-60 obras distribuidas en 13 familias (reclasificadas el 25/09/2026 según la Revisión Integral,
-sección 3, y con los 17 reemplazos de la curaduría 1.1 ya aplicados). Entre paréntesis, el
-nombre exacto del campo `Familia` en `data/artworks.json`.
+60 obras en 10 familias (26/09/2026). El prefijo del ID indica la familia. Entre paréntesis, el
+valor exacto del campo `Familia` en `data/artworks.json`.
 
-1. Abstracción geométrica (`Geometric abstraction`) — 6: A01–A06
-2. Abstracción gestual (`Gestural / expressive abstraction`) — 3: B02, B03, B04
-3. Expresionismo / figuración expresiva (`Expressionism / expressive figuration`) — 2: B01, B05
-4. Figuración / realismo (`Figuration / realism`) — 5: C01–C05
-5. Surrealismo / imaginario (`Surrealism / imaginary`) — 6: B06, C06, C07, G02, H01, H02
-6. Paisaje y atmósferas (`Landscape / atmosphere`) — 5: D01–D04, D06
-7. Fotografía artística (`Artistic photography`) — 8: D05, E01–E07
-8. Escultura y objetos (`Sculpture / object`) — 6: F01–F06
-9. Textil, collage y técnica mixta (`Textile / collage / mixed media`) — 6: G01, G03–G07
-10. Gráfica, grabado y pop (`Graphic / print / pop`) — 3: H03, H04, H06
-11. Arte cinético y óptico (`Kinetic / optical art`) — 3: H05, J04, J05
-12. Arte conceptual accesible (`Accessible conceptual art`) — 4: I01–I04
-13. Minimalismo, objeto e ideas (`Minimalism / object / ideas`) — 3: J01, J02, J03
+| Prefijo | Familia | Obras | Argentinas / internacionales |
+|---|---|---|---|
+| GE | Abstracción geométrica (`Geometric abstraction`) | 8 | 4 / 4 |
+| CI | Arte cinético y óptico (`Kinetic / optical art`) | 5 | 3 / 2 |
+| CF | Campo de color y abstracción atmosférica (`Color field / atmospheric abstraction`) | 4 | 1 / 3 |
+| GS | Abstracción gestual (`Gestural abstraction`) | 7 | 3 / 4 |
+| MA | Materia: textil, cerámica y escultura (`Material: textile, ceramic & sculpture`) | 11 | 6 / 5 |
+| FI | Figuración (`Figuration`) | 7 | 4 / 3 |
+| FO | Fotografía (`Photography`) | 6 | 3 / 3 |
+| PA | Paisaje (`Landscape`) | 3 | 1 / 2 |
+| IM | Imaginario y surreal (`Imaginary / surreal`) | 5 | 3 / 2 |
+| CO | Idea, objeto y pop (`Idea, object & pop`) | 4 | 2 / 2 |
 
-La letra del ID (A, B, C…) ya no indica la familia: se mantuvo para no romper duelos, imágenes ni
-datos guardados. La familia se usa en el motor para dar variedad (duelos adaptativos, selección y
-recomendaciones del resultado, paso "misma familia, otra voz" de la ruta), no se muestra al usuario.
+Abstracción (GE+CI+CF+GS+MA): 35 obras (58%). Otros lenguajes: 25.
 
-Cada obra contiene un vector de ocho ejes, metadatos básicos y un texto breve de observación. Los
-textos de contexto priorizan qué mirar antes que una explicación académica extensa. Los vectores
-de las 17 obras nuevas son borrador de IA hasta la doble evaluación (`docs/CURADURIA_1_1.md`).
+Campos agregados en la 2.0: `Origen` (Argentina / Internacional) y `Fama` (1 = conocida en el
+ambiente, 2 = conocida por quien sigue el arte, 3 = ícono). `Fama` la usa
+`tools/armar_duelos.py` para que en cada duelo las dos obras sean parecidas en reconocimiento.
+
+La familia se usa en el motor para dar variedad (duelos adaptativos, selección y recomendaciones
+del resultado, paso "misma familia, otra voz" de la ruta); no se muestra al usuario. Lista
+completa de obras en `docs/CURADURIA_2_0.md`.

@@ -1,194 +1,194 @@
 [
   {
     "id": "D01",
-    "a": "A02",
-    "b": "B01",
-    "rationale": "estructura vs gesto / intensidad"
+    "a": "GE06",
+    "b": "FI03",
+    "rationale": "geometric abstraction vs figuration"
   },
   {
     "id": "D02",
-    "a": "A03",
-    "b": "C02",
-    "rationale": "abstracción extrema vs figuración atmosférica"
+    "a": "CI05",
+    "b": "MA04",
+    "rationale": "kinetic vs material"
   },
   {
     "id": "D03",
-    "a": "D03",
-    "b": "F03",
-    "rationale": "paisaje imaginario vs objeto abstracto"
+    "a": "GS02",
+    "b": "GE02",
+    "rationale": "gestural abstraction vs geometric abstraction"
   },
   {
     "id": "D04",
-    "a": "C05",
-    "b": "H02",
-    "rationale": "reconocimiento vs ambigüedad conceptual"
+    "a": "GS06",
+    "b": "GE05",
+    "rationale": "gestural abstraction vs geometric abstraction"
   },
   {
     "id": "D05",
-    "a": "A05",
-    "b": "G07",
-    "rationale": "orden rítmico vs gesto energético"
+    "a": "FI04",
+    "b": "MA10",
+    "rationale": "figuration vs material"
   },
   {
     "id": "D06",
-    "a": "C01",
-    "b": "E03",
-    "rationale": "figuración directa vs identidad/ficción"
+    "a": "GS03",
+    "b": "GE03",
+    "rationale": "gestural abstraction vs geometric abstraction"
   },
   {
     "id": "D07",
-    "a": "D01",
-    "b": "B05",
-    "rationale": "serenidad lumínica vs intensidad"
+    "a": "FO05",
+    "b": "GS07",
+    "rationale": "photography vs gestural abstraction"
   },
   {
     "id": "D08",
-    "a": "F01",
-    "b": "F03",
-    "rationale": "figuración monumental vs abstracción material"
+    "a": "GS04",
+    "b": "CO02",
+    "rationale": "gestural abstraction vs idea, object & pop"
   },
   {
     "id": "D09",
-    "a": "A06",
-    "b": "G01",
-    "rationale": "geometría cromática vs collage material"
+    "a": "CI03",
+    "b": "IM01",
+    "rationale": "kinetic vs imaginary"
   },
   {
     "id": "D10",
-    "a": "C02",
-    "b": "E05",
-    "rationale": "escena reconocible vs atmósfera documental"
+    "a": "FI06",
+    "b": "CI02",
+    "rationale": "figuration vs kinetic"
   },
   {
     "id": "D11",
-    "a": "B02",
-    "b": "H03",
-    "rationale": "abstracción expresiva vs cultura visual"
+    "a": "MA01",
+    "b": "FO04",
+    "rationale": "material vs photography"
   },
   {
     "id": "D12",
-    "a": "D05",
-    "b": "F04",
-    "rationale": "fotografía vs objeto/presencia"
+    "a": "FO02",
+    "b": "GE07",
+    "rationale": "photography vs geometric abstraction"
   },
   {
     "id": "D13",
-    "a": "C06",
-    "b": "G04",
-    "rationale": "autorretrato vs montaje/ruptura"
+    "a": "CF04",
+    "b": "GS01",
+    "rationale": "color field vs gestural abstraction"
   },
   {
     "id": "D14",
-    "a": "A01",
-    "b": "J01",
-    "rationale": "composición vs objeto mínimo"
+    "a": "IM04",
+    "b": "GS05",
+    "rationale": "imaginary vs gestural abstraction"
   },
   {
     "id": "D15",
-    "a": "D02",
-    "b": "G02",
-    "rationale": "atmósfera vs mundo imaginario"
+    "a": "FI01",
+    "b": "CF01",
+    "rationale": "figuration vs color field"
   },
   {
     "id": "D16",
-    "a": "E01",
-    "b": "C03",
-    "rationale": "fotografía documental vs figuración íntima"
+    "a": "MA06",
+    "b": "FI07",
+    "rationale": "material vs figuration"
   },
   {
     "id": "D17",
-    "a": "B04",
-    "b": "E04",
-    "rationale": "gestural vs artistic photography"
+    "a": "PA03",
+    "b": "FO01",
+    "rationale": "landscape vs photography"
   },
   {
     "id": "D18",
-    "a": "F02",
-    "b": "C04",
-    "rationale": "sculpture vs figuration"
+    "a": "MA09",
+    "b": "CO04",
+    "rationale": "material vs idea, object & pop"
   },
   {
     "id": "D19",
-    "a": "F05",
-    "b": "H01",
-    "rationale": "sculpture vs surrealism"
+    "a": "CI04",
+    "b": "IM02",
+    "rationale": "kinetic vs imaginary"
   },
   {
     "id": "D20",
-    "a": "B06",
-    "b": "I01",
-    "rationale": "surrealism vs accessible conceptual art"
+    "a": "PA02",
+    "b": "GE04",
+    "rationale": "landscape vs geometric abstraction"
   },
   {
     "id": "D21",
-    "a": "J04",
-    "b": "E02",
-    "rationale": "kinetic vs artistic photography"
+    "a": "MA08",
+    "b": "CO03",
+    "rationale": "material vs idea, object & pop"
   },
   {
     "id": "D22",
-    "a": "J02",
-    "b": "H05",
-    "rationale": "minimalism vs kinetic"
+    "a": "CF02",
+    "b": "MA07",
+    "rationale": "color field vs material"
   },
   {
     "id": "D23",
-    "a": "F06",
-    "b": "A04",
-    "rationale": "sculpture vs geometric abstraction"
+    "a": "FI02",
+    "b": "FO03",
+    "rationale": "figuration vs photography"
   },
   {
     "id": "D24",
-    "a": "G05",
-    "b": "I04",
-    "rationale": "textile vs accessible conceptual art"
+    "a": "MA05",
+    "b": "CI01",
+    "rationale": "material vs kinetic"
   },
   {
     "id": "D25",
-    "a": "H06",
-    "b": "I03",
-    "rationale": "graphic vs accessible conceptual art"
+    "a": "GE01",
+    "b": "MA03",
+    "rationale": "geometric abstraction vs material"
   },
   {
     "id": "D26",
-    "a": "J03",
-    "b": "E07",
-    "rationale": "minimalism vs artistic photography"
+    "a": "CO01",
+    "b": "FO06",
+    "rationale": "idea, object & pop vs photography"
   },
   {
     "id": "D27",
-    "a": "B03",
-    "b": "C07",
-    "rationale": "gestural vs surrealism"
+    "a": "PA01",
+    "b": "IM03",
+    "rationale": "landscape vs imaginary"
   },
   {
     "id": "D28",
-    "a": "I02",
-    "b": "G06",
-    "rationale": "accessible conceptual art vs textile"
+    "a": "IM05",
+    "b": "FI05",
+    "rationale": "imaginary vs figuration"
   },
   {
     "id": "D29",
-    "a": "D04",
-    "b": "E06",
-    "rationale": "landscape vs artistic photography"
+    "a": "MA11",
+    "b": "GE08",
+    "rationale": "material vs geometric abstraction"
   },
   {
     "id": "D30",
-    "a": "D06",
-    "b": "J05",
-    "rationale": "landscape vs kinetic"
+    "a": "MA02",
+    "b": "CF03",
+    "rationale": "material vs color field"
   },
   {
     "id": "D31",
-    "a": "H04",
-    "b": "G03",
-    "rationale": "graphic vs textile"
+    "a": "MA07",
+    "b": "CO03",
+    "rationale": "material vs idea, object & pop"
   },
   {
     "id": "D32",
-    "a": "B04",
-    "b": "I04",
-    "rationale": "gestural vs accessible conceptual art"
+    "a": "GE08",
+    "b": "FO03",
+    "rationale": "geometric abstraction vs photography"
   }
 ]

@@ -26,15 +26,7 @@ LIMITE = 0.5
 
 def obras():
     works = json.loads((ROOT / "data" / "artworks.json").read_text(encoding="utf-8"))
-    cura = json.loads((ROOT / "data" / "curaduria_1_1.json").read_text(encoding="utf-8"))
-    out = []
-    for w in works:
-        e = cura.get(w["ID"])
-        if e and e.get("estado") != "aplicada":  # reemplazo pendiente: se evalúa la obra nueva
-            out.append((w["ID"], e.get("Título") or e.get("sugerencia", ""), e["Artista"]))
-        else:
-            out.append((w["ID"], w["Título"], w["Artista"]))
-    return out
+    return [(w["ID"], w["Título"], w["Artista"]) for w in works]
 
 
 def plantilla():

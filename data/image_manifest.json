@@ -1,479 +1,362 @@
 {
-  "A01": {
-    "status": "OK",
-    "source": "Commons (búsqueda)",
-    "file": "Wassily Kandinsky Composition VIII.jpg",
-    "repo": "commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Wassily_Kandinsky_Composition_VIII.jpg",
-    "width": 1600,
-    "height": 1120
+  "GE01": {
+    "status": "MANUAL",
+    "source": "manual: GE01.jpg",
+    "width": 959,
+    "height": 965
   },
-  "A02": {
-    "status": "OK",
-    "source": "Commons (archivo fijado)",
-    "file": "Piet Mondriaan, 1930 - Mondrian Composition II in Red, Blue, and Yellow.jpg",
-    "repo": "commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Piet_Mondriaan,_1930_-_Mondrian_Composition_II_in_Red,_Blue,_and_Yellow.jpg",
+  "GE02": {
+    "status": "MANUAL",
+    "source": "manual: GE02.jpg",
+    "width": 945,
+    "height": 808
+  },
+  "GE03": {
+    "status": "MANUAL",
+    "source": "manual: GE03.jpg",
+    "width": 1600,
+    "height": 923
+  },
+  "GE04": {
+    "status": "MANUAL",
+    "source": "manual: GE04.jpg",
+    "width": 1600,
+    "height": 1279
+  },
+  "GE05": {
+    "status": "MANUAL",
+    "source": "manual: GE05.jpg",
     "width": 1578,
     "height": 1600
   },
-  "A03": {
-    "status": "OK",
-    "source": "Wikipedia: Black Square (painting)",
-    "file": "Kazimir_Malevich,_1915,_Black_Suprematic_Square,_oil_on_linen_canvas,_79.5_x_79.5_cm,_Tretyakov_Gallery,_Moscow.jpg",
-    "repo": "commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Kazimir_Malevich,_1915,_Black_Suprematic_Square,_oil_on_linen_canvas,_79.5_x_79.5_cm,_Tretyakov_Gallery,_Moscow.jpg",
-    "width": 1600,
-    "height": 1600
+  "GE06": {
+    "status": "MANUAL",
+    "source": "manual: GE06.jpg",
+    "width": 870,
+    "height": 873
   },
-  "A04": {
-    "status": "OK",
-    "source": "Commons (archivo fijado)",
-    "file": "Hilma af Klint - The Ten Largest No. 7 - Adulthood - 1907.jpg",
-    "repo": "commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_The_Ten_Largest_No._7_-_Adulthood_-_1907.jpg",
+  "GE07": {
+    "status": "MANUAL",
+    "source": "manual: GE07.jpg",
+    "width": 899,
+    "height": 560
+  },
+  "GE08": {
+    "status": "MANUAL",
+    "source": "manual: GE08.jpg",
     "width": 1206,
     "height": 1600
   },
-  "A05": {
-    "status": "OK",
-    "source": "Wikipedia: Broadway Boogie-Woogie",
-    "file": "Piet_Mondrian,_1942_-_Broadway_Boogie_Woogie.jpg",
-    "repo": "commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Piet_Mondrian,_1942_-_Broadway_Boogie_Woogie.jpg",
-    "width": 1598,
-    "height": 1600
-  },
-  "A06": {
-    "status": "OK",
-    "source": "Wikipedia: Ad Parnassum",
-    "file": "Ad_Parnassum_(originaler,_gefasster_Holzrahmen),_Paul_Klee_(1932).jpg",
-    "repo": "commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Ad_Parnassum_(originaler,_gefasster_Holzrahmen),_Paul_Klee_(1932).jpg",
-    "width": 1600,
-    "height": 1260
-  },
-  "B01": {
-    "status": "OK",
-    "source": "Wikipedia: The Starry Night",
-    "file": "Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
-    "repo": "commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
-    "width": 1600,
-    "height": 1267
-  },
-  "B02": {
-    "status": "OK",
-    "source": "Wikipedia: Composition VII",
-    "file": "Composition_VII_-_Wassily_Kandinsky,_GAC.jpg",
-    "repo": "commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Composition_VII_-_Wassily_Kandinsky,_GAC.jpg",
-    "width": 1600,
-    "height": 1063
-  },
-  "B03": {
-    "status": "LOW_RES",
-    "source": "Commons (búsqueda)",
-    "file": "Improvisation 31 (Sea Battle).png",
-    "repo": "commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Improvisation_31_(Sea_Battle).png",
-    "width": 342,
-    "height": 402
-  },
-  "B04": {
-    "status": "LOW_RES",
-    "source": "Wikipedia: No. 5, 1948",
-    "file": "No._5,_1948.jpg",
-    "repo": "wikipedia-en (uso limitado)",
-    "page": "https://en.wikipedia.org/wiki/File:No._5,_1948.jpg",
-    "width": 221,
-    "height": 449
-  },
-  "B05": {
-    "status": "OK",
-    "source": "Wikipedia: The Scream",
-    "file": "Edvard_Munch,_1893,_The_Scream,_oil,_tempera_and_pastel_on_cardboard,_91_x_73_cm,_National_Gallery_of_Norway.jpg",
-    "repo": "commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Edvard_Munch,_1893,_The_Scream,_oil,_tempera_and_pastel_on_cardboard,_91_x_73_cm,_National_Gallery_of_Norway.jpg",
-    "width": 1289,
-    "height": 1600
-  },
-  "B06": {
+  "CI01": {
     "status": "MANUAL",
-    "source": "manual: B06.jpg",
-    "width": 577,
-    "height": 450
-  },
-  "C01": {
-    "status": "OK",
-    "source": "Wikipedia: American Gothic",
-    "file": "Grant_Wood_-_American_Gothic_(1930).jpg",
-    "repo": "commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Grant_Wood_-_American_Gothic_(1930).jpg",
-    "width": 1324,
-    "height": 1600
-  },
-  "C02": {
-    "status": "OK",
-    "source": "Wikipedia: Nighthawks (Hopper)",
-    "file": "Nighthawks_by_Edward_Hopper_1942.jpg",
-    "repo": "commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Nighthawks_by_Edward_Hopper_1942.jpg",
-    "width": 1600,
-    "height": 873
-  },
-  "C03": {
-    "status": "LOW_RES",
-    "source": "Wikipedia: Christina's World",
-    "file": "Christinasworld.jpg",
-    "repo": "wikipedia-en (uso limitado)",
-    "page": "https://en.wikipedia.org/wiki/File:Christinasworld.jpg",
-    "width": 395,
-    "height": 265
-  },
-  "C04": {
-    "status": "MANUAL",
-    "source": "manual: C04.jpg",
-    "width": 564,
-    "height": 402
-  },
-  "C05": {
-    "status": "LOW_RES",
-    "source": "Wikipedia: A Bigger Splash",
-    "file": "Hockney,_A_Bigger_Splash.jpg",
-    "repo": "wikipedia-en (uso limitado)",
-    "page": "https://en.wikipedia.org/wiki/File:Hockney,_A_Bigger_Splash.jpg",
-    "width": 323,
-    "height": 319
-  },
-  "C06": {
-    "status": "LOW_RES",
-    "source": "Wikipedia: Self-Portrait with Thorn Necklace and Hummingbird",
-    "file": "Frida_Kahlo_(self_portrait).jpg",
-    "repo": "wikipedia-en (uso limitado)",
-    "page": "https://en.wikipedia.org/wiki/File:Frida_Kahlo_(self_portrait).jpg",
-    "width": 277,
-    "height": 360
-  },
-  "C07": {
-    "status": "LOW_RES",
-    "source": "Wikipedia: The Son of Man",
-    "file": "Magritte_TheSonOfMan.jpg",
-    "repo": "wikipedia-en (uso limitado)",
-    "page": "https://en.wikipedia.org/wiki/File:Magritte_TheSonOfMan.jpg",
-    "width": 276,
-    "height": 362
-  },
-  "D01": {
-    "status": "OK",
-    "source": "Wikipedia: Impression, Sunrise",
-    "file": "Monet_-_Impression,_Sunrise.jpg",
-    "repo": "commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Monet_-_Impression,_Sunrise.jpg",
-    "width": 1600,
-    "height": 1241
-  },
-  "D02": {
-    "status": "OK",
-    "source": "Wikipedia: Water Lilies (Monet series)",
-    "file": "Reflections_of_Clouds_on_the_Water-Lily_Pond.jpg",
-    "repo": "commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Reflections_of_Clouds_on_the_Water-Lily_Pond.jpg",
-    "width": 1600,
-    "height": 914
-  },
-  "D03": {
-    "status": "MANUAL",
-    "source": "manual: D03.jpg",
-    "width": 563,
-    "height": 450
-  },
-  "D04": {
-    "status": "MANUAL",
-    "source": "manual: D04.jpg",
-    "width": 557,
-    "height": 475
-  },
-  "D05": {
-    "status": "OK",
-    "source": "Wikipedia: Moonrise, Hernandez, New Mexico",
-    "file": "Moonrise,_Hernandez,_New_Mexico_(cropped).jpg",
-    "repo": "commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Moonrise,_Hernandez,_New_Mexico_(cropped).jpg",
-    "width": 1600,
-    "height": 1282
-  },
-  "D06": {
-    "status": "OK",
-    "source": "Commons (búsqueda)",
-    "file": "Winslow Homer - The Blue Boat (1892).jpg",
-    "repo": "commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Winslow_Homer_-_The_Blue_Boat_(1892).jpg",
-    "width": 1600,
-    "height": 1110
-  },
-  "E01": {
-    "status": "OK",
-    "source": "Wikipedia: Migrant Mother",
-    "file": "Lange-MigrantMother02.jpg",
-    "repo": "commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Lange-MigrantMother02.jpg",
-    "width": 1231,
-    "height": 1600
-  },
-  "E02": {
-    "status": "OK",
-    "source": "Wikipedia: Lunch atop a Skyscraper",
-    "file": "Lunch_atop_a_Skyscraper_-_Charles_Clyde_Ebbets.jpg",
-    "repo": "commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Lunch_atop_a_Skyscraper_-_Charles_Clyde_Ebbets.jpg",
-    "width": 1600,
-    "height": 1258
-  },
-  "E03": {
-    "status": "LOW_RES",
-    "source": "Wikipedia (búsqueda): Untitled Film Still 21",
-    "file": "Untitled_Film_Still_21_(Cindy_Sherman_photograph).jpg",
-    "repo": "wikipedia-en (uso limitado)",
-    "page": "https://en.wikipedia.org/wiki/File:Untitled_Film_Still_21_(Cindy_Sherman_photograph).jpg",
-    "width": 350,
-    "height": 279
-  },
-  "E04": {
-    "status": "OK",
-    "source": "Wikipedia: The Steerage",
-    "file": "Alfred_Stieglitz_-_The_Steerage_-_Google_Art_Project.jpg",
-    "repo": "commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Alfred_Stieglitz_-_The_Steerage_-_Google_Art_Project.jpg",
-    "width": 1276,
-    "height": 1600
-  },
-  "E05": {
-    "status": "MANUAL",
-    "source": "manual: E05.jpg",
-    "width": 960,
-    "height": 720
-  },
-  "E06": {
-    "status": "OK",
-    "source": "Wikipedia: Le Violon d'Ingres",
-    "file": "Le_Violon_d'Ingres.png",
-    "repo": "wikipedia-en (uso limitado)",
-    "page": "https://en.wikipedia.org/wiki/File:Le_Violon_d%27Ingres.png",
-    "width": 1238,
-    "height": 1600
-  },
-  "E07": {
-    "status": "MANUAL",
-    "source": "manual: E07.jpg",
-    "width": 700,
-    "height": 1061
-  },
-  "F01": {
-    "status": "MANUAL",
-    "source": "manual: F01.jpg",
-    "width": 953,
-    "height": 771
-  },
-  "F02": {
-    "status": "MANUAL",
-    "source": "manual: F02.jpg",
-    "width": 570,
-    "height": 570
-  },
-  "F03": {
-    "status": "OK",
-    "source": "Wikipedia: Bird in Space",
-    "file": "Bird_in_Space.jpg",
-    "repo": "commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Bird_in_Space.jpg",
-    "width": 1137,
-    "height": 1600
-  },
-  "F04": {
-    "status": "OK",
-    "source": "Wikipedia: The Kiss (Rodin sculpture)",
-    "file": "Rodin_-_Le_Baiser_06.jpg",
-    "repo": "commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Rodin_-_Le_Baiser_06.jpg",
-    "width": 1092,
-    "height": 1600
-  },
-  "F05": {
-    "status": "MANUAL",
-    "source": "manual: F05.jpg",
-    "width": 1200,
-    "height": 1600
-  },
-  "F06": {
-    "status": "OK",
-    "source": "Wikipedia: The Gates of Hell",
-    "file": "La_puerta_del_Infierno_de_Rodin_del_museo_Soumaya_(con_fondo_negro).jpg",
-    "repo": "commons",
-    "page": "https://commons.wikimedia.org/wiki/File:La_puerta_del_Infierno_de_Rodin_del_museo_Soumaya_(con_fondo_negro).jpg",
-    "width": 1066,
-    "height": 1600
-  },
-  "G01": {
-    "status": "LOW_RES",
-    "source": "Wikipedia: The Snail",
-    "file": "Matissesnail.jpg",
-    "repo": "wikipedia-en (uso limitado)",
-    "page": "https://en.wikipedia.org/wiki/File:Matissesnail.jpg",
-    "width": 300,
-    "height": 298
-  },
-  "G02": {
-    "status": "LOW_RES",
-    "source": "Wikipedia: The Persistence of Memory",
-    "file": "The_Persistence_of_Memory.jpg",
-    "repo": "wikipedia-en (uso limitado)",
-    "page": "https://en.wikipedia.org/wiki/File:The_Persistence_of_Memory.jpg",
-    "width": 371,
-    "height": 268
-  },
-  "G03": {
-    "status": "MANUAL",
-    "source": "manual: G03.jpg",
-    "width": 960,
-    "height": 1157
-  },
-  "G04": {
-    "status": "MANUAL",
-    "source": "manual: G04.jpg",
-    "width": 800,
-    "height": 997
-  },
-  "G05": {
-    "status": "MANUAL",
-    "source": "manual: G05.jpg",
-    "width": 1269,
-    "height": 1600
-  },
-  "G06": {
-    "status": "LOW_RES",
-    "source": "Wikipedia (búsqueda): Jazz (Henri Matisse)",
-    "file": "Jazz_Henri_Matisse.JPG",
-    "repo": "wikipedia-en (uso limitado)",
-    "page": "https://en.wikipedia.org/wiki/File:Jazz_Henri_Matisse.JPG",
-    "width": 386,
-    "height": 249
-  },
-  "G07": {
-    "status": "MANUAL",
-    "source": "manual: G07.jpg",
-    "width": 439,
-    "height": 640
-  },
-  "H01": {
-    "status": "OK",
-    "source": "Wikipedia: I and the Village",
-    "file": "Chagall_IandTheVillage.jpg",
-    "repo": "wikipedia-en (uso limitado)",
-    "page": "https://en.wikipedia.org/wiki/File:Chagall_IandTheVillage.jpg",
-    "width": 1257,
-    "height": 1600
-  },
-  "H02": {
-    "status": "LOW_RES",
-    "source": "Wikipedia: The Treachery of Images",
-    "file": "MagrittePipe.jpg",
-    "repo": "wikipedia-en (uso limitado)",
-    "page": "https://en.wikipedia.org/wiki/File:MagrittePipe.jpg",
-    "width": 378,
-    "height": 264
-  },
-  "H03": {
-    "status": "LOW_RES",
-    "source": "Wikipedia: Marilyn Diptych",
-    "file": "Marilyndiptych.jpg",
-    "repo": "wikipedia-en (uso limitado)",
-    "page": "https://en.wikipedia.org/wiki/File:Marilyndiptych.jpg",
-    "width": 375,
-    "height": 265
-  },
-  "H04": {
-    "status": "OK",
-    "source": "Wikipedia: Campbell's Soup Cans",
-    "file": "Campbell's_Soup_Cans_by_Andy_Warhol.jpg",
-    "repo": "commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Campbell%27s_Soup_Cans_by_Andy_Warhol.jpg",
-    "width": 1600,
-    "height": 930
-  },
-  "H05": {
-    "status": "MANUAL",
-    "source": "manual: H05.jpg",
+    "source": "manual: CI01.jpg",
     "width": 1200,
     "height": 1205
   },
-  "H06": {
-    "status": "OK",
-    "source": "Wikipedia: The Great Wave off Kanagawa",
-    "file": "Tsunami_by_hokusai_19th_century.jpg",
-    "repo": "commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Tsunami_by_hokusai_19th_century.jpg",
-    "width": 1600,
-    "height": 1076
-  },
-  "I01": {
-    "status": "OK",
-    "source": "Wikipedia: Fountain (Duchamp)",
-    "file": "Marcel_Duchamp,_1917,_Fountain,_photograph_by_Alfred_Stieglitz.jpg",
-    "repo": "commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Marcel_Duchamp,_1917,_Fountain,_photograph_by_Alfred_Stieglitz.jpg",
-    "width": 1225,
-    "height": 1600
-  },
-  "I02": {
-    "status": "OK",
-    "source": "Wikipedia: One and Three Chairs",
-    "file": "One_and_Three_Chair.jpg",
-    "repo": "commons",
-    "page": "https://commons.wikimedia.org/wiki/File:One_and_Three_Chair.jpg",
-    "width": 1600,
-    "height": 1035
-  },
-  "I03": {
+  "CI02": {
     "status": "MANUAL",
-    "source": "manual: I03.jpg",
-    "width": 840,
-    "height": 1024
+    "source": "manual: CI02.jpg",
+    "width": 372,
+    "height": 500
   },
-  "I04": {
+  "CI03": {
     "status": "MANUAL",
-    "source": "manual: I04.jpg",
-    "width": 1011,
-    "height": 1440
+    "source": "manual: CI03.jpg",
+    "width": 570,
+    "height": 569
   },
-  "J01": {
+  "CI04": {
     "status": "MANUAL",
-    "source": "manual: J01.jpg",
-    "width": 359,
-    "height": 557
-  },
-  "J02": {
-    "status": "MANUAL",
-    "source": "manual: J02.jpg",
-    "width": 551,
-    "height": 388
-  },
-  "J03": {
-    "status": "MANUAL",
-    "source": "manual: J03.jpg",
-    "width": 384,
-    "height": 512
-  },
-  "J04": {
-    "status": "MANUAL",
-    "source": "manual: J04.jpg",
+    "source": "manual: CI04.jpg",
     "width": 570,
     "height": 381
   },
-  "J05": {
+  "CI05": {
     "status": "MANUAL",
-    "source": "manual: J05.jpg",
-    "width": 372,
+    "source": "manual: CI05.jpg",
+    "width": 500,
     "height": 500
+  },
+  "CF01": {
+    "status": "MANUAL",
+    "source": "manual: CF01.jpg",
+    "width": 1124,
+    "height": 1600
+  },
+  "CF02": {
+    "status": "MANUAL",
+    "source": "manual: CF02.jpg",
+    "width": 1214,
+    "height": 1600
+  },
+  "CF03": {
+    "status": "MANUAL",
+    "source": "manual: CF03.jpg",
+    "width": 1200,
+    "height": 895
+  },
+  "CF04": {
+    "status": "MANUAL",
+    "source": "manual: CF04.jpg",
+    "width": 700,
+    "height": 699
+  },
+  "GS01": {
+    "status": "MANUAL",
+    "source": "manual: GS01.jpg",
+    "width": 1000,
+    "height": 1000
+  },
+  "GS02": {
+    "status": "MANUAL",
+    "source": "manual: GS02.jpg",
+    "width": 1600,
+    "height": 840
+  },
+  "GS03": {
+    "status": "MANUAL",
+    "source": "manual: GS03.jpg",
+    "width": 1233,
+    "height": 1600
+  },
+  "GS04": {
+    "status": "MANUAL",
+    "source": "manual: GS04.jpg",
+    "width": 1175,
+    "height": 850
+  },
+  "GS05": {
+    "status": "MANUAL",
+    "source": "manual: GS05.jpg",
+    "width": 999,
+    "height": 1280
+  },
+  "GS06": {
+    "status": "MANUAL",
+    "source": "manual: GS06.jpg",
+    "width": 600,
+    "height": 571
+  },
+  "GS07": {
+    "status": "MANUAL",
+    "source": "manual: GS07.jpg",
+    "width": 1600,
+    "height": 1063
+  },
+  "MA01": {
+    "status": "MANUAL",
+    "source": "manual: MA01.jpg",
+    "width": 840,
+    "height": 1024
+  },
+  "MA02": {
+    "status": "MANUAL",
+    "source": "manual: MA02.jpg",
+    "width": 570,
+    "height": 570
+  },
+  "MA03": {
+    "status": "MANUAL",
+    "source": "manual: MA03.jpg",
+    "width": 1600,
+    "height": 1311
+  },
+  "MA04": {
+    "status": "MANUAL",
+    "source": "manual: MA04.jpg",
+    "width": 1490,
+    "height": 1600
+  },
+  "MA05": {
+    "status": "MANUAL",
+    "source": "manual: MA05.jpg",
+    "width": 1600,
+    "height": 1200
+  },
+  "MA06": {
+    "status": "MANUAL",
+    "source": "manual: MA06.jpg",
+    "width": 1600,
+    "height": 1187
+  },
+  "MA07": {
+    "status": "MANUAL",
+    "source": "manual: MA07.jpg",
+    "width": 439,
+    "height": 640
+  },
+  "MA08": {
+    "status": "MANUAL",
+    "source": "manual: MA08.jpg",
+    "width": 1200,
+    "height": 1600
+  },
+  "MA09": {
+    "status": "MANUAL",
+    "source": "manual: MA09.jpg",
+    "width": 953,
+    "height": 771
+  },
+  "MA10": {
+    "status": "MANUAL",
+    "source": "manual: MA10.jpg",
+    "width": 486,
+    "height": 450
+  },
+  "MA11": {
+    "status": "MANUAL",
+    "source": "manual: MA11.jpg",
+    "width": 1137,
+    "height": 1600
+  },
+  "FI01": {
+    "status": "MANUAL",
+    "source": "manual: FI01.jpg",
+    "width": 564,
+    "height": 402
+  },
+  "FI02": {
+    "status": "MANUAL",
+    "source": "manual: FI02.jpg",
+    "width": 922,
+    "height": 1118
+  },
+  "FI03": {
+    "status": "MANUAL",
+    "source": "manual: FI03.jpg",
+    "width": 1600,
+    "height": 1537
+  },
+  "FI04": {
+    "status": "MANUAL",
+    "source": "manual: FI04.jpg",
+    "width": 1018,
+    "height": 1600
+  },
+  "FI05": {
+    "status": "MANUAL",
+    "source": "manual: FI05.jpg",
+    "width": 323,
+    "height": 319
+  },
+  "FI06": {
+    "status": "MANUAL",
+    "source": "manual: FI06.jpg",
+    "width": 1000,
+    "height": 699
+  },
+  "FI07": {
+    "status": "MANUAL",
+    "source": "manual: FI07.jpg",
+    "width": 1600,
+    "height": 1161
+  },
+  "FO01": {
+    "status": "MANUAL",
+    "source": "manual: FO01.jpg",
+    "width": 1500,
+    "height": 1126
+  },
+  "FO02": {
+    "status": "MANUAL",
+    "source": "manual: FO02.jpg",
+    "width": 1600,
+    "height": 1066
+  },
+  "FO03": {
+    "status": "MANUAL",
+    "source": "manual: FO03.jpg",
+    "width": 591,
+    "height": 464
+  },
+  "FO04": {
+    "status": "MANUAL",
+    "source": "manual: FO04.jpg",
+    "width": 700,
+    "height": 1061
+  },
+  "FO05": {
+    "status": "MANUAL",
+    "source": "manual: FO05.jpg",
+    "width": 563,
+    "height": 450
+  },
+  "FO06": {
+    "status": "MANUAL",
+    "source": "manual: FO06.jpg",
+    "width": 504,
+    "height": 355
+  },
+  "PA01": {
+    "status": "MANUAL",
+    "source": "manual: PA01.jpg",
+    "width": 1600,
+    "height": 840
+  },
+  "PA02": {
+    "status": "MANUAL",
+    "source": "manual: PA02.jpg",
+    "width": 557,
+    "height": 475
+  },
+  "PA03": {
+    "status": "MANUAL",
+    "source": "manual: PA03.jpg",
+    "width": 730,
+    "height": 606
+  },
+  "IM01": {
+    "status": "MANUAL",
+    "source": "manual: IM01.jpg",
+    "width": 577,
+    "height": 450
+  },
+  "IM02": {
+    "status": "MANUAL",
+    "source": "manual: IM02.jpg",
+    "width": 1000,
+    "height": 1160
+  },
+  "IM03": {
+    "status": "MANUAL",
+    "source": "manual: IM03.jpg",
+    "width": 1000,
+    "height": 525
+  },
+  "IM04": {
+    "status": "MANUAL",
+    "source": "manual: IM04.jpg",
+    "width": 1116,
+    "height": 1600
+  },
+  "IM05": {
+    "status": "MANUAL",
+    "source": "manual: IM05.jpg",
+    "width": 1070,
+    "height": 920
+  },
+  "CO01": {
+    "status": "MANUAL",
+    "source": "manual: CO01.jpg",
+    "width": 551,
+    "height": 388
+  },
+  "CO02": {
+    "status": "MANUAL",
+    "source": "manual: CO02.jpg",
+    "width": 1011,
+    "height": 1440
+  },
+  "CO03": {
+    "status": "MANUAL",
+    "source": "manual: CO03.jpg",
+    "width": 1600,
+    "height": 930
+  },
+  "CO04": {
+    "status": "MANUAL",
+    "source": "manual: CO04.jpg",
+    "width": 401,
+    "height": 480
   }
 }

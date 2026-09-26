@@ -1,0 +1,300 @@
+{
+ "_README": "Fuente de cada imagen. 'wiki' = títulos de artículos de Wikipedia en inglés (se usa la imagen principal del artículo, curada por editores). 'search' = búsqueda alternativa si el artículo no existe. 'commons_file' = archivo exacto de Commons (gana sobre todo lo demás). Si ponés un archivo en assets/manual/ID.jpg, ése gana siempre.",
+ "A01": {
+  "wiki": [
+   "Composition VIII"
+  ]
+ },
+ "A02": {
+  "wiki": [
+   "Composition II in Red, Blue, and Yellow"
+  ],
+  "commons_file": "Piet Mondriaan, 1930 - Mondrian Composition II in Red, Blue, and Yellow.jpg"
+ },
+ "A03": {
+  "wiki": [
+   "Black Square (painting)",
+   "Black Square"
+  ]
+ },
+ "A04": {
+  "wiki": [],
+  "commons_file": "Hilma af Klint - The Ten Largest No. 7 - Adulthood - 1907.jpg"
+ },
+ "A05": {
+  "wiki": [
+   "Broadway Boogie-Woogie",
+   "Broadway Boogie Woogie"
+  ]
+ },
+ "A06": {
+  "wiki": [
+   "Ad Parnassum"
+  ]
+ },
+ "B01": {
+  "wiki": [
+   "The Starry Night"
+  ]
+ },
+ "B02": {
+  "wiki": [
+   "Composition VII"
+  ]
+ },
+ "B03": {
+  "wiki": [
+   "Improvisation 31 (Sea Battle)"
+  ],
+  "search": "Kandinsky Improvisation 31 Sea Battle"
+ },
+ "B04": {
+  "wiki": [
+   "No. 5, 1948"
+  ]
+ },
+ "B05": {
+  "wiki": [
+   "The Scream"
+  ]
+ },
+ "B06": {
+  "wiki": [],
+  "nota": "Curaduría 1.1: imagen manual en assets/manual/B06.jpg"
+ },
+ "C01": {
+  "wiki": [
+   "American Gothic"
+  ]
+ },
+ "C02": {
+  "wiki": [
+   "Nighthawks (Hopper)",
+   "Nighthawks"
+  ]
+ },
+ "C03": {
+  "wiki": [
+   "Christina's World"
+  ]
+ },
+ "C04": {
+  "wiki": [],
+  "nota": "Curaduría 1.1: imagen manual en assets/manual/C04.jpg"
+ },
+ "C05": {
+  "wiki": [
+   "A Bigger Splash"
+  ]
+ },
+ "C06": {
+  "wiki": [
+   "Self-Portrait with Thorn Necklace and Hummingbird"
+  ]
+ },
+ "C07": {
+  "wiki": [
+   "The Son of Man"
+  ]
+ },
+ "D01": {
+  "wiki": [
+   "Impression, Sunrise"
+  ]
+ },
+ "D02": {
+  "wiki": [
+   "Water Lilies (Monet series)",
+   "Water Lilies (Monet)"
+  ]
+ },
+ "D03": {
+  "wiki": [],
+  "nota": "Curaduría 1.1: imagen manual en assets/manual/D03.jpg"
+ },
+ "D04": {
+  "wiki": [],
+  "nota": "Curaduría 1.1: imagen manual en assets/manual/D04.jpg"
+ },
+ "D05": {
+  "wiki": [
+   "Moonrise, Hernandez, New Mexico"
+  ]
+ },
+ "D06": {
+  "wiki": [
+   "The Blue Boat"
+  ],
+  "search": "Winslow Homer The Blue Boat 1892 watercolor"
+ },
+ "E01": {
+  "wiki": [
+   "Migrant Mother"
+  ]
+ },
+ "E02": {
+  "wiki": [
+   "Lunch atop a Skyscraper"
+  ]
+ },
+ "E03": {
+  "wiki": [],
+  "search": "Cindy Sherman Untitled Film Still 21"
+ },
+ "E04": {
+  "wiki": [
+   "The Steerage"
+  ]
+ },
+ "E05": {
+  "wiki": [],
+  "search": "Eugène Atget rue de la Huchette",
+  "nota": "Sin artículo propio en Wikipedia; se resuelve a mano (ver docs/IMAGENES.md)."
+ },
+ "E06": {
+  "wiki": [
+   "Le Violon d'Ingres"
+  ]
+ },
+ "E07": {
+  "wiki": [],
+  "nota": "Curaduría 1.1: imagen manual en assets/manual/E07.jpg"
+ },
+ "F01": {
+  "wiki": [],
+  "nota": "Curaduría 1.1: imagen manual en assets/manual/F01.jpg"
+ },
+ "F02": {
+  "wiki": [],
+  "nota": "Curaduría 1.1: imagen manual en assets/manual/F02.jpg"
+ },
+ "F03": {
+  "wiki": [
+   "Bird in Space"
+  ]
+ },
+ "F04": {
+  "wiki": [
+   "The Kiss (Rodin sculpture)",
+   "The Kiss (Rodin)"
+  ]
+ },
+ "F05": {
+  "wiki": [],
+  "nota": "Curaduría 1.1: imagen manual en assets/manual/F05.jpg"
+ },
+ "F06": {
+  "wiki": [
+   "The Gates of Hell"
+  ]
+ },
+ "G01": {
+  "wiki": [
+   "The Snail"
+  ]
+ },
+ "G02": {
+  "wiki": [
+   "The Persistence of Memory"
+  ]
+ },
+ "G03": {
+  "wiki": [],
+  "search": "Kurt Schwitters collage 1921 Merz",
+  "nota": "Kurt Schwitters no tiene una obra puntual con artículo propio en Wikipedia; buscar en Wikimedia Commons."
+ },
+ "G04": {
+  "wiki": [
+   "Cut with the Dada Kitchen Knife through the Last Weimar Beer-Belly Cultural Epoch of Germany",
+   "Cut with the Kitchen Knife"
+  ],
+  "nota": "Hannah Höch, \"Cut with the Kitchen Knife\" (1919) es de dominio público en EE.UU. pero no tiene artículo dedicado; buscar en Wikimedia Commons."
+ },
+ "G05": {
+  "wiki": [],
+  "search": "Kurt Schwitters Merzbild 32A Das Kirschbild",
+  "nota": "Kurt Schwitters no tiene una obra puntual con artículo propio en Wikipedia; buscar en Wikimedia Commons o MoMA."
+ },
+ "G06": {
+  "wiki": [
+   "Jazz (Matisse)",
+   "Jazz (book)"
+  ],
+  "search": "Henri Matisse Jazz 1947 book cut-outs"
+ },
+ "G07": {
+  "wiki": [],
+  "nota": "Curaduría 1.1: imagen manual en assets/manual/G07.jpg"
+ },
+ "H01": {
+  "wiki": [
+   "I and the Village"
+  ]
+ },
+ "H02": {
+  "wiki": [
+   "The Treachery of Images"
+  ]
+ },
+ "H03": {
+  "wiki": [
+   "Marilyn Diptych"
+  ]
+ },
+ "H04": {
+  "wiki": [
+   "Campbell's Soup Cans"
+  ]
+ },
+ "H05": {
+  "wiki": [],
+  "nota": "Curaduría 1.1: imagen manual en assets/manual/H05.jpg"
+ },
+ "H06": {
+  "wiki": [
+   "The Great Wave off Kanagawa"
+  ]
+ },
+ "I01": {
+  "wiki": [
+   "Fountain (Duchamp)"
+  ]
+ },
+ "I02": {
+  "wiki": [
+   "One and Three Chairs"
+  ]
+ },
+ "I03": {
+  "wiki": [],
+  "nota": "Curaduría 1.1: imagen manual en assets/manual/I03.jpg"
+ },
+ "I04": {
+  "wiki": [],
+  "nota": "Curaduría 1.1: imagen manual en assets/manual/I04.jpg"
+ },
+ "J01": {
+  "wiki": [],
+  "search": "Donald Judd Untitled Stack 1967",
+  "nota": "Donald Judd, \"Untitled (Stack)\" no tiene artículo propio; buscar en Wikimedia Commons o el sitio de la Judd Foundation."
+ },
+ "J02": {
+  "wiki": [],
+  "nota": "Curaduría 1.1: imagen manual en assets/manual/J02.jpg"
+ },
+ "J03": {
+  "wiki": [
+   "Sky Cathedral"
+  ],
+  "search": "Louise Nevelson Sky Cathedral 1958",
+  "nota": "Louise Nevelson, \"Sky Cathedral\" no tiene artículo propio; buscar en Wikimedia Commons o MoMA."
+ },
+ "J04": {
+  "wiki": [],
+  "nota": "Curaduría 1.1: imagen manual en assets/manual/J04.jpg"
+ },
+ "J05": {
+  "wiki": [],
+  "nota": "Curaduría 1.1: imagen manual en assets/manual/J05.jpg"
+ }
+}

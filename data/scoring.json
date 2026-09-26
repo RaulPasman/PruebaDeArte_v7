@@ -1,5 +1,5 @@
 {
-  "_nota": "Pesos que usa score() en app.js. Si cambiás algo, corré SIMULADOR_MOTOR.html antes y después y compará (referencia en CLAUDE.md, al 25/09/2026: ~61% principal, ~92% principal o matiz). 'No estoy seguro' no suma señal, por eso no tiene peso.",
+  "_nota": "Pesos que usa score() en app.js. Si cambiás algo, corré SIMULADOR_MOTOR.html antes y después y compará (referencia en CLAUDE.md, al 26/09/2026 con la curaduría 2.0: ~82% principal, ~95% principal o matiz). 'No estoy seguro' no suma señal, por eso no tiene peso.",
   "weights": {
     "direct": 1.0,
     "both": 0.15,

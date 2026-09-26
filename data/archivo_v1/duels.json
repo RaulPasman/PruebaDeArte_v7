@@ -1,0 +1,194 @@
+[
+  {
+    "id": "D01",
+    "a": "A02",
+    "b": "B01",
+    "rationale": "estructura vs gesto / intensidad"
+  },
+  {
+    "id": "D02",
+    "a": "A03",
+    "b": "C02",
+    "rationale": "abstracción extrema vs figuración atmosférica"
+  },
+  {
+    "id": "D03",
+    "a": "D03",
+    "b": "F03",
+    "rationale": "paisaje imaginario vs objeto abstracto"
+  },
+  {
+    "id": "D04",
+    "a": "C05",
+    "b": "H02",
+    "rationale": "reconocimiento vs ambigüedad conceptual"
+  },
+  {
+    "id": "D05",
+    "a": "A05",
+    "b": "G07",
+    "rationale": "orden rítmico vs gesto energético"
+  },
+  {
+    "id": "D06",
+    "a": "C01",
+    "b": "E03",
+    "rationale": "figuración directa vs identidad/ficción"
+  },
+  {
+    "id": "D07",
+    "a": "D01",
+    "b": "B05",
+    "rationale": "serenidad lumínica vs intensidad"
+  },
+  {
+    "id": "D08",
+    "a": "F01",
+    "b": "F03",
+    "rationale": "figuración monumental vs abstracción material"
+  },
+  {
+    "id": "D09",
+    "a": "A06",
+    "b": "G01",
+    "rationale": "geometría cromática vs collage material"
+  },
+  {
+    "id": "D10",
+    "a": "C02",
+    "b": "E05",
+    "rationale": "escena reconocible vs atmósfera documental"
+  },
+  {
+    "id": "D11",
+    "a": "B02",
+    "b": "H03",
+    "rationale": "abstracción expresiva vs cultura visual"
+  },
+  {
+    "id": "D12",
+    "a": "D05",
+    "b": "F04",
+    "rationale": "fotografía vs objeto/presencia"
+  },
+  {
+    "id": "D13",
+    "a": "C06",
+    "b": "G04",
+    "rationale": "autorretrato vs montaje/ruptura"
+  },
+  {
+    "id": "D14",
+    "a": "A01",
+    "b": "J01",
+    "rationale": "composición vs objeto mínimo"
+  },
+  {
+    "id": "D15",
+    "a": "D02",
+    "b": "G02",
+    "rationale": "atmósfera vs mundo imaginario"
+  },
+  {
+    "id": "D16",
+    "a": "E01",
+    "b": "C03",
+    "rationale": "fotografía documental vs figuración íntima"
+  },
+  {
+    "id": "D17",
+    "a": "B04",
+    "b": "E04",
+    "rationale": "gestural vs artistic photography"
+  },
+  {
+    "id": "D18",
+    "a": "F02",
+    "b": "C04",
+    "rationale": "sculpture vs figuration"
+  },
+  {
+    "id": "D19",
+    "a": "F05",
+    "b": "H01",
+    "rationale": "sculpture vs surrealism"
+  },
+  {
+    "id": "D20",
+    "a": "B06",
+    "b": "I01",
+    "rationale": "surrealism vs accessible conceptual art"
+  },
+  {
+    "id": "D21",
+    "a": "J04",
+    "b": "E02",
+    "rationale": "kinetic vs artistic photography"
+  },
+  {
+    "id": "D22",
+    "a": "J02",
+    "b": "H05",
+    "rationale": "minimalism vs kinetic"
+  },
+  {
+    "id": "D23",
+    "a": "F06",
+    "b": "A04",
+    "rationale": "sculpture vs geometric abstraction"
+  },
+  {
+    "id": "D24",
+    "a": "G05",
+    "b": "I04",
+    "rationale": "textile vs accessible conceptual art"
+  },
+  {
+    "id": "D25",
+    "a": "H06",
+    "b": "I03",
+    "rationale": "graphic vs accessible conceptual art"
+  },
+  {
+    "id": "D26",
+    "a": "J03",
+    "b": "E07",
+    "rationale": "minimalism vs artistic photography"
+  },
+  {
+    "id": "D27",
+    "a": "B03",
+    "b": "C07",
+    "rationale": "gestural vs surrealism"
+  },
+  {
+    "id": "D28",
+    "a": "I02",
+    "b": "G06",
+    "rationale": "accessible conceptual art vs textile"
+  },
+  {
+    "id": "D29",
+    "a": "D04",
+    "b": "E06",
+    "rationale": "landscape vs artistic photography"
+  },
+  {
+    "id": "D30",
+    "a": "D06",
+    "b": "J05",
+    "rationale": "landscape vs kinetic"
+  },
+  {
+    "id": "D31",
+    "a": "H04",
+    "b": "G03",
+    "rationale": "graphic vs textile"
+  },
+  {
+    "id": "D32",
+    "a": "B04",
+    "b": "I04",
+    "rationale": "gestural vs accessible conceptual art"
+  }
+]

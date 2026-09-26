@@ -1,300 +1,303 @@
 {
- "_README": "Fuente de cada imagen. 'wiki' = títulos de artículos de Wikipedia en inglés (se usa la imagen principal del artículo, curada por editores). 'search' = búsqueda alternativa si el artículo no existe. 'commons_file' = archivo exacto de Commons (gana sobre todo lo demás). Si ponés un archivo en assets/manual/ID.jpg, ése gana siempre.",
- "A01": {
-  "wiki": [
-   "Composition VIII"
-  ]
- },
- "A02": {
-  "wiki": [
-   "Composition II in Red, Blue, and Yellow"
-  ],
-  "commons_file": "Piet Mondriaan, 1930 - Mondrian Composition II in Red, Blue, and Yellow.jpg"
- },
- "A03": {
-  "wiki": [
-   "Black Square (painting)",
-   "Black Square"
-  ]
- },
- "A04": {
+ "_README": "Curaduría 2.0: todas las imágenes vienen de assets/manual/ID.jpg (ver tools/curaduria_2_0.py para la fuente de cada una).",
+ "GE01": {
   "wiki": [],
-  "commons_file": "Hilma af Klint - The Ten Largest No. 7 - Adulthood - 1907.jpg"
+  "fuente": "WikiArt",
+  "url_original": "https://uploads1.wikiart.org/images/tomas-maldonado/4-temas-circulares-1953.jpg"
  },
- "A05": {
-  "wiki": [
-   "Broadway Boogie-Woogie",
-   "Broadway Boogie Woogie"
-  ]
- },
- "A06": {
-  "wiki": [
-   "Ad Parnassum"
-  ]
- },
- "B01": {
-  "wiki": [
-   "The Starry Night"
-  ]
- },
- "B02": {
-  "wiki": [
-   "Composition VII"
-  ]
- },
- "B03": {
-  "wiki": [
-   "Improvisation 31 (Sea Battle)"
-  ],
-  "search": "Kandinsky Improvisation 31 Sea Battle"
- },
- "B04": {
-  "wiki": [
-   "No. 5, 1948"
-  ]
- },
- "B05": {
-  "wiki": [
-   "The Scream"
-  ]
- },
- "B06": {
+ "GE02": {
   "wiki": [],
-  "nota": "Curaduría 1.1: imagen manual en assets/manual/B06.jpg"
+  "fuente": "WikiArt",
+  "url_original": "https://uploads3.wikiart.org/images/raul-lozza/pintura-perceptista-n-184-1948.jpg"
  },
- "C01": {
-  "wiki": [
-   "American Gothic"
-  ]
- },
- "C02": {
-  "wiki": [
-   "Nighthawks (Hopper)",
-   "Nighthawks"
-  ]
- },
- "C03": {
-  "wiki": [
-   "Christina's World"
-  ]
- },
- "C04": {
+ "GE03": {
   "wiki": [],
-  "nota": "Curaduría 1.1: imagen manual en assets/manual/C04.jpg"
+  "fuente": "Ruth Benzacar",
+  "url_original": "https://ruthbenzacar.com/wp-content/uploads/2017/02/1510-150-x-260-cm.jpg"
  },
- "C05": {
-  "wiki": [
-   "A Bigger Splash"
-  ]
- },
- "C06": {
-  "wiki": [
-   "Self-Portrait with Thorn Necklace and Hummingbird"
-  ]
- },
- "C07": {
-  "wiki": [
-   "The Son of Man"
-  ]
- },
- "D01": {
-  "wiki": [
-   "Impression, Sunrise"
-  ]
- },
- "D02": {
-  "wiki": [
-   "Water Lilies (Monet series)",
-   "Water Lilies (Monet)"
-  ]
- },
- "D03": {
+ "GE04": {
   "wiki": [],
-  "nota": "Curaduría 1.1: imagen manual en assets/manual/D03.jpg"
+  "fuente": "WikiArt",
+  "url_original": "https://uploads8.wikiart.org/images/lidy-prati/vibraci-n-al-infinito-1953.jpg"
  },
- "D04": {
+ "GE05": {
   "wiki": [],
-  "nota": "Curaduría 1.1: imagen manual en assets/manual/D04.jpg"
+  "fuente": "Wikimedia Commons",
+  "url_original": ""
  },
- "D05": {
-  "wiki": [
-   "Moonrise, Hernandez, New Mexico"
-  ]
- },
- "D06": {
-  "wiki": [
-   "The Blue Boat"
-  ],
-  "search": "Winslow Homer The Blue Boat 1892 watercolor"
- },
- "E01": {
-  "wiki": [
-   "Migrant Mother"
-  ]
- },
- "E02": {
-  "wiki": [
-   "Lunch atop a Skyscraper"
-  ]
- },
- "E03": {
+ "GE06": {
   "wiki": [],
-  "search": "Cindy Sherman Untitled Film Still 21"
+  "fuente": "WikiArt",
+  "url_original": "https://uploads2.wikiart.org/00305/images/josef-albers/homage-to-the-square-apparition.jpg"
  },
- "E04": {
-  "wiki": [
-   "The Steerage"
-  ]
- },
- "E05": {
+ "GE07": {
   "wiki": [],
-  "search": "Eugène Atget rue de la Huchette",
-  "nota": "Sin artículo propio en Wikipedia; se resuelve a mano (ver docs/IMAGENES.md)."
+  "fuente": "WikiArt",
+  "url_original": "https://uploads6.wikiart.org/images/ellsworth-kelly/red-blue-green-1963.jpg"
  },
- "E06": {
-  "wiki": [
-   "Le Violon d'Ingres"
-  ]
- },
- "E07": {
+ "GE08": {
   "wiki": [],
-  "nota": "Curaduría 1.1: imagen manual en assets/manual/E07.jpg"
+  "fuente": "Wikimedia Commons (dominio público)",
+  "url_original": ""
  },
- "F01": {
+ "CI01": {
   "wiki": [],
-  "nota": "Curaduría 1.1: imagen manual en assets/manual/F01.jpg"
+  "fuente": "MALBA",
+  "url_original": ""
  },
- "F02": {
+ "CI02": {
   "wiki": [],
-  "nota": "Curaduría 1.1: imagen manual en assets/manual/F02.jpg"
+  "fuente": "WikiArt",
+  "url_original": ""
  },
- "F03": {
-  "wiki": [
-   "Bird in Space"
-  ]
- },
- "F04": {
-  "wiki": [
-   "The Kiss (Rodin sculpture)",
-   "The Kiss (Rodin)"
-  ]
- },
- "F05": {
+ "CI03": {
   "wiki": [],
-  "nota": "Curaduría 1.1: imagen manual en assets/manual/F05.jpg"
+  "fuente": "WikiArt",
+  "url_original": "https://uploads5.wikiart.org/images/luis-tomasello/atmosph-re-chromoplastique-n-187-1968.jpg"
  },
- "F06": {
-  "wiki": [
-   "The Gates of Hell"
-  ]
- },
- "G01": {
-  "wiki": [
-   "The Snail"
-  ]
- },
- "G02": {
-  "wiki": [
-   "The Persistence of Memory"
-  ]
- },
- "G03": {
+ "CI04": {
   "wiki": [],
-  "search": "Kurt Schwitters collage 1921 Merz",
-  "nota": "Kurt Schwitters no tiene una obra puntual con artículo propio en Wikipedia; buscar en Wikimedia Commons."
+  "fuente": "WikiArt",
+  "url_original": ""
  },
- "G04": {
-  "wiki": [
-   "Cut with the Dada Kitchen Knife through the Last Weimar Beer-Belly Cultural Epoch of Germany",
-   "Cut with the Kitchen Knife"
-  ],
-  "nota": "Hannah Höch, \"Cut with the Kitchen Knife\" (1919) es de dominio público en EE.UU. pero no tiene artículo dedicado; buscar en Wikimedia Commons."
- },
- "G05": {
+ "CI05": {
   "wiki": [],
-  "search": "Kurt Schwitters Merzbild 32A Das Kirschbild",
-  "nota": "Kurt Schwitters no tiene una obra puntual con artículo propio en Wikipedia; buscar en Wikimedia Commons o MoMA."
+  "fuente": "WikiArt",
+  "url_original": "https://uploads0.wikiart.org/images/bridget-riley/movement-in-squares-1961.jpg"
  },
- "G06": {
-  "wiki": [
-   "Jazz (Matisse)",
-   "Jazz (book)"
-  ],
-  "search": "Henri Matisse Jazz 1947 book cut-outs"
- },
- "G07": {
+ "CF01": {
   "wiki": [],
-  "nota": "Curaduría 1.1: imagen manual en assets/manual/G07.jpg"
+  "fuente": "Nora Fisch",
+  "url_original": "https://norafisch.com/wp-content/uploads/2018/01/Silvia-Gurfein-Halo-verones-Nuevas-conversaciones-en-la-era-de-plomo-Oil-on-canvas-74-x-52-cm-2024.jpg"
  },
- "H01": {
-  "wiki": [
-   "I and the Village"
-  ]
- },
- "H02": {
-  "wiki": [
-   "The Treachery of Images"
-  ]
- },
- "H03": {
-  "wiki": [
-   "Marilyn Diptych"
-  ]
- },
- "H04": {
-  "wiki": [
-   "Campbell's Soup Cans"
-  ]
- },
- "H05": {
+ "CF02": {
   "wiki": [],
-  "nota": "Curaduría 1.1: imagen manual en assets/manual/H05.jpg"
+  "fuente": "WikiArt",
+  "url_original": "https://uploads3.wikiart.org/00158/images/mark-rothko/1.jpg"
  },
- "H06": {
-  "wiki": [
-   "The Great Wave off Kanagawa"
-  ]
- },
- "I01": {
-  "wiki": [
-   "Fountain (Duchamp)"
-  ]
- },
- "I02": {
-  "wiki": [
-   "One and Three Chairs"
-  ]
- },
- "I03": {
+ "CF03": {
   "wiki": [],
-  "nota": "Curaduría 1.1: imagen manual en assets/manual/I03.jpg"
+  "fuente": "WikiArt",
+  "url_original": "https://uploads4.wikiart.org/images/helen-frankenthaler/mountains-and-sea-1962.jpg"
  },
- "I04": {
+ "CF04": {
   "wiki": [],
-  "nota": "Curaduría 1.1: imagen manual en assets/manual/I04.jpg"
+  "fuente": "WikiArt",
+  "url_original": "https://uploads7.wikiart.org/images/agnes-martin/night-sea-1963.jpg"
  },
- "J01": {
+ "GS01": {
   "wiki": [],
-  "search": "Donald Judd Untitled Stack 1967",
-  "nota": "Donald Judd, \"Untitled (Stack)\" no tiene artículo propio; buscar en Wikimedia Commons o el sitio de la Judd Foundation."
+  "fuente": "Jorge Mara – La Ruche",
+  "url_original": "https://www.jorgemaralaruche.com.ar/sitiodos/wp-content/uploads/2014/08/2-Sarah-Grilo-The-Hard-Way-Oil-on-Canvas-114x114-cm-1968.jpg"
  },
- "J02": {
+ "GS02": {
   "wiki": [],
-  "nota": "Curaduría 1.1: imagen manual en assets/manual/J02.jpg"
+  "fuente": "Barro",
+  "url_original": "https://barro.cc/images/Image/2541/original/BA_BOZ-2.jpg"
  },
- "J03": {
-  "wiki": [
-   "Sky Cathedral"
-  ],
-  "search": "Louise Nevelson Sky Cathedral 1958",
-  "nota": "Louise Nevelson, \"Sky Cathedral\" no tiene artículo propio; buscar en Wikimedia Commons o MoMA."
- },
- "J04": {
+ "GS03": {
   "wiki": [],
-  "nota": "Curaduría 1.1: imagen manual en assets/manual/J04.jpg"
+  "fuente": "Nora Fisch",
+  "url_original": "https://norafisch.com/wp-content/uploads/2017/10/Fernanda-Laguna_Gracias_Acrylic-and-glitter-on-canvas-with-cut-outs_104-x-80n-cm_2025.jpg"
  },
- "J05": {
+ "GS04": {
   "wiki": [],
-  "nota": "Curaduría 1.1: imagen manual en assets/manual/J05.jpg"
+  "fuente": "WikiArt",
+  "url_original": "https://uploads6.wikiart.org/images/joan-mitchell/ladybug-1957.jpg"
+ },
+ "GS05": {
+  "wiki": [],
+  "fuente": "WikiArt",
+  "url_original": "https://uploads1.wikiart.org/images/gerhard-richter/abstract-painting-780-1.jpg"
+ },
+ "GS06": {
+  "wiki": [],
+  "fuente": "WikiArt",
+  "url_original": "https://uploads8.wikiart.org/images/cy-twombly/leda-and-the-swan.jpg"
+ },
+ "GS07": {
+  "wiki": [],
+  "fuente": "Wikimedia Commons",
+  "url_original": ""
+ },
+ "MA01": {
+  "wiki": [],
+  "fuente": "WikiArt",
+  "url_original": ""
+ },
+ "MA02": {
+  "wiki": [],
+  "fuente": "WikiArt",
+  "url_original": ""
+ },
+ "MA03": {
+  "wiki": [],
+  "fuente": "Ruth Benzacar",
+  "url_original": "https://ruthbenzacar.com/wp-content/uploads/2016/11/chiachiogiannone_criollos-en-la-piscina2018_baja.jpg"
+ },
+ "MA04": {
+  "wiki": [],
+  "fuente": "Ruth Benzacar",
+  "url_original": "https://ruthbenzacar.com/wp-content/uploads/2017/02/0000016335_S_.jpg"
+ },
+ "MA05": {
+  "wiki": [],
+  "fuente": "Cecilia Brunson Projects",
+  "url_original": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/cbprojects/images/view/e7c76c0e22a2b8c1c9d639aae8a8b875j.jpg"
+ },
+ "MA06": {
+  "wiki": [],
+  "fuente": "Piedras",
+  "url_original": "https://piedrasgaleria.com/wp-content/uploads/2022/03/DSC8050.jpg"
+ },
+ "MA07": {
+  "wiki": [],
+  "fuente": "WikiArt",
+  "url_original": ""
+ },
+ "MA08": {
+  "wiki": [],
+  "fuente": "Whitney Museum of American Art",
+  "url_original": ""
+ },
+ "MA09": {
+  "wiki": [],
+  "fuente": "WikiArt (MoMA)",
+  "url_original": ""
+ },
+ "MA10": {
+  "wiki": [],
+  "fuente": "WikiArt",
+  "url_original": "https://uploads0.wikiart.org/images/anni-albers/intersecting-1962.jpg"
+ },
+ "MA11": {
+  "wiki": [],
+  "fuente": "Wikimedia Commons",
+  "url_original": ""
+ },
+ "FI01": {
+  "wiki": [],
+  "fuente": "WikiArt",
+  "url_original": ""
+ },
+ "FI02": {
+  "wiki": [],
+  "fuente": "Ruth Benzacar",
+  "url_original": "https://ruthbenzacar.com/wp-content/uploads/2026/04/Captura-de-Pantalla-2026-04-09-a-las-13.25.44.png"
+ },
+ "FI03": {
+  "wiki": [],
+  "fuente": "Piedras",
+  "url_original": "https://piedrasgaleria.com/wp-content/uploads/2022/06/CarrieBencardino_FeriaMaterial3.jpg"
+ },
+ "FI04": {
+  "wiki": [],
+  "fuente": "Piedras",
+  "url_original": "https://piedrasgaleria.com/wp-content/uploads/2022/03/H3A0763.jpg"
+ },
+ "FI05": {
+  "wiki": [],
+  "fuente": "Wikipedia",
+  "url_original": ""
+ },
+ "FI06": {
+  "wiki": [],
+  "fuente": "WikiArt",
+  "url_original": "https://uploads5.wikiart.org/images/edward-hopper/morning-sun.jpg"
+ },
+ "FI07": {
+  "wiki": [],
+  "fuente": "WikiArt",
+  "url_original": "https://uploads3.wikiart.org/images/alex-katz/the-red-smile.jpg"
+ },
+ "FO01": {
+  "wiki": [],
+  "fuente": "Jorge Mara – La Ruche",
+  "url_original": "https://www.jorgemaralaruche.com.ar/sitiodos/wp-content/uploads/2014/08/Horacio-Coppola-Corrientes-1936.jpg"
+ },
+ "FO02": {
+  "wiki": [],
+  "fuente": "Rolf Art",
+  "url_original": "https://rolfart.com.ar/wp-content/uploads/2024/11/Adriana-Lestido-Madres-e-hijas-Eugenia-y-Violeta-1995-1998-gelatina-de-plata-sobre-papel-fibra-dimensiones-variables-15AP-5.jpg"
+ },
+ "FO03": {
+  "wiki": [],
+  "fuente": "Rolf Art",
+  "url_original": "https://rolfart.com.ar/wp-content/uploads/2025/10/Santiago-Porter-Bruma-I-Ministerio-I-2007-fotografia-impresion-con-tintas-perdurables-sobre-papel-fotografico-127-x-1586-cm-edicion-5-2AP.jpg"
+ },
+ "FO04": {
+  "wiki": [],
+  "fuente": "artblart.com",
+  "url_original": ""
+ },
+ "FO05": {
+  "wiki": [],
+  "fuente": "WikiArt",
+  "url_original": ""
+ },
+ "FO06": {
+  "wiki": [],
+  "fuente": "WikiArt",
+  "url_original": "https://uploads4.wikiart.org/images/william-eggleston/the-red-ceiling-greenwood-mississippi-1973.jpg"
+ },
+ "PA01": {
+  "wiki": [],
+  "fuente": "Barro",
+  "url_original": "https://barro.cc/images/Image/2666/original/BA_DUVILLE-8.jpg"
+ },
+ "PA02": {
+  "wiki": [],
+  "fuente": "WikiArt (Sursock Museum)",
+  "url_original": ""
+ },
+ "PA03": {
+  "wiki": [],
+  "fuente": "WikiArt",
+  "url_original": "https://uploads7.wikiart.org/images/peter-doig/white-canoe-1991.jpg"
+ },
+ "IM01": {
+  "wiki": [],
+  "fuente": "WikiArt",
+  "url_original": ""
+ },
+ "IM02": {
+  "wiki": [],
+  "fuente": "Jorge Mara – La Ruche",
+  "url_original": "https://www.jorgemaralaruche.com.ar/sitiodos/wp-content/uploads/2014/08/Grete-Stern-Sueno-Nro1-Articulos-electricos-para-el-hogar-1950.jpg"
+ },
+ "IM03": {
+  "wiki": [],
+  "fuente": "Barro",
+  "url_original": "https://barro.cc/images/Image/111/original/ba-pombo-inundacion.jpg"
+ },
+ "IM04": {
+  "wiki": [],
+  "fuente": "WikiArt",
+  "url_original": "https://uploads4.wikiart.org/images/rene-magritte/the-empire-of-lights-1954(1).jpg"
+ },
+ "IM05": {
+  "wiki": [],
+  "fuente": "WikiArt",
+  "url_original": "https://uploads6.wikiart.org/images/remedios-varo/creation-of-the-birds.jpg"
+ },
+ "CO01": {
+  "wiki": [],
+  "fuente": "jorgemacchi.com",
+  "url_original": ""
+ },
+ "CO02": {
+  "wiki": [],
+  "fuente": "Museo Reina Sofía",
+  "url_original": ""
+ },
+ "CO03": {
+  "wiki": [],
+  "fuente": "Wikimedia Commons",
+  "url_original": ""
+ },
+ "CO04": {
+  "wiki": [],
+  "fuente": "WikiArt",
+  "url_original": "https://uploads5.wikiart.org/images/yayoi-kusama/pumpkin-1990.jpg"
  }
 }
