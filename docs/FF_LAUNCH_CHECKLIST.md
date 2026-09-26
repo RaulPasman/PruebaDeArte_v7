@@ -17,6 +17,11 @@
 - [ ] Tocar "No estoy seguro": pasa al siguiente duelo normalmente.
 - [ ] A mitad del test, recargar la página: aparece "Continuar donde quedé" y sigue en el mismo duelo.
 - [ ] En la planilla, la persona que retomó sigue en una sola fila (no aparece duplicada).
+- [ ] Aparece "¿La tendrías en tu casa?" 3 veces (cerca de los duelos 6, 14 y 20).
+- [ ] Hacer el test 2–3 veces: en alguna aparece "¿Cuál de estas dos descripciones se parece más
+      a vos?" antes del resultado (le toca a la mitad, al azar).
+- [ ] En la planilla, hoja Sesiones: se llenan `la_tendria_en_casa`, `grupo_prueba_perfil` y
+      `prueba_perfil`. El mail trae el bloque "Para tu casa" y miniaturas de las obras.
 
 ## Piloto
 - [ ] 3 personas primero.

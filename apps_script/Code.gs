@@ -30,8 +30,11 @@ const COLS_SESIONES = [
   'session_id', 'inicio', 'actualizado', 'es_prueba', 'nombre', 'email', 'consentimiento',
   'dispositivo', 'estado', 'ultimo_paso', 'duelos_respondidos', 'perfil', 'matices',
   'ejes_principales', 'duracion_min', 'acierto_1a5', 'descubrio_algo', 'quiere_ver_obras',
-  'comentario', 'reflexion', 'mail_enviado', 'respuestas_json'
+  'comentario', 'reflexion', 'mail_enviado', 'respuestas_json',
+  // Agregadas el 26/09/2026 (siempre al final, para no correr las columnas viejas):
+  'grupo_prueba_perfil', 'prueba_perfil', 'la_tendria_en_casa'
 ];
+const TEXTO_PRUEBA_PERFIL = { own: 'eligió el suyo', other: 'eligió el otro', none: 'ninguna de las dos' };
 const COLS_EVENTOS = [
   'fecha', 'session_id', 'es_prueba', 'tipo', 'paso', 'duelo', 'obra_a', 'obra_b',
   'eleccion', 'ms', 'detalle'
@@ -104,7 +107,9 @@ function registrarEvento_(ss, d) {
 }
 
 function actualizarSesion_(ss, d) {
-  const sh = ss.getSheetByName(HOJA_SESIONES) || prepararHoja_(ss, HOJA_SESIONES, COLS_SESIONES);
+  let sh = ss.getSheetByName(HOJA_SESIONES) || prepararHoja_(ss, HOJA_SESIONES, COLS_SESIONES);
+  // Si se agregaron columnas nuevas al código, completa los encabezados que falten.
+  if (sh.getLastColumn() < COLS_SESIONES.length) sh = prepararHoja_(ss, HOJA_SESIONES, COLS_SESIONES);
   const fila = buscarFila_(sh, d.session_id);
   const actual = fila ? leerFila_(sh, fila) : {};
   const u = { session_id: d.session_id, actualizado: new Date(), es_prueba: d.test ? 'sí' : '' };
@@ -115,6 +120,7 @@ function actualizarSesion_(ss, d) {
         inicio: new Date(), nombre: recortar_(d.name, 120), email: recortar_(d.email, 200),
         consentimiento: d.consent ? 'sí' : 'no', estado: 'iniciado', ultimo_paso: 'identificación',
         duelos_respondidos: 0,
+        grupo_prueba_perfil: d.pt_group ? 'sí' : 'no',
         dispositivo: d.device ? (d.device.mobile ? 'celular' : 'computadora') + ' ' + d.device.width + 'x' + d.device.height : ''
       });
       break;
@@ -131,8 +137,11 @@ function actualizarSesion_(ss, d) {
         matices: (d.nuances || []).join(' · '), ejes_principales: (d.axes || []).join(' · '),
         duracion_min: d.minutes == null ? '' : d.minutes,
         duelos_respondidos: (d.answers || []).length,
-        respuestas_json: recortar_(JSON.stringify({ answers: d.answers, questions: d.questions, values: d.values }), 45000)
+        respuestas_json: recortar_(JSON.stringify({ answers: d.answers, questions: d.questions, values: d.values,
+          home_answers: d.home_answers, profile_test: d.profile_test }), 45000)
       });
+      if (d.home_answers && d.home_answers.length) u.la_tendria_en_casa = resumenCasa_(d.home_answers);
+      if (d.profile_test && d.profile_test.chose) u.prueba_perfil = textoPruebaPerfil_(d.profile_test);
       if (!actual.email && d.email) u.email = recortar_(d.email, 200);
       if (ENVIAR_MAIL_RESULTADO && !actual.mail_enviado) u.mail_enviado = enviarMail_(d, actual);
       break;
@@ -144,6 +153,14 @@ function actualizarSesion_(ss, d) {
       break;
     case 'reflection':
       u.reflexion = recortar_(d.text, 1500);
+      break;
+    case 'home':
+      // Se va acumulando por si la persona abandona antes del resultado; el resultado lo reescribe completo.
+      u.la_tendria_en_casa = recortar_((actual.la_tendria_en_casa ? actual.la_tendria_en_casa + ' · ' : '') +
+        d.work + ': ' + d.answer, 300);
+      break;
+    case 'profile_test':
+      u.prueba_perfil = textoPruebaPerfil_(d);
       break;
   }
   escribirFila_(sh, fila, Object.assign({}, actual, u));
@@ -231,9 +248,9 @@ function cuerpoMail_(d, nombre, primerNombre) {
     <tr><td style="padding:20px 36px 0;font:16px/1.7 Georgia,serif;color:#333">
       ${html_(d.narrative || '')}
     </td></tr>
-    ${d.home ? `<tr><td style="padding:24px 36px 0">
+    ${d.home_tip ? `<tr><td style="padding:24px 36px 0">
       <p style="font:12px Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#8a8a84;margin:0 0 10px">Para tu casa</p>
-      <div style="font:15px/1.65 Georgia,serif;color:#444">${html_(d.home)}</div>
+      <div style="font:15px/1.65 Georgia,serif;color:#444">${html_(d.home_tip)}</div>
     </td></tr>` : ''}
     <tr><td style="padding:6px 36px 0">
       <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
@@ -274,8 +291,8 @@ function pdfPerfilHtml_(d, nombre) {
     ${d.nuances && d.nuances.length ? '<p style="font:13px Arial,sans-serif;color:#666;margin:18px 0 0"><b style="color:#333">Con matices de</b> ' + html_(d.nuances.join(' · ')) + '</p>' : ''}
 
     <p style="font:17px/1.75 Georgia,serif;color:#333;margin:26px 0 0;max-width:520px">${html_(d.narrative || '')}</p>
-    ${d.home ? '<p style="font:12px Arial,sans-serif;letter-spacing:.14em;color:#8a8a84;margin:30px 0 8px">PARA TU CASA</p>' +
-      '<p style="font:15px/1.7 Georgia,serif;color:#444;margin:0;max-width:520px">' + html_(d.home) + '</p>' : ''}
+    ${d.home_tip ? '<p style="font:12px Arial,sans-serif;letter-spacing:.14em;color:#8a8a84;margin:30px 0 8px">PARA TU CASA</p>' +
+      '<p style="font:15px/1.7 Georgia,serif;color:#444;margin:0;max-width:520px">' + html_(d.home_tip) + '</p>' : ''}
 
     <div style="margin-top:30px">${bloqueObras_('Tu selección', d.selectionItems, d.selection, baseUrl, 80)}</div>
     <div style="margin-top:26px">${bloqueObras_('Para seguir explorando', d.recommendationItems, d.recommendations, baseUrl, 80)}</div>
@@ -284,6 +301,14 @@ function pdfPerfilHtml_(d, nombre) {
       Tu mirada no es una etiqueta. Es un punto de partida.
     </p>
   </body></html>`;
+}
+
+function resumenCasa_(home) {
+  const si = home.filter(h => h.answer === 'sí').length;
+  return si + ' de ' + home.length + ' sí (' + home.map(h => h.work + ': ' + h.answer).join(' · ') + ')';
+}
+function textoPruebaPerfil_(pt) {
+  return (TEXTO_PRUEBA_PERFIL[pt.chose] || pt.chose) + ' (suyo ' + pt.own + ' vs ' + pt.other + ')';
 }
 
 // ---------- utilidades de planilla ----------

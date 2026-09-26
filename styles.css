@@ -30,6 +30,13 @@
 .home-tip p{font:18px/1.7 Georgia,serif;max-width:820px;margin:0;color:#333}
 .work-info .why{font-size:12px;line-height:1.5;color:#555;margin:10px 0 0}
 
+/* --- "¿La tendrías en tu casa?" y prueba del perfil (antes del resultado) --- */
+.home-q-work{margin:0 auto 28px}.home-q-image{display:block;width:260px;max-width:100%;height:220px;object-fit:contain;margin:0 auto;background:#eee}
+.home-q .q-options{max-width:420px}.home-q .q-options button{text-align:center}
+.pt-options button{font:16px/1.6 Georgia,serif;padding:22px}
+.question .pt-none{background:transparent;color:#555;border:1px solid #bbb;margin:14px auto 0}.question .pt-none:hover{border-color:#111;color:#111;background:transparent}
+@media(max-width:800px){.home-q-image{height:180px}.pt-options button{font-size:15px;padding:16px}}
+
 /* --- Retomar un recorrido guardado --- */
 .resume{margin-top:28px}.resume p{font-size:16px;color:#333;margin:0}
 .resume-actions{display:flex;gap:10px;flex-wrap:wrap}.resume-actions button{margin-top:18px}

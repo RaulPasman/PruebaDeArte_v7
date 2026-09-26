@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Design System — Prueba de Arte</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+/* Estilos SOLO de esta página guía — no forman parte del design system en sí.
+   Todo lo que está dentro de .live-example usa exclusivamente clases reales de styles.css. */
+body{font-family:Arial,Helvetica,sans-serif}
+.guide{max-width:1100px;margin:0 auto;padding:60px 28px 140px}
+.guide-head{margin-bottom:70px}
+.guide-head .eyebrow{margin-bottom:14px}
+.guide-head h1{font:500 54px/1.05 Georgia,serif;letter-spacing:-.03em;margin:0 0 16px}
+.guide-head p{font:16px/1.6 Arial;color:#555;max-width:640px}
+.g-section{margin:0 0 90px;padding-top:50px;border-top:1px solid #d9d9d3}
+.g-section:first-of-type{border-top:0}
+.g-section h2{font:500 13px Arial;letter-spacing:.14em;text-transform:uppercase;color:#171717;margin:0 0 6px}
+.g-section .g-desc{font:14px/1.6 Arial;color:#777;max-width:600px;margin:0 0 32px}
+.swatches{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:16px}
+.swatch{border:1px solid #e4e4df}
+.swatch i{display:block;height:80px}
+.swatch div{padding:10px 12px;background:#fff}
+.swatch code{display:block;font:11px/1.4 'Courier New',monospace;color:#171717}
+.swatch span{display:block;font:10px Arial;color:#888;margin-top:2px}
+.type-row{padding:22px 0;border-bottom:1px solid #eee}
+.type-row:last-child{border-bottom:0}
+.type-row .label{font:10px Arial;letter-spacing:.12em;text-transform:uppercase;color:#999;margin-bottom:10px}
+.btn-row,.comp-row{display:flex;flex-wrap:wrap;gap:16px;align-items:center;margin-bottom:16px}
+.comp-block{margin-bottom:40px}
+.comp-block>.label{font:10px Arial;letter-spacing:.12em;text-transform:uppercase;color:#999;margin-bottom:14px;display:block}
+.mini-duel{display:grid;grid-template-columns:1fr 1fr;gap:16px;max-width:560px}
+.mini-duel .image-wrap{aspect-ratio:4/3}
+.mini-work{max-width:300px}
+code.inline{background:#f1f0ea;padding:2px 5px;font:12px 'Courier New',monospace}
+.axis-demo{max-width:360px}
+.pill-demo .matices{margin-top:0}
+.err-demo{max-width:380px}
+</style>
+</head>
+<body>
+<div class="guide">
+
+  <div class="guide-head">
+    <div class="eyebrow">DESIGN SYSTEM · PRUEBA DE ARTE</div>
+    <h1>Sala de museo,<br>no app de SaaS.</h1>
+    <p>Esta página usa el <code class="inline">styles.css</code> real del proyecto — no es una
+    copia. Si cambiás el CSS de la app, esta guía se actualiza sola. Ver <code class="inline">docs/DESIGN_SYSTEM.md</code>
+    para la referencia escrita completa.</p>
+  </div>
+
+  <!-- COLOR -->
+  <div class="g-section">
+    <h2>Color</h2>
+    <p class="g-desc">Paleta monocromática cálida. Un solo acento: negro sólido. El rojo apagado
+    está reservado exclusivamente para errores de formulario.</p>
+    <div class="swatches">
+      <div class="swatch"><i style="background:#f3f3ef"></i><div><code>--bg</code><span>#f3f3ef</span></div></div>
+      <div class="swatch"><i style="background:#ffffff"></i><div><code>--paper</code><span>#ffffff</span></div></div>
+      <div class="swatch"><i style="background:#171717"></i><div><code>--ink</code><span>#171717</span></div></div>
+      <div class="swatch"><i style="background:#111111"></i><div><code>--dark</code><span>#111111</span></div></div>
+      <div class="swatch"><i style="background:#777777"></i><div><code>--muted</code><span>#777777</span></div></div>
+      <div class="swatch"><i style="background:#9a9a95"></i><div><code>--soft</code><span>#9a9a95</span></div></div>
+      <div class="swatch"><i style="background:#d9d9d3"></i><div><code>--line</code><span>#d9d9d3</span></div></div>
+      <div class="swatch"><i style="background:#b3261e"></i><div><code>error</code><span>#b3261e — sólo errores</span></div></div>
+    </div>
+  </div>
+
+  <!-- TIPOGRAFÍA -->
+  <div class="g-section">
+    <h2>Tipografía</h2>
+    <p class="g-desc">Georgia para todo lo que el usuario tiene que sentir. Arial para todo lo
+    que el sistema le dice. Nunca se mezclan dentro del mismo bloque.</p>
+
+    <div class="type-row">
+      <div class="label">H1 de pantalla · .intro h1</div>
+      <div class="intro" style="padding:0;min-height:auto;max-width:none;display:block"><h1 style="margin:0">Descubrí cómo mirás.</h1></div>
+    </div>
+    <div class="type-row">
+      <div class="label">H1 de resultado · .result h1</div>
+      <div class="result" style="padding:0;max-width:none"><h1 style="margin:0">El equilibrador</h1></div>
+    </div>
+    <div class="type-row">
+      <div class="label">Título de sección · .section-head h2</div>
+      <div class="section-head" style="margin:0"><h2>Tu selección</h2></div>
+    </div>
+    <div class="type-row">
+      <div class="label">Cuerpo largo / narrativa · .narrative</div>
+      <p class="narrative" style="margin:0;max-width:560px">Tu recorrido sugiere una mirada que se apoya especialmente en dominante, estructurado y abstracto.</p>
+    </div>
+    <div class="type-row">
+      <div class="label">Eyebrow · .eyebrow</div>
+      <div class="eyebrow" style="margin:0">ANTES DE EMPEZAR</div>
+    </div>
+    <div class="type-row">
+      <div class="label">Micro / metadato · .micro</div>
+      <div class="micro" style="margin:0">2 minutos · 24 obras · sin respuestas correctas</div>
+    </div>
+  </div>
+
+  <!-- BOTONES -->
+  <div class="g-section">
+    <h2>Botones</h2>
+    <p class="g-desc">Uno solo primario por pantalla. El secundario nunca cambia de fondo, sólo
+    de borde y color de texto.</p>
+    <div class="comp-block">
+      <span class="label">Primario</span>
+      <div class="btn-row"><button style="border:0;background:#111;color:#fff;padding:14px 23px">Comenzar el test</button></div>
+    </div>
+    <div class="comp-block">
+      <span class="label">Secundario / outline</span>
+      <div class="actions" style="margin:0;justify-content:flex-start">
+        <button>Ambas</button><button>Ninguna</button>
+      </div>
+    </div>
+    <div class="comp-block">
+      <span class="label">Opción de encuesta — normal / seleccionada</span>
+      <div class="fb-opts" style="margin:0">
+        <button>3</button><button class="on">4</button><button>5</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- TARJETAS DE OBRA -->
+  <div class="g-section">
+    <h2>Tarjetas de obra</h2>
+    <p class="g-desc">Sin borde ni sombra. El placeholder nunca revela el título dentro de un
+    duelo (rompería el ejercicio "a ciegas").</p>
+    <div class="comp-block">
+      <span class="label">Duelo (dos obras enfrentadas)</span>
+      <div class="mini-duel">
+        <div class="art-card">
+          <div class="image-wrap image-fallback">
+            <div class="image-fallback-label" style="display:flex"><span>Imagen no disponible</span></div>
+          </div>
+          <div class="card-meta"><span>Obra A</span><strong>Elegir</strong></div>
+        </div>
+        <div class="art-card">
+          <div class="image-wrap" style="background:#cfcfc6"></div>
+          <div class="card-meta"><span>Obra B</span><strong>Elegir</strong></div>
+        </div>
+      </div>
+    </div>
+    <div class="comp-block">
+      <span class="label">Tarjeta de galería · .work-card</span>
+      <div class="mini-work work-card">
+        <div class="work-img"><div style="width:100%;height:100%;background:#cfcfc6"></div></div>
+        <div class="work-info"><strong>Nighthawks</strong><span>Edward Hopper · 1942</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FORMULARIOS -->
+  <div class="g-section">
+    <h2>Formularios</h2>
+    <p class="g-desc">Inputs sin caja, subrayados. El foco es un contorno negro, nunca el azul
+    por defecto del navegador.</p>
+    <div class="comp-block err-demo">
+      <div class="form" style="margin:0">
+        <label>Email<input placeholder="tu@email.com" value="raul@ejemplo.com"></label>
+        <p class="form-error">Revisá el mail: lo necesitamos para enviarte tu resultado.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- PROGRESO Y EJES -->
+  <div class="g-section">
+    <h2>Progreso y visualización de ejes</h2>
+    <p class="g-desc">Líneas finas, nunca barras gruesas ni colores por categoría — como una
+    ficha técnica de museo.</p>
+    <div class="comp-block">
+      <span class="label">Barra de progreso · .progress</span>
+      <div class="progress" style="max-width:400px"><i style="width:62%"></i></div>
+    </div>
+    <div class="comp-block axis-demo">
+      <span class="label">Eje de resultado · .axis</span>
+      <div class="axis">
+        <div><span>Íntimo</span><span>Dominante</span></div>
+        <div class="bar"><i style="left:72%"></i></div>
+      </div>
+    </div>
+    <div class="comp-block pill-demo">
+      <span class="label">Matices · .matices</span>
+      <div class="matices"><span>Con matices de</span><em>El coleccionista de atmósferas</em><em>El imaginador</em></div>
+    </div>
+  </div>
+
+  <!-- DIVISORES Y ESQUINAS -->
+  <div class="g-section">
+    <h2>Divisores y esquinas</h2>
+    <p class="g-desc">Cero <code class="inline">border-radius</code> en todo el sistema, fuera de
+    los puntos circulares de los ejes. Las secciones se separan con una línea de 1px, nunca con
+    sombra.</p>
+    <div style="border-top:1px solid var(--line);padding-top:24px;max-width:500px">
+      <span style="font:11px Arial;color:#888">— así se ve un divisor de sección —</span>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

@@ -39,6 +39,9 @@ tools/evaluacion_vectores.py       → planilla y comparación para la doble eva
 validate.py                        → chequeo de coherencia de los datos (sin cantidades fijas)
 apps_script/Code.gs                → receptor en Google Sheets + envío de mail con PDF
 docs/                               → toda la documentación de decisiones y guías paso a paso
+docs/DESIGN_SYSTEM.md              → sistema visual (colores, tipografía, componentes, qué evitar).
+                                     Leelo antes de agregar o cambiar cualquier pantalla o el mail.
+DESIGN_SYSTEM.html                 → la misma guía, renderizada con el styles.css real
 assets/artworks/                   → imágenes descargadas (.jpg)
 assets/manual/                     → imágenes que Raúl carga a mano cuando el script no las encuentra
 SIMULADOR_MOTOR.html               → corre miles de recorridos simulados para medir el motor de perfiles
@@ -156,24 +159,31 @@ REVISAR_IMAGENES.html              → se genera solo, grilla visual de las 60 i
   - Texto propio por perfil (`description`), "por qué te recomendamos esta obra"
     (`recommendReason()`), sección "Para tu casa" (`home`) en el resultado, el mail y el PDF.
   - Precarga de imágenes del siguiente duelo fijo.
+- **Decisiones de Raúl (26/09/2026) sobre la revisión, sección 9 y 10:**
+  - "¿La tendrías en tu casa?" **sí, 3 veces** (`HOME_SLOTS=[6,14,20]`, `askHome()`): en la primera
+    elección A/B desde esos duelos. No suma al perfil. Evento `home`; columna `la_tendria_en_casa`.
+  - Prueba "tu perfil vs uno al azar" **sí, a la mitad** (`state.ptGroup`, `profileTest()`):
+    antes del resultado, dos descripciones sin nombre (la suya + otra al azar) y "Ninguna".
+    Evento `profile_test`; columnas `grupo_prueba_perfil` y `prueba_perfil`.
+  - Duelos repetidos para medir consistencia: **no**.
+  - Obras reales de galerías con precio: **después del piloto**.
+  - En el payload de `result`: `home_tip` = consejo "Para tu casa" (texto del perfil) y
+    `home_answers` = respuestas a "¿La tendrías en tu casa?". No confundirlos (ya pasó).
   - `validate.py` reescrito (antes tenía los nombres de ejes corruptos y exigía 60/24 exactos).
 
 **A medio camino:**
-- Imágenes en el mail vinculadas al perfil: código listo, falta que Raúl publique el sitio
-  (GitHub Pages; al 25/09/2026 la URL `raulpasman.github.io/PruebaDeArte_v7` da 404) y complete
-  `imagesBaseUrl`.
-- `apps_script/Code.gs`: Raúl ya publicó la versión nueva (25/09/2026); la URL `/exec` no cambió.
-- El repo ya es público (Raúl lo cambió el 25/09/2026). Falta activar GitHub Pages
-  (Settings → Pages → Deploy from a branch → main / root) y completar `imagesBaseUrl`.
+- `apps_script/Code.gs` cambió otra vez el 26/09/2026 (columnas nuevas + `home_tip`): Raúl tiene
+  que pegarlo y publicar *New version*. Las 3 columnas nuevas se agregan solas a la hoja
+  Sesiones con el primer envío. Probado con una planilla simulada (mock) en el navegador.
+- **Sitio publicado** (25/09/2026): https://raulpasman.github.io/PruebaDeArte_v7/ (GitHub Pages,
+  repo público, rama main / root). `imagesBaseUrl` ya apunta a `.../assets/artworks/`.
 
 **Pendiente — priorizar en este orden:**
 1. Doble evaluación de vectores (`tools/evaluacion_vectores.py`, planilla ya generada). Después,
    recalcular, revisar D10/D16 y correr el simulador.
 2. **Piloto moderado con 3–5 personas**; medir la duración real (la portada promete 5–8 min, la
    revisión estima 10–14).
-3. Decisiones de Raúl todavía abiertas de la revisión: "¿La tendrías en tu casa?" en varios
-   duelos, obras reales con rango de precio, duelos repetidos para medir consistencia, prueba
-   "tu perfil vs uno al azar", hosting privado vs GitHub Pages público.
+3. Después del piloto: obras reales de galerías con rango de precio (Raúl consigue galerías).
 4. P2 de la revisión (sin arrancar): imagen compartible, PDF editorial de 3–4 páginas,
    contraste de textos grises chicos, refactor del código en funciones de una línea.
 
