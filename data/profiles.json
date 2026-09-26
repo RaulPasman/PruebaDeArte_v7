@@ -12,7 +12,9 @@
       "E6 Cotidiano↔Imaginario": 0.2,
       "E7 Íntimo↔Dominante": 0.7,
       "E8 Transparente↔Conceptual": 0
-    }
+    },
+    "description": "Te atraen las obras que crean un clima antes que las que cuentan algo o gritan. Luz tenue, horizontes, silencios, colores que se funden: preferís una imagen que se deja habitar de a poco a una que te impacta de golpe. Lo estridente o lo demasiado explicado tiende a dejarte afuera.",
+    "home": "Buscá obras de paleta acotada y bordes suaves (paisajes, fotografía de luz, abstracción tranquila) para ambientes donde querés bajar un cambio, como el dormitorio o un rincón del living. Rinden más con luz natural y aire alrededor: una sola obra mediana en una pared despejada funciona mejor que varias juntas."
   },
   {
     "id": "P02",
@@ -27,7 +29,9 @@
       "E6 Cotidiano↔Imaginario": 0.1,
       "E7 Íntimo↔Dominante": 0.7,
       "E8 Transparente↔Conceptual": 0
-    }
+    },
+    "description": "Lo que te engancha es cómo está hecha la obra: la textura, el grosor de la pintura, el material, las marcas de la mano. Una obra plana y prolija te dice menos que una en la que se ve el proceso. Te dan ganas de mirar las obras de cerca, casi de tocarlas.",
+    "home": "Pensá en obras con relieve o técnica mixta: textiles, cerámica, óleos con empaste, collage, escultura chica. Iluminalas de costado, con una luz que marque la textura, y ubicalas donde se puedan mirar de cerca: un pasillo, un escritorio, al lado de un sillón de lectura."
   },
   {
     "id": "P03",
@@ -42,7 +46,9 @@
       "E6 Cotidiano↔Imaginario": 0.1,
       "E7 Íntimo↔Dominante": 0.4,
       "E8 Transparente↔Conceptual": 0
-    }
+    },
+    "description": "Te atraen las obras donde hay un orden y algo que lo rompe: una estructura clara con un gesto libre, una composición calculada con un detalle inesperado. No te quedás en los extremos: lo muy rígido te aburre y lo muy caótico te cansa.",
+    "home": "Te van a funcionar obras con una estructura legible y un punto de tensión, como abstracción con gesto o fotografía de composición fuerte. Son buenas para los espacios de todos los días (living, comedor) porque sostienen la mirada sin agotarla. Probá combinar en la misma pared una obra más ordenada y otra más libre."
   },
   {
     "id": "P04",
@@ -57,7 +63,9 @@
       "E6 Cotidiano↔Imaginario": 0.2,
       "E7 Íntimo↔Dominante": 0.7,
       "E8 Transparente↔Conceptual": 0
-    }
+    },
+    "description": "Buscás obras que te sacudan: color saturado, gesto, movimiento, contraste. Lo sutil te puede resultar tibio; preferís algo que se imponga en el espacio y te haga reaccionar. La energía de la obra te importa más que su tema.",
+    "home": "Una obra grande y de color fuerte puede ser el centro de un ambiente: elegí una pared protagonista (la del sillón, la de la mesa) y dejá el resto más neutro para que respire. Abstracción gestual, pintura expresiva, gráfica de alto contraste. Evitá rodearla de otras obras que compitan con ella."
   },
   {
     "id": "P05",
@@ -72,7 +80,9 @@
       "E6 Cotidiano↔Imaginario": -0.1,
       "E7 Íntimo↔Dominante": 0.6,
       "E8 Transparente↔Conceptual": -0.2
-    }
+    },
+    "description": "Te atraen las obras en las que reconocés algo: personas, objetos, escenas, lugares. Te interesa cómo el arte mira la vida común y la vuelve extraña o memorable. Lo muy abstracto o muy conceptual te puede dejar con ganas de algo a qué agarrarte.",
+    "home": "Fotografía, pintura figurativa, retratos, escenas urbanas o de interiores. Funcionan muy bien en cocinas, comedores y lugares de encuentro, porque invitan a conversar. Una serie de obras chicas de un mismo artista puede armar un relato en la pared."
   },
   {
     "id": "P06",
@@ -87,7 +97,9 @@
       "E6 Cotidiano↔Imaginario": 0.9,
       "E7 Íntimo↔Dominante": 0.7,
       "E8 Transparente↔Conceptual": 0.5
-    }
+    },
+    "description": "Te atraen las obras que abren otro mundo: símbolos, sueños, escenas que no podrían pasar, imágenes que admiten varias lecturas. Preferís una obra que te deje preguntas a una que se explique sola. Lo puramente decorativo o documental te dice poco.",
+    "home": "Buscá obras con algo de misterio: surrealismo, ilustración, pintura con símbolos, fotografía construida. Rinden en lugares donde uno se detiene (un estudio, un rincón de lectura, el dormitorio) más que en lugares de paso. Una obra rara en un ambiente sobrio se vuelve tema de conversación."
   },
   {
     "id": "P07",
@@ -102,7 +114,9 @@
       "E6 Cotidiano↔Imaginario": 0,
       "E7 Íntimo↔Dominante": 0.4,
       "E8 Transparente↔Conceptual": 0.1
-    }
+    },
+    "description": "Te atraen el orden, la geometría, la proporción y el ritmo. Disfrutás las obras en las que cada elemento está en su lugar y la composición se puede recorrer como un plano. El desborde y lo emocional explícito te interesan menos que la precisión.",
+    "home": "Abstracción geométrica, obra gráfica, fotografía de arquitectura, arte óptico, series que se repiten. Quedan muy bien en ambientes de líneas limpias y ayudan a ordenar una pared: probá colgarlas alineadas, con la misma separación o en grilla, con marcos finos y simples."
   },
   {
     "id": "P08",
@@ -117,7 +131,9 @@
       "E6 Cotidiano↔Imaginario": 0.5,
       "E7 Íntimo↔Dominante": 0.6,
       "E8 Transparente↔Conceptual": 0.9
-    }
+    },
+    "description": "Te interesa lo que una obra piensa más que lo que muestra. Te enganchan las obras que plantean una pregunta, juegan con el lenguaje o cambian el sentido de un objeto común. No necesitás que sea linda: necesitás que te haga pensar.",
+    "home": "Obras con texto, objetos intervenidos, fotografía conceptual, piezas chicas con una idea fuerte. Funcionan bien en lugares de trabajo o de conversación, como un escritorio o una biblioteca. Una obra conceptual pide contexto: guardá la historia del artista para poder contarla."
   },
   {
     "id": "P09",
@@ -132,7 +148,9 @@
       "E6 Cotidiano↔Imaginario": 0.7,
       "E7 Íntimo↔Dominante": 0.8,
       "E8 Transparente↔Conceptual": 0.6
-    }
+    },
+    "description": "Te atraen la ruptura, el humor y las soluciones poco convencionales: obras que te sorprenden, te hacen reír o te descolocan. Te aburre lo previsible, aunque esté impecablemente hecho. Preferís una obra que genere reacción antes que consenso.",
+    "home": "Buscá piezas con humor o con un giro: collage, objetos, pop, obras que mezclan técnicas. Se lucen en lugares inesperados (la entrada, la cocina, el baño) y en paredes mixtas que combinan formatos y estilos. No hace falta que combinen con el sillón."
   },
   {
     "id": "P10",
@@ -147,6 +165,8 @@
       "E6 Cotidiano↔Imaginario": 0,
       "E7 Íntimo↔Dominante": 0,
       "E8 Transparente↔Conceptual": 0
-    }
+    },
+    "description": "Tus elecciones no se concentran en un solo lenguaje: te atrajeron obras muy distintas entre sí. Eso no es falta de gusto, es amplitud. Todavía estás en modo exploración, y cualquier camino puede abrirte algo nuevo.",
+    "home": "Una pared tipo \"salón\", con obras distintas en tamaño y técnica, te va a representar mejor que una sola pieza. Empezá por obras chicas y accesibles (gráfica, fotografía, ediciones) y dejá que la colección se defina con el tiempo."
   }
 ]

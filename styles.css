@@ -25,6 +25,11 @@
 @media(max-width:500px){.feedback{margin:40px 0;padding:26px 18px}.fb-opts button{flex:1;min-width:0;padding:10px 6px}}
 @media print{.feedback{display:none}}
 
+/* --- Resultado: consejo para la casa y por qué se recomienda cada obra --- */
+.home-tip{padding:45px 0;border-bottom:1px solid var(--line)}.home-tip .eyebrow{margin-bottom:14px}
+.home-tip p{font:18px/1.7 Georgia,serif;max-width:820px;margin:0;color:#333}
+.work-info .why{font-size:12px;line-height:1.5;color:#555;margin:10px 0 0}
+
 /* --- Retomar un recorrido guardado --- */
 .resume{margin-top:28px}.resume p{font-size:16px;color:#333;margin:0}
 .resume-actions{display:flex;gap:10px;flex-wrap:wrap}.resume-actions button{margin-top:18px}

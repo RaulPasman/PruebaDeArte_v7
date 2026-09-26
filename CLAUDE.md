@@ -25,13 +25,18 @@ config.js                          → webhookUrl (Apps Script) e imagesBaseUrl 
 tracking.js                        → envía eventos a Apps Script (start/duel/question/result/feedback)
 data/
   artworks.json                    → 60 obras, 8 ejes (E1..E8) cada una, -1..1
-  duels.json                       → 16 duelos fijos + banco para 8 adaptativos
-  profiles.json                    → 10 perfiles (P01..P09 + P10 "explorador sin fronteras" = fallback)
+  duels.json                       → 16 duelos fijos (D01–D16) + banco de 16 (D17–D32) del que salen los 8 adaptativos
+  profiles.json                    → 10 perfiles (P01..P09 + P10 "explorador sin fronteras" = fallback),
+                                     con vector, description (texto del resultado) y home (consejo para la casa)
+  curaduria_1_1.json               → los 17 reemplazos de obras: borradores + estado (aplicada / falta_imagen)
   scoring.json                     → pesos del motor, los lee score() en app.js
   questions.json                   → 7 preguntas con señales por eje
   image_sources.json               → de dónde sacar la imagen de cada obra (título de Wikipedia, etc.)
   image_manifest.json              → se genera solo, registro de qué imagen se bajó y de dónde
 tools/fetch_images.py              → descarga imágenes de Wikimedia/Commons
+tools/aplicar_curaduria.py         → aplica reemplazos de curaduria_1_1.json a artworks.json (--listar para ver estado)
+tools/evaluacion_vectores.py       → planilla y comparación para la doble evaluación de vectores
+validate.py                        → chequeo de coherencia de los datos (sin cantidades fijas)
 apps_script/Code.gs                → receptor en Google Sheets + envío de mail con PDF
 docs/                               → toda la documentación de decisiones y guías paso a paso
 assets/artworks/                   → imágenes descargadas (.jpg)
@@ -50,9 +55,12 @@ REVISAR_IMAGENES.html              → se genera solo, grilla visual de las 60 i
   obras elegidas. La versión vieja promediaba y convergía siempre hacia "El equilibrador"
   (93% de usuarios al azar caían ahí). La versión nueva usa distancia coseno contra vectores de
   perfil *centrados* (restando el promedio de los perfiles, no el del catálogo). Validado con
-  `SIMULADOR_MOTOR.html`: 51% de acierto exacto, 87% contando perfil o matiz (el azar puro da
-  11%). **Antes de tocar el motor, corré el simulador y compará el output contra estos
-  números** — si algo baja, es una regresión.
+  `SIMULADOR_MOTOR.html`. **Referencia actual (25/09/2026, después de reclasificar familias,
+  aplicar A04/C05 y ampliar el banco adaptativo): ~61% de acierto exacto, ~92% contando perfil
+  o matiz, máximo ~15% de usuarios al azar en un mismo perfil** (el azar puro da 11%; objetivo
+  de la revisión ≥60% / ≥85%). La base anterior era ~53% / ~86%. **Antes de tocar el motor o
+  los datos, corré el simulador y compará contra estos números** — si algo baja, es una
+  regresión. Varía ±1–2 puntos entre corridas.
   - Debilidad conocida: "El explorador de la materia" (P02) se confunde con "El buscador de
     intensidad" (P04) porque sus vectores están cerca. Si volvés a tocar `profiles.json`, tené
     esto en cuenta.
@@ -116,7 +124,7 @@ REVISAR_IMAGENES.html              → se genera solo, grilla visual de las 60 i
 - Registro de datos en Sheets — funcionando de punta a punta.
 - Encuesta de cierre (feedback) — funcionando.
 - Mail cálido + PDF adjunto — funcionando, confirmado por Raúl.
-- Las 60 obras tienen imagen: 38 OK, 15 en baja resolución (obras con derechos, ver
+- Las 60 obras tienen imagen: 37 OK, 16 en baja resolución (obras con derechos, ver
   `data/image_manifest.json`) y 7 cargadas a mano en `assets/manual/`.
 - **Duelo en mobile**: la sección ocupa el alto de la ventana y las imágenes se achican para que
   las dos obras y los botones entren sin scrollear (verificado en 320×568, 360×640, 390×844 y
@@ -135,23 +143,41 @@ REVISAR_IMAGENES.html              → se genera solo, grilla visual de las 60 i
   y después del cambio (~53% principal, ~86% principal o matiz, máx. 18% con usuarios al azar).
 - **GitHub**: el repo `RaulPasman/PruebaDeArte_v7` ya es la fuente única; Raúl commitea desde
   GitHub Desktop (no hay `git` de línea de comandos instalado en su PC).
+- `config.js` tiene el `webhookUrl` real (verificado: responde "receptor activo").
+- **Revisión Integral (PDF de Raúl, 24/09/2026)** — lo aplicado:
+  - Familias reclasificadas (12 familias, ver `docs/art-taxonomy.md`).
+  - Curaduría 1.1: A04 → Hilma af Klint y C05 → Hockney aplicadas con imagen. Las otras 15 en
+    `data/curaduria_1_1.json` con borrador (vector, familia, texto), esperando imagen.
+  - Banco adaptativo real: 16 duelos (D17–D32). Todas las obras entran en algún duelo. D22 antes
+    nunca podía salir (usaba H02, ya vista en D04).
+  - Texto propio por perfil (`description`), "por qué te recomendamos esta obra"
+    (`recommendReason()`), sección "Para tu casa" (`home`) en el resultado, el mail y el PDF.
+  - Precarga de imágenes del siguiente duelo fijo.
+  - `validate.py` reescrito (antes tenía los nombres de ejes corruptos y exigía 60/24 exactos).
 
 **A medio camino:**
 - Imágenes en el mail vinculadas al perfil: código listo, falta que Raúl publique el sitio
   (GitHub Pages; al 25/09/2026 la URL `raulpasman.github.io/PruebaDeArte_v7` da 404) y complete
   `imagesBaseUrl`.
-- `config.js` en el repo tiene `webhookUrl` vacío: sin eso, lo publicado en GitHub Pages no
-  guarda nada en Sheets. Raúl tiene que pegar la URL `/exec` y commitear.
-- `apps_script/Code.gs` cambió (etiqueta "No estoy seguro" en la hoja Eventos): hay que pegarlo en
-  Apps Script y publicar como *New version* (ver arriba). Sin eso, esa columna queda vacía para
-  esas respuestas; no rompe nada.
-- 15 imágenes en baja resolución: decidir si se reemplazan antes del F&F (va con la curaduría).
+- `apps_script/Code.gs` cambió ("No estoy seguro" en Eventos + bloque "Para tu casa" en mail y
+  PDF): hay que pegarlo en Apps Script y publicar como *New version*. Sin eso no se rompe nada,
+  sólo no aparecen esas dos cosas.
+- Curaduría 1.1: faltan las 15 imágenes (guía para Raúl en `docs/CURADURIA_1_1.md`). Cuando las
+  pase: completar Título/Año en `curaduria_1_1.json`, `python tools/aplicar_curaduria.py --ids ...`,
+  `python tools/fetch_images.py --only ... --force`, mirar las imágenes y correr el simulador.
+  Ojo: `assets/manual/J04.jpg` es la foto vieja de Sherman; hay que reemplazarla.
+- I02 y J02 son la misma obra (Kosuth) hasta que se aplique J02 → Macchi. `validate.py` lo avisa.
 
 **Pendiente — priorizar en este orden:**
-1. **Curaduría 1.1**: aplicar los ~17 reemplazos de obras propuestos (ver conversación con
-   Raúl o pedirle el PDF "Revisión Integral" que ya tiene), reclasificar familias, doble
-   evaluación de vectores por dos personas. Bloqueado hasta tener ese PDF.
-2. Recién después: **piloto moderado con 3–5 personas**, y más adelante el F&F completo.
+1. Terminar curaduría 1.1 (imágenes) y la doble evaluación de vectores
+   (`tools/evaluacion_vectores.py`). Después, recalcular y correr el simulador.
+2. **Piloto moderado con 3–5 personas**; medir la duración real (la portada promete 5–8 min, la
+   revisión estima 10–14).
+3. Decisiones de Raúl todavía abiertas de la revisión: "¿La tendrías en tu casa?" en varios
+   duelos, obras reales con rango de precio, duelos repetidos para medir consistencia, prueba
+   "tu perfil vs uno al azar", hosting privado vs GitHub Pages público.
+4. P2 de la revisión (sin arrancar): imagen compartible, PDF editorial de 3–4 páginas,
+   contraste de textos grises chicos, refactor del código en funciones de una línea.
 
 **Cómo correr el simulador sin abrir el navegador a mano** (Edge viene con Windows):
 armar un HTML con `<base href="file:///C:/.../PruebaDeArte_v7/">` que cargue `app.js` y repita la

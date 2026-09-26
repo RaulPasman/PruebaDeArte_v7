@@ -128,8 +128,8 @@
   {
     "id": "D22",
     "a": "E06",
-    "b": "H02",
-    "rationale": "fotografía construida vs pintura conceptual"
+    "b": "B04",
+    "rationale": "fotografía construida vs gesto puro"
   },
   {
     "id": "D23",
@@ -142,5 +142,53 @@
     "a": "H06",
     "b": "I02",
     "rationale": "imagen gráfica y presencia vs idea explícita"
+  },
+  {
+    "id": "D25",
+    "a": "F02",
+    "b": "H01",
+    "rationale": "objeto y materia vs mundo imaginario pintado"
+  },
+  {
+    "id": "D26",
+    "a": "E07",
+    "b": "J02",
+    "rationale": "fotografía de calle vs objeto de ideas"
+  },
+  {
+    "id": "D27",
+    "a": "E04",
+    "b": "F06",
+    "rationale": "fotografía documental vs escultura dramática"
+  },
+  {
+    "id": "D28",
+    "a": "E02",
+    "b": "G05",
+    "rationale": "escena reconocible vs collage abstracto"
+  },
+  {
+    "id": "D29",
+    "a": "D04",
+    "b": "I03",
+    "rationale": "paisaje de color vs gesto conceptual"
+  },
+  {
+    "id": "D30",
+    "a": "C04",
+    "b": "G03",
+    "rationale": "figuración narrativa vs collage abstracto"
+  },
+  {
+    "id": "D31",
+    "a": "B06",
+    "b": "J04",
+    "rationale": "imaginario simbólico vs percepción óptica"
+  },
+  {
+    "id": "D32",
+    "a": "A04",
+    "b": "D06",
+    "rationale": "abstracción simbólica vs paisaje observado"
   }
 ]

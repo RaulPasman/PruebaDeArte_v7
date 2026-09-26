@@ -231,6 +231,10 @@ function cuerpoMail_(d, nombre, primerNombre) {
     <tr><td style="padding:20px 36px 0;font:16px/1.7 Georgia,serif;color:#333">
       ${html_(d.narrative || '')}
     </td></tr>
+    ${d.home ? `<tr><td style="padding:24px 36px 0">
+      <p style="font:12px Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#8a8a84;margin:0 0 10px">Para tu casa</p>
+      <div style="font:15px/1.65 Georgia,serif;color:#444">${html_(d.home)}</div>
+    </td></tr>` : ''}
     <tr><td style="padding:6px 36px 0">
       <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
         <tr><td style="padding:20px 0 0">${bloqueObras_('Tu selección', d.selectionItems, d.selection, baseUrl, 64)}</td></tr>
@@ -270,6 +274,8 @@ function pdfPerfilHtml_(d, nombre) {
     ${d.nuances && d.nuances.length ? '<p style="font:13px Arial,sans-serif;color:#666;margin:18px 0 0"><b style="color:#333">Con matices de</b> ' + html_(d.nuances.join(' · ')) + '</p>' : ''}
 
     <p style="font:17px/1.75 Georgia,serif;color:#333;margin:26px 0 0;max-width:520px">${html_(d.narrative || '')}</p>
+    ${d.home ? '<p style="font:12px Arial,sans-serif;letter-spacing:.14em;color:#8a8a84;margin:30px 0 8px">PARA TU CASA</p>' +
+      '<p style="font:15px/1.7 Georgia,serif;color:#444;margin:0;max-width:520px">' + html_(d.home) + '</p>' : ''}
 
     <div style="margin-top:30px">${bloqueObras_('Tu selección', d.selectionItems, d.selection, baseUrl, 80)}</div>
     <div style="margin-top:26px">${bloqueObras_('Para seguir explorando', d.recommendationItems, d.recommendations, baseUrl, 80)}</div>

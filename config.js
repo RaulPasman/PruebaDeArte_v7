@@ -8,6 +8,6 @@
 //   "https://tu-usuario.github.io/prueba-de-arte/assets/artworks/"
 //   Si queda vacía, el mail sigue funcionando normal, sólo que sin miniaturas.
 window.PRUEBA_CONFIG = {
-  webhookUrl: "",
+  webhookUrl: "https://script.google.com/macros/s/AKfycbz7tolmanAaGkg6Sdvjh2XTqKu4M825xtOlwrUqO7PkoUL8_pXx68gePaZ841LUudk/exec",
   imagesBaseUrl: ""
 };

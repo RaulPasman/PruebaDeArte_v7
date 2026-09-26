@@ -1,0 +1,386 @@
+{
+  "_README": "Curaduría 1.1: los 17 reemplazos de la Revisión Integral (sección 3). Cada entrada reemplaza a la obra con ese ID (el ID se mantiene para no romper duelos). Los vectores son BORRADOR hecho por IA: falta la doble evaluación (Raúl + alguien del mundo del arte, ver docs/CURADURIA_1_1.md). 'estado': 'aplicada' = ya está en artworks.json; 'falta_imagen' = esperando la imagen en assets/manual/ID.jpg y la elección de la obra puntual. Se aplica con: python tools/aplicar_curaduria.py --ids ID1,ID2",
+  "A04": {
+    "estado": "aplicada",
+    "sale": "Kazimir Malevich, Suprematist Composition (1916)",
+    "Título": "The Ten Largest, No. 7, Adulthood",
+    "Artista": "Hilma af Klint",
+    "Año": 1907,
+    "Medio": "Tempera on paper mounted on canvas",
+    "Familia": "Geometric abstraction",
+    "Fuente/licencia": "Public domain / Wikimedia Commons",
+    "vector": [
+      -0.8,
+      0.1,
+      0.3,
+      0.6,
+      -0.3,
+      0.7,
+      0.7,
+      0.4
+    ],
+    "context": "Hilma af Klint pintó esta serie en 1907, años antes de que la abstracción tuviera nombre, en telas de más de tres metros. Mirá cómo las espirales, los pétalos y las letras flotan sin horizonte, como el diagrama de algo que no se ve.",
+    "image_source": {
+      "wiki": [],
+      "commons_file": "Hilma af Klint - The Ten Largest No. 7 - Adulthood - 1907.jpg"
+    },
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hilma%20af%20Klint%20-%20The%20Ten%20Largest%20No.%207%20-%20Adulthood%20-%201907.jpg"
+  },
+  "C05": {
+    "estado": "aplicada",
+    "sale": "Johannes Vermeer, Girl with a Pearl Earring (1665)",
+    "Título": "A Bigger Splash",
+    "Artista": "David Hockney",
+    "Año": 1967,
+    "Medio": "Acrylic on canvas",
+    "Familia": "Figuration / realism",
+    "Fuente/licencia": "Copyrighted / Wikipedia low-res (uso educativo F&F)",
+    "vector": [
+      0.5,
+      -0.5,
+      -0.2,
+      0.2,
+      -0.8,
+      -0.3,
+      0.5,
+      0.2
+    ],
+    "context": "Hockney congela un segundo: alguien acaba de tirarse a la pileta y sólo queda el salpicón. Mirá el contraste entre la calma plana de la casa y el cielo, y ese único gesto blanco que parece instantáneo pero está pintado con muchísima paciencia.",
+    "image_source": {
+      "wiki": [
+        "A Bigger Splash"
+      ]
+    },
+    "image_url": ""
+  },
+  "B06": {
+    "estado": "falta_imagen",
+    "sale": "Henri Matisse, The Dance (1910)",
+    "Título": "",
+    "sugerencia": "Una acuarela de Xul Solar de los años 20 o 30 (formato chico, con símbolos, letras y figuras flotando). Elegir con la imagen en mano.",
+    "Artista": "Xul Solar",
+    "Año": null,
+    "Medio": "Watercolor on paper",
+    "Familia": "Surrealism / imaginary",
+    "Fuente/licencia": "Copyrighted / imagen de museo (uso educativo F&F)",
+    "vector": [
+      0.0,
+      -0.3,
+      0.2,
+      0.5,
+      -0.5,
+      0.9,
+      0.1,
+      0.6
+    ],
+    "context": "Xul Solar inventaba idiomas, astrologías y ciudades. Mirá cómo cada figura, letra o escalera parece parte de un sistema con reglas propias, en un formato chico que pide acercarse."
+  },
+  "C04": {
+    "estado": "falta_imagen",
+    "sale": "Diego Velázquez, Las Meninas (1656)",
+    "Título": "Manifestación",
+    "sugerencia": "Antonio Berni, Manifestación (1934), colección MALBA.",
+    "Artista": "Antonio Berni",
+    "Año": 1934,
+    "Medio": "Tempera on burlap",
+    "Familia": "Figuration / realism",
+    "Fuente/licencia": "Copyrighted / imagen de museo (uso educativo F&F)",
+    "vector": [
+      0.9,
+      -0.2,
+      0.5,
+      0.3,
+      0.2,
+      -0.5,
+      0.8,
+      0.3
+    ],
+    "context": "Berni pinta una multitud en la que cada cara es una persona distinta. Mirá cómo casi no hay cielo ni aire: los rostros llenan el cuadro y te miran de frente, como si fueras parte de la marcha."
+  },
+  "D03": {
+    "estado": "falta_imagen",
+    "sale": "Caspar David Friedrich, Wanderer above the Sea of Fog (1818)",
+    "Título": "",
+    "sugerencia": "Una foto de la serie Seascapes de Hiroshi Sugimoto (desde 1980): mar y cielo divididos por el horizonte justo a la mitad.",
+    "Artista": "Hiroshi Sugimoto",
+    "Año": null,
+    "Medio": "Gelatin silver print",
+    "Familia": "Landscape / atmosphere",
+    "Fuente/licencia": "Copyrighted / imagen de museo (uso educativo F&F)",
+    "vector": [
+      -0.4,
+      -0.8,
+      -0.9,
+      -0.9,
+      -0.4,
+      0.2,
+      0.3,
+      0.4
+    ],
+    "context": "Sugimoto fotografía el mar siempre igual: horizonte al medio, nada más. Mirá cómo, al sacar todo lo demás, lo único que cambia es la luz, y cómo esa quietud se parece más a una pintura abstracta que a una postal."
+  },
+  "D04": {
+    "estado": "falta_imagen",
+    "sale": "John Constable, The Hay Wain (1821)",
+    "Título": "",
+    "sugerencia": "Un óleo chico de paisaje de Etel Adnan (por ejemplo, de su serie sobre el monte Tamalpais): bloques de color planos, hechos con espátula.",
+    "Artista": "Etel Adnan",
+    "Año": null,
+    "Medio": "Oil on canvas",
+    "Familia": "Landscape / atmosphere",
+    "Fuente/licencia": "Copyrighted / imagen de museo o galería (uso educativo F&F)",
+    "vector": [
+      -0.3,
+      -0.2,
+      -0.3,
+      0.4,
+      0.2,
+      0.1,
+      0.0,
+      0.0
+    ],
+    "context": "Etel Adnan reduce una montaña a unos pocos bloques de color. Mirá cómo alcanza con un cuadrado, un círculo y una franja para que reconozcas un paisaje, y cómo el tamaño chico lo vuelve casi una confidencia."
+  },
+  "E07": {
+    "estado": "falta_imagen",
+    "sale": "Louis Lumière, Workers Leaving the Lumière Factory (1895, es un film)",
+    "Título": "",
+    "sugerencia": "Una fotografía color de Saul Leiter de los años 50 (Nueva York, a través de vidrios, nieve o paraguas).",
+    "Artista": "Saul Leiter",
+    "Año": null,
+    "Medio": "Chromogenic print",
+    "Familia": "Artistic photography",
+    "Fuente/licencia": "Copyrighted / imagen de fundación o galería (uso educativo F&F)",
+    "vector": [
+      0.3,
+      0.3,
+      -0.2,
+      0.1,
+      0.0,
+      -0.4,
+      0.1,
+      0.0
+    ],
+    "context": "Leiter fotografía la calle a través de vidrios empañados, reflejos y paraguas. Mirá cómo lo más importante casi nunca está en foco: la foto se arma con manchas de color y con lo que queda tapado."
+  },
+  "F01": {
+    "estado": "falta_imagen",
+    "sale": "Michelangelo, David (1504)",
+    "Título": "Lobster Trap and Fish Tail",
+    "sugerencia": "Alexander Calder, Lobster Trap and Fish Tail (1939), MoMA. Sirve cualquier móvil colgante de Calder si se consigue mejor imagen.",
+    "Artista": "Alexander Calder",
+    "Año": 1939,
+    "Medio": "Painted steel wire and sheet aluminum",
+    "Familia": "Sculpture / object",
+    "Fuente/licencia": "Copyrighted / imagen de museo (uso educativo F&F)",
+    "vector": [
+      -0.7,
+      0.2,
+      0.1,
+      0.1,
+      0.5,
+      0.3,
+      0.6,
+      0.1
+    ],
+    "context": "Un móvil de Calder nunca está quieto: cualquier corriente de aire lo recompone. Mirá el equilibrio entre piezas grandes y chicas, y cómo la escultura dibuja en el espacio en lugar de ocuparlo."
+  },
+  "F02": {
+    "estado": "falta_imagen",
+    "sale": "Auguste Rodin, The Thinker (1904)",
+    "Título": "",
+    "sugerencia": "Una hidroescultura de Gyula Kosice (acrílico, agua en movimiento y luz).",
+    "Artista": "Gyula Kosice",
+    "Año": null,
+    "Medio": "Acrylic, water and light",
+    "Familia": "Sculpture / object",
+    "Fuente/licencia": "Copyrighted / imagen de museo o fundación (uso educativo F&F)",
+    "vector": [
+      -0.8,
+      -0.2,
+      0.0,
+      -0.2,
+      0.6,
+      0.6,
+      0.5,
+      0.5
+    ],
+    "context": "Kosice hizo esculturas con agua y luz: el material es algo que se mueve. Mirá cómo la forma de acrílico es sólo el recipiente, y lo que de verdad importa es lo que pasa adentro."
+  },
+  "F05": {
+    "estado": "falta_imagen",
+    "sale": "Gian Lorenzo Bernini, Apollo and Daphne (1622)",
+    "Título": "",
+    "sugerencia": "Una escultura colgante de alambre tejido de Ruth Asawa.",
+    "Artista": "Ruth Asawa",
+    "Año": null,
+    "Medio": "Looped wire",
+    "Familia": "Sculpture / object",
+    "Fuente/licencia": "Copyrighted / imagen de museo o fundación (uso educativo F&F)",
+    "vector": [
+      -0.7,
+      -0.3,
+      -0.5,
+      -0.3,
+      0.8,
+      0.2,
+      0.4,
+      0.1
+    ],
+    "context": "Asawa tejía alambre como si fuera hilo, formando volúmenes que se ven a través. Mirá las sombras que proyecta: la escultura es tan liviana que su dibujo en la pared es parte de la obra."
+  },
+  "G07": {
+    "estado": "falta_imagen",
+    "sale": "Jackson Pollock, Blue Poles (1952, segundo Pollock)",
+    "Título": "",
+    "sugerencia": "Una obra textil de Sheila Hicks (fibras gruesas, color intenso, colgada en la pared).",
+    "Artista": "Sheila Hicks",
+    "Año": null,
+    "Medio": "Textile / natural and synthetic fibers",
+    "Familia": "Textile / collage / mixed media",
+    "Fuente/licencia": "Copyrighted / imagen de museo o galería (uso educativo F&F)",
+    "vector": [
+      -0.8,
+      0.4,
+      0.2,
+      0.5,
+      1.0,
+      0.1,
+      0.5,
+      0.1
+    ],
+    "context": "Hicks trabaja con fibras como otros trabajan con pintura. Mirá el volumen, los nudos y cómo el color cambia según cuánta luz entra entre los hilos: es una obra que casi dan ganas de tocar."
+  },
+  "H05": {
+    "estado": "falta_imagen",
+    "sale": "Marcel Duchamp, L.H.O.O.Q. (1919, segundo Duchamp)",
+    "Título": "",
+    "sugerencia": "Una pintura op-art de Rogelio Polesello de los años 60 o 70.",
+    "Artista": "Rogelio Polesello",
+    "Año": null,
+    "Medio": "Oil or acrylic on canvas",
+    "Familia": "Kinetic / optical art",
+    "Fuente/licencia": "Copyrighted / imagen de museo o galería (uso educativo F&F)",
+    "vector": [
+      -1.0,
+      -0.9,
+      0.3,
+      0.6,
+      -0.6,
+      0.1,
+      0.6,
+      0.1
+    ],
+    "context": "Polesello arma la imagen con patrones que parecen vibrar. Mirá fijo unos segundos: el cuadro está quieto, pero tu ojo empieza a moverse solo."
+  },
+  "I03": {
+    "estado": "falta_imagen",
+    "sale": "Yoko Ono, Cut Piece (1964, performance)",
+    "Título": "Concetto spaziale, Attese",
+    "sugerencia": "Una tela tajeada de Lucio Fontana de la serie Concetto spaziale, Attese (años 60).",
+    "Artista": "Lucio Fontana",
+    "Año": null,
+    "Medio": "Water-based paint on canvas, slashed",
+    "Familia": "Accessible conceptual art",
+    "Fuente/licencia": "Copyrighted / imagen de museo (uso educativo F&F)",
+    "vector": [
+      -1.0,
+      -0.2,
+      0.3,
+      -0.8,
+      0.6,
+      0.2,
+      0.5,
+      0.8
+    ],
+    "context": "Fontana, nacido en Rosario, corta la tela en vez de pintarla. Mirá el tajo: abre un espacio real detrás del cuadro y convierte un gesto de un segundo en la obra entera."
+  },
+  "I04": {
+    "estado": "falta_imagen",
+    "sale": "Damien Hirst, The Physical Impossibility of Death in the Mind of Someone Living (1991)",
+    "Título": "",
+    "sugerencia": "Una obra de Liliana Porter con figuritas o juguetes chicos sobre fondo blanco.",
+    "Artista": "Liliana Porter",
+    "Año": null,
+    "Medio": "Mixed media / found figurines",
+    "Familia": "Accessible conceptual art",
+    "Fuente/licencia": "Copyrighted / imagen de museo o galería (uso educativo F&F)",
+    "vector": [
+      0.7,
+      -0.3,
+      0.1,
+      -0.6,
+      0.1,
+      0.6,
+      0.0,
+      0.8
+    ],
+    "context": "Porter pone figuritas diminutas frente a situaciones enormes. Mirá la escala y el blanco que las rodea: hay humor, pero también una pregunta seria sobre qué es real y qué es representación."
+  },
+  "J02": {
+    "estado": "falta_imagen",
+    "sale": "Joseph Kosuth, One and Three Chairs (1965, duplicada con I02)",
+    "Título": "",
+    "sugerencia": "Una obra de Jorge Macchi (sobre papel, objeto o instalación chica) que juegue con mapas, relojes, recortes o accidentes.",
+    "Artista": "Jorge Macchi",
+    "Año": null,
+    "Medio": "Mixed media",
+    "Familia": "Minimalism / object / ideas",
+    "Fuente/licencia": "Copyrighted / imagen de galería (uso educativo F&F)",
+    "vector": [
+      0.0,
+      -0.4,
+      -0.2,
+      -0.6,
+      0.2,
+      0.4,
+      0.2,
+      0.9
+    ],
+    "context": "Macchi trabaja con objetos y papeles cotidianos a los que les pasa algo mínimo: un corte, un desvío, un accidente. Mirá qué cambió respecto del objeto normal, porque ahí está toda la idea."
+  },
+  "J04": {
+    "estado": "falta_imagen",
+    "sale": "Cindy Sherman, Untitled Film Still #35 (1979, segunda Sherman). OJO: borrar assets/manual/J04.jpg (es la foto de Sherman).",
+    "Título": "",
+    "sugerencia": "Una Physichromie de Carlos Cruz-Diez (franjas de color en relieve que cambian según desde dónde se mire).",
+    "Artista": "Carlos Cruz-Diez",
+    "Año": null,
+    "Medio": "Acrylic and plastic strips on panel",
+    "Familia": "Kinetic / optical art",
+    "Fuente/licencia": "Copyrighted / imagen de museo o fundación (uso educativo F&F)",
+    "vector": [
+      -1.0,
+      -0.9,
+      0.2,
+      0.6,
+      0.3,
+      0.1,
+      0.5,
+      0.3
+    ],
+    "context": "Una Physichromie cambia de color según dónde te pares. Mirá cómo las franjas finas mezclan colores que en realidad no están pintados: el color lo termina de armar tu ojo."
+  },
+  "J05": {
+    "estado": "falta_imagen",
+    "sale": "Robert Smithson, Spiral Jetty (1970, land art)",
+    "Título": "",
+    "sugerencia": "Una obra lumínica o móvil de Julio Le Parc (serie Continuel-lumière o Continuel-mobile).",
+    "Artista": "Julio Le Parc",
+    "Año": null,
+    "Medio": "Light, metal and motor",
+    "Familia": "Kinetic / optical art",
+    "Fuente/licencia": "Copyrighted / imagen de museo o estudio (uso educativo F&F)",
+    "vector": [
+      -1.0,
+      -0.5,
+      0.4,
+      0.3,
+      0.4,
+      0.5,
+      0.8,
+      0.4
+    ],
+    "context": "Le Parc hace obras que no existen sin movimiento ni luz: el reflejo cambia todo el tiempo. Mirá cómo la obra no está en los materiales sino en lo que proyectan sobre la pared."
+  }
+}

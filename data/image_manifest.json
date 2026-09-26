@@ -28,11 +28,11 @@
   },
   "A04": {
     "status": "OK",
-    "source": "Wikipedia: Suprematist Composition",
-    "file": "Suprematist_Composition_-_Kazimir_Malevich.jpg",
+    "source": "Commons (archivo fijado)",
+    "file": "Hilma af Klint - The Ten Largest No. 7 - Adulthood - 1907.jpg",
     "repo": "commons",
-    "page": "https://commons.wikimedia.org/wiki/File:Suprematist_Composition_-_Kazimir_Malevich.jpg",
-    "width": 1281,
+    "page": "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_The_Ten_Largest_No._7_-_Adulthood_-_1907.jpg",
+    "width": 1206,
     "height": 1600
   },
   "A05": {
@@ -144,13 +144,13 @@
     "height": 1600
   },
   "C05": {
-    "status": "OK",
-    "source": "Wikipedia: Girl with a Pearl Earring",
-    "file": "1665_Girl_with_a_Pearl_Earring.jpg",
-    "repo": "commons",
-    "page": "https://commons.wikimedia.org/wiki/File:1665_Girl_with_a_Pearl_Earring.jpg",
-    "width": 1351,
-    "height": 1600
+    "status": "LOW_RES",
+    "source": "Wikipedia: A Bigger Splash",
+    "file": "Hockney,_A_Bigger_Splash.jpg",
+    "repo": "wikipedia-en (uso limitado)",
+    "page": "https://en.wikipedia.org/wiki/File:Hockney,_A_Bigger_Splash.jpg",
+    "width": 323,
+    "height": 319
   },
   "C06": {
     "status": "LOW_RES",
