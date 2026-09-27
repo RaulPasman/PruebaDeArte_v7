@@ -209,6 +209,12 @@ REVISAR_IMAGENES.html              → se genera solo, grilla visual de las 60 i
 - **Sitio publicado** (25/09/2026): https://raulpasman.github.io/PruebaDeArte_v7/ (GitHub Pages,
   repo público, rama main / root). `imagesBaseUrl` ya apunta a `.../assets/artworks/`.
 
+**F&F en curso (desde el 26/09/2026):** Raúl guarda los PDF de resultado en
+`C:\Users\RaulPasman\Desktop\F&F - Prueba de arte`. Cuando pida analizarlos, analizar sólo los
+que no estén en el registro de `docs/FF_ANALISIS.md` y agregarlos ahí. Tanda 1 (12 personas)
+analizada el 27/09/2026 → versión 2.0.2 (duelos adaptativos de verdad + frase de ejes coherente).
+Para leer PDFs: `pypdf` está instalado (`PdfReader(...).pages[i].extract_text()`).
+
 **Pendiente — priorizar en este orden (acordado con Raúl el 26/09/2026):**
 0. Raúl hace el test varias veces en celular y compu, eligiendo distinto, y manda los PDF del
    mail. Revisarlos: que los perfiles cambien según las elecciones y que todo se vea bien.
@@ -234,9 +240,12 @@ GitHub Pages deja que el navegador reuse archivos hasta 10 minutos. El 26/09/202
 Raúl viera el catálogo viejo con imágenes rotas justo después de publicar el 2.0. Desde entonces:
 - `load()` en `app.js` pide los JSON de `data/` con `cache:'no-cache'` (siempre revalida).
 - `index.html` carga CSS/JS con `?v=X.Y.Z`. **Subí ese número en cada cambio de `app.js`,
-  `styles.css`, `tracking.js` o `config.js`** (hoy: 2.0.1).
+  `styles.css`, `tracking.js` o `config.js`** (hoy: 2.0.2).
 - Si alguien reporta obras viejas o imágenes rotas: pedirle Ctrl+F5 y "Empezar de nuevo" antes
   de buscar otro problema.
+- **No edites archivos de texto con `Get-Content`/`Set-Content` de PowerShell 5.1**: leen el
+  UTF-8 sin BOM como ANSI y rompen los acentos ("Descubrí" → "DescubrÃ­"; pasó con `index.html`
+  el 27/09/2026). Usá la herramienta Edit/Write o Python con `encoding="utf-8"`.
 
 ## Qué NO hacer
 
