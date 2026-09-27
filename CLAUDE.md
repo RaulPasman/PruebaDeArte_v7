@@ -213,6 +213,8 @@ REVISAR_IMAGENES.html              → se genera solo, grilla visual de las 60 i
 `C:\Users\RaulPasman\Desktop\F&F - Prueba de arte`. Cuando pida analizarlos, analizar sólo los
 que no estén en el registro de `docs/FF_ANALISIS.md` y agregarlos ahí. Tanda 1 (12 personas)
 analizada el 27/09/2026 → versión 2.0.2 (duelos adaptativos de verdad + frase de ejes coherente).
+Planilla del 27/09 (encuesta 38%, ruta 0%) → versión 2.0.3: el resultado es un recorrido de 5
+pantallas (`result(step)` + `showResultStep()`), con eventos `result_step`/`route_start`/`route_step`.
 Para leer PDFs: `pypdf` está instalado (`PdfReader(...).pages[i].extract_text()`).
 
 **Pendiente — priorizar en este orden (acordado con Raúl el 26/09/2026):**
@@ -240,7 +242,7 @@ GitHub Pages deja que el navegador reuse archivos hasta 10 minutos. El 26/09/202
 Raúl viera el catálogo viejo con imágenes rotas justo después de publicar el 2.0. Desde entonces:
 - `load()` en `app.js` pide los JSON de `data/` con `cache:'no-cache'` (siempre revalida).
 - `index.html` carga CSS/JS con `?v=X.Y.Z`. **Subí ese número en cada cambio de `app.js`,
-  `styles.css`, `tracking.js` o `config.js`** (hoy: 2.0.2).
+  `styles.css`, `tracking.js` o `config.js`** (hoy: 2.0.3).
 - Si alguien reporta obras viejas o imágenes rotas: pedirle Ctrl+F5 y "Empezar de nuevo" antes
   de buscar otro problema.
 - **No edites archivos de texto con `Get-Content`/`Set-Content` de PowerShell 5.1**: leen el

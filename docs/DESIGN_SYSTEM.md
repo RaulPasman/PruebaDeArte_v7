@@ -115,6 +115,14 @@ arriba, chico, tracked, mayúsculas (Arial 11px). Foco: `outline:2px solid #111`
 nunca el borde de color azul del navegador por defecto. Error: texto `#b3261e`, 13px, aparece
 debajo del campo, nunca como un cartel/toast.
 
+### Pasos del resultado (`.rsteps` / `.rnav`)
+El resultado se recorre en 5 pantallas. Arriba, una fila de 5 pasos (número en Georgia, nombre
+en eyebrow) fija al hacer scroll; el paso actual va en negro con una línea de 2px debajo, los ya
+vistos en gris medio. Abajo, "← Anterior" como botón de texto y un único botón primario que dice
+qué viene ("Ver tus obras →"); en celular esa barra queda fija abajo. Si la pantalla tiene su
+propia acción principal (la encuesta con "Enviar"), el botón de avanzar pasa a secundario
+("Saltear →") para no tener dos botones negros.
+
 ### Barra de progreso
 `height:2px`, fondo `#ddd`, relleno `#111` con transición de ancho. Minimalista a propósito:
 no es una barra "gamificada" con porcentaje grande, es una línea fina que confirma que hay un

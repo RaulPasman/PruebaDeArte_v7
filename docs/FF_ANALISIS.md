@@ -58,7 +58,29 @@ selección y recomendaciones, pero **no** los duelos uno por uno: para eso hace 
 - **Frase de ejes coherente con el perfil** (`narrative()`): prioriza los ejes que explican el
   perfil asignado.
 
+## Planilla del 27/09/2026 (`Sheet 270926 0122.xlsx`, en la carpeta del F&F)
+
+17 sesiones reales (sin contar las marcadas como prueba):
+- **16 terminaron el test**, 1 abandonó (en el duelo 14). 12 de 17 desde el **celular**.
+- **Duración mediana: 3,2 minutos** (rango 1,8–48). Mucho menos que los 5–8 que promete la portada.
+- **Sólo 6 de 16 contestaron la encuesta final (38%)** y **nadie hizo la ruta de 5 pasos (0 de 16)**.
+  Raúl también lo notó: la gente no ve todo lo que viene después del perfil.
+- Encuesta (6 respuestas): acierto 3/5 (4 personas), 2 y 4 (una cada una); "¿descubriste algo?":
+  un poco 4, no 2; "¿querés ver obras así para tu casa?": sí 2, tal vez 2, no 2.
+- **Prueba de perfil: 8 de 11 eligieron la descripción de su propio perfil** (73%; al azar sería
+  50%). Buena señal de que el perfil describe a la persona.
+- "¿La tendrías en tu casa?": respondido en todas las sesiones; la mayoría dice sí a 2 o 3 de 3.
+
+**Cambio (versión 2.0.3):** el resultado pasó a ser un recorrido guiado de 5 pantallas
+(Perfil · Obras · Casa · Opinión · Seguí mirando), con barra de pasos arriba y un botón que dice
+qué viene. La encuesta tiene su propia pantalla (con "Saltear"), el texto "mirá esto" de cada obra
+quedó visible, y la pared de obras pasó a la pantalla de la casa. Se registra hasta qué pantalla
+llega cada persona (eventos `result_step`, `route_start`, `route_step` en la hoja Eventos).
+
 ## Para la próxima tanda
+
+- Medir con la planilla nueva: % que llega a cada pantalla (evento `result_step`), % que contesta
+  la encuesta y % que empieza la ruta. Antes: encuesta 38%, ruta 0%.
 
 - Pedir a Raúl que descargue la planilla (Archivo → Descargar → Microsoft Excel) y la guarde en
   la misma carpeta: con las hojas **Sesiones** y **Eventos** se puede ver cada duelo, cuánto

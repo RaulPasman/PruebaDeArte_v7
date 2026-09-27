@@ -8,6 +8,8 @@
 - [ ] Completar 24 duelos + 7 preguntas.
 - [ ] Confirmar que las preguntas aparecen después de los duelos 4, 8, 12, 16, 20, 22 y 24.
 - [ ] Confirmar que el resultado muestra perfil, matices, selección y recomendaciones.
+- [ ] El resultado se recorre en 5 pantallas (Perfil · Obras · Casa · Opinión · Seguí) con el
+      botón de abajo; la encuesta avanza sola a la última pantalla al enviarla.
 - [ ] Ejecutar la ruta de 5 pasos y guardar una reflexión.
 - [ ] Confirmar que la reflexión reaparece en el cierre.
 - [ ] Generar el PDF y revisar saltos de página/imágenes.
