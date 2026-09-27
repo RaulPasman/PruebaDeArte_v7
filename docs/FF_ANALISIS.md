@@ -28,6 +28,49 @@ selección y recomendaciones, pero **no** los duelos uno por uno: para eso hace 
 | Tu mirada artistica - Catalina.pdf | Buscador de intensidad | Materia |
 | Tu mirada artistica - Iñaki Kasangian.pdf | Arquitecto visual | Cotidiano · Atmósferas |
 
+### Tanda 2 — analizada el 27/09/2026 (8 PDF + planilla `Sheet 270926 1832.xlsx`)
+
+| Archivo | Perfil | Matices |
+|---|---|---|
+| Tu mirada artistica - Francisco Alvarado.pdf | Buscador de intensidad | — |
+| Prueba de Arte - Nahuel Brescia.pdf | Coleccionista de atmósferas | Conceptual · Imaginador |
+| Tu mirada artistica - Francisco Bonnefon.pdf | Coleccionista de atmósferas | Materia |
+| Prueba de Arte - Valentin Carro.pdf | Explorador de la materia | Atmósferas |
+| Tu mirada artistica - Megan Rogers.pdf | Coleccionista de atmósferas | Arquitecto |
+| Tu mirada artistica - Isa Irala.pdf | Explorador de la materia | — |
+| Tu mirada artistica - Ignacio Olarra.pdf | Observador de lo cotidiano | Inesperado |
+| Tu mirada artistica - Agustin Villegas.pdf | Explorador conceptual | Imaginador |
+
+Planillas analizadas: `Sheet 270926 0122.xlsx`, `Sheet 270926 1832.xlsx`.
+
+## Hallazgos de la tanda 2 (planilla, 29 personas con el catálogo 2.0)
+
+- **27 de 29 terminaron (93%)**; 2 abandonaron temprano (duelos 4 y 12). **86% desde el celular.**
+  Duración mediana **4,5 minutos** (la mitad entre 2,6 y 5,9).
+- **Perfiles:** atmósferas 8, arquitecto 5, conceptual 4, cotidiano 3, inesperado 2, intensidad 2,
+  materia 2, equilibrador 1, imaginador 0. Ninguno se lleva más del 28%.
+- **El resultado en 5 pantallas funcionó:** encuesta contestada **9 de 12 (75%)** con el flujo
+  nuevo contra **5 de 15 (33%)** con el viejo. 12 de 12 llegan a la pantalla 4 y 11 de 12 a la 5.
+- **La ruta de 5 pasos no la empieza nadie** (0 de 12, aun con el flujo nuevo). Replantearla.
+- **Acierto percibido: 3,4 de 5** (una nota 2, siete 3, seis 4). Aceptable, mejorable.
+- **Prueba de perfil: 10 de 15 reconocen su descripción (67%; al azar, 50%).**
+- **"¿Te gustaría ver obras disponibles como estas para tu casa?": 7 sí, 5 tal vez, 2 no**
+  (86% sí o tal vez). Es la señal comercial más fuerte hasta ahora.
+- "¿La tendrías en tu casa?": 53% sí.
+- Único comentario: *"En mi casa me imagino más paisajes y cosas que me representen, más que arte
+  más sofisticado"* → falta obra más accesible y "de casa".
+- **Duelos: "Ninguna" es el 23% de las respuestas** (Ambas 3%, No estoy seguro 1%). Tiempo
+  mediano por duelo: 3,5 segundos. Mucho "Ninguna" = obras que no conectan con este público.
+- **Obras que casi nunca ganan** (candidatas a reemplazo): Labourt 7%, De Caro (cerámica) 7%,
+  Katz 11%, Stern 14%, Le Parc 15% (además su imagen es chica), Arp 17%, Doig 17%.
+- **Obras que más ganan:** Scully 70%, Lestido 70%, Cabutti 69%, Leiter 68%, Agnes Martin 66%,
+  Duville 64%, Fontana 62%, Rodchenko 61%. Gusta lo calmo, la foto y el minimalismo cálido.
+- **Duelos con más "Ambas / Ninguna / No sé":** D09 Kelly–Labourt 61%, D28 Arp–Hockney 48%,
+  D13 Riley–De Caro 44%. **Duelos muy desparejos** (una obra gana casi siempre, informan poco):
+  D13, D14 (Katz–Cabutti), D11 (Scully–Stern), D15 (Le Parc–Lestido).
+- Preguntas: "Que se integre y cree clima" 19 de 28; presencia "sutil" o "equilibrada" 23 de 27;
+  "qué me hace sentir" 17 de 28. Público de obra serena e integrada al ambiente.
+
 ## Hallazgos de la tanda 1
 
 1. **Reparto de perfiles razonable** (ninguno pasa de 4 de 12): arquitecto 4, atmósferas 3,
