@@ -44,7 +44,6 @@ A = argentina · I = internacional. Fuente de cada imagen en `tools/curaduria_2_
 | CI04 | Physichromie No. 326 | Carlos Cruz-Diez | 1967 | I |
 | CI05 | Movement in Squares | Bridget Riley | 1961 | I |
 | CF01 | Halo veronés | Silvia Gurfein | 2024 | A |
-| CF02 | No. 61 (Rust and Blue) | Mark Rothko | 1953 | I |
 | CF03 | Mountains and Sea | Helen Frankenthaler | 1952 | I |
 | CF04 | Night Sea | Agnes Martin | 1963 | I |
 | GS01 | The Hard Way | Sarah Grilo | 1968 | A |
@@ -55,9 +54,7 @@ A = argentina · I = internacional. Fuente de cada imagen en `tools/curaduria_2_
 | MA01 | Concetto spaziale, Attesa | Lucio Fontana | 1966 | A |
 | MA02 | Deformación de la gota circunvalada | Gyula Kosice | 1965 | A |
 | MA03 | Criollos en la piscina | Chiachio & Giannone | 2019 | A |
-| MA04 | Sin título | Marina De Caro | 2015 | A |
 | MA05 | Inawop [La primavera] | Claudia Alarcón & Silät | 2023 | A |
-| MA06 | Estoy viva | Josefina Labourt | 2024 | A |
 | MA07 | Grand Prayer Rug | Sheila Hicks | 1966 | I |
 | MA08 | Untitled (S.270) | Ruth Asawa | 1955 | I |
 | MA09 | Lobster Trap and Fish Tail | Alexander Calder | 1939 | I |
@@ -66,7 +63,6 @@ A = argentina · I = internacional. Fuente de cada imagen en `tools/curaduria_2_
 | FI03 | Fuego | Carrie Bencardino | 2022 | A |
 | FI05 | A Bigger Splash | David Hockney | 1967 | I |
 | FI06 | Morning Sun | Edward Hopper | 1952 | I |
-| FI07 | The Red Smile | Alex Katz | 1963 | I |
 | FO01 | Corrientes | Horacio Coppola | 1936 | A |
 | FO02 | Eugenia y Violeta, de la serie Madres e hijas | Adriana Lestido | 1995 | A |
 | FO03 | Bruma I – Ministerio I | Santiago Porter | 2007 | A |
@@ -83,7 +79,6 @@ A = argentina · I = internacional. Fuente de cada imagen en `tools/curaduria_2_
 | CO01 | Buenos Aires Tour | Jorge Macchi | 2003 | A |
 | CO02 | Diálogo (con pingüino) | Liliana Porter | 1998 | A |
 | CO04 | Pumpkin | Yayoi Kusama | 1990 | I |
-| MC01 | Configuration | Jean Arp | 1927 | I |
 | MC02 | Wall of Light Desert Night | Sean Scully | 1999 | I |
 | MC03 | Stairway | Alexander Rodchenko | 1930 | I |
 | MC04 | Seascape (Cloudy) | Gerhard Richter | 1969 | I |
@@ -91,6 +86,11 @@ A = argentina · I = internacional. Fuente de cada imagen en `tools/curaduria_2_
 | MC06 | Geo impacto I, II, III | Marcela Cabutti | 2021 | A |
 | MC07 | Sin título | Martín Reyna | 2021 | A |
 | MC08 | Círculos XVII | Carola Zech | 2018 | A |
+| FO06 | Roque Sáenz Peña | Horacio Coppola | 1936 | A |
+| FO07 | Buenos Aires | Humberto Rivas | 1984 | A |
+| CF05 | White Ground–Red Halo | Adolph Gottlieb | 1966 | I |
+| CF06 | Untitled (Red) | Mark Rothko | 1956 | I |
+| MC09 | Untitled | Lee Ufan | 2008 | I |
 
 Cambios respecto de la propuesta, por disponibilidad de imágenes verificables: Marcolina
 Dipierro → Lidy Prati; Karina Peisajovich → Luis Tomasello; Gimena Macri y Laura Ojeda Bär →
@@ -141,3 +141,21 @@ Ese gusto lo detecta "El coleccionista de atmósferas" (P01), cuyo texto y conse
 ampliaron (formas orgánicas, tonos tierra, madera, lino, piedra). Persona "minimalismo cálido" →
 atmósferas 75%. Se recalibraron también P06 (imaginador) y P09 (inesperado), que se confundían.
 Simulador: ~78% principal, ~91% principal o matiz.
+
+## Ajuste del 28/09/2026: el living de Raúl y las obras que no conectaban
+
+Raúl mostró su living: le gustan especialmente una foto de arquitectura en blanco y negro
+(columnas en perspectiva) y una mancha roja suave sobre papel. Se buscaron obras parecidas y
+reemplazaron a las que menos ganaban en el F&F (datos de la planilla del 27/09):
+
+| Sale (% de duelos que ganaba) | Entra |
+|---|---|
+| Josefina Labourt, *Estoy viva* (7%) | Horacio Coppola, *Roque Sáenz Peña* (1936) — FO06 |
+| Marina De Caro, cerámica (7%) | Humberto Rivas, *Buenos Aires* (1984) — FO07 |
+| Alex Katz, *The Red Smile* (11%) | Adolph Gottlieb, *White Ground–Red Halo* (1966) — CF05 |
+| Jean Arp, *Configuration* (17%) | Lee Ufan, *Untitled* (2008) — MC09 |
+| Mark Rothko, *No. 61 (Rust and Blue)* | Mark Rothko, *Untitled (Red)* (1956) — CF06 |
+
+Se usaron IDs nuevos (no se reutilizan IDs) para que ningún navegador muestre una imagen vieja
+guardada. Simulador: ~80% principal, ~92% principal o matiz. Quedan candidatas a revisar con más
+datos: Grete Stern (14%), Le Parc (15%, imagen chica), Doig (17%).

@@ -1,194 +1,194 @@
 [
   {
     "id": "D01",
-    "a": "CF04",
-    "b": "FI03",
-    "rationale": "color field vs figuration"
+    "a": "MC09",
+    "b": "CI01",
+    "rationale": "warm minimalism & organic forms vs kinetic"
   },
   {
     "id": "D02",
-    "a": "CI03",
-    "b": "IM01",
-    "rationale": "kinetic vs imaginary"
+    "a": "MA03",
+    "b": "CF04",
+    "rationale": "material vs color field"
   },
   {
     "id": "D03",
-    "a": "FO03",
-    "b": "GS03",
+    "a": "FO06",
+    "b": "GS01",
     "rationale": "photography vs gestural abstraction"
   },
   {
     "id": "D04",
-    "a": "MA01",
-    "b": "CF01",
-    "rationale": "material vs color field"
-  },
-  {
-    "id": "D05",
     "a": "GS04",
-    "b": "IM04",
-    "rationale": "gestural abstraction vs imaginary"
-  },
-  {
-    "id": "D06",
-    "a": "GS02",
     "b": "CO02",
     "rationale": "gestural abstraction vs idea, object & pop"
   },
   {
+    "id": "D05",
+    "a": "CI05",
+    "b": "PA02",
+    "rationale": "kinetic vs landscape"
+  },
+  {
+    "id": "D06",
+    "a": "GE06",
+    "b": "FI03",
+    "rationale": "geometric abstraction vs figuration"
+  },
+  {
     "id": "D07",
-    "a": "MA10",
-    "b": "GE08",
-    "rationale": "material vs geometric abstraction"
+    "a": "FO04",
+    "b": "GE03",
+    "rationale": "photography vs geometric abstraction"
   },
   {
     "id": "D08",
-    "a": "GE06",
-    "b": "MA03",
-    "rationale": "geometric abstraction vs material"
-  },
-  {
-    "id": "D09",
-    "a": "GE07",
-    "b": "MA06",
-    "rationale": "geometric abstraction vs material"
-  },
-  {
-    "id": "D10",
-    "a": "GE05",
-    "b": "GS05",
-    "rationale": "geometric abstraction vs gestural abstraction"
-  },
-  {
-    "id": "D11",
-    "a": "MC02",
-    "b": "IM02",
-    "rationale": "warm minimalism & organic forms vs imaginary"
-  },
-  {
-    "id": "D12",
-    "a": "MA07",
-    "b": "FO05",
-    "rationale": "material vs photography"
-  },
-  {
-    "id": "D13",
-    "a": "CI05",
-    "b": "MA04",
-    "rationale": "kinetic vs material"
-  },
-  {
-    "id": "D14",
-    "a": "FI07",
-    "b": "MC06",
-    "rationale": "figuration vs warm minimalism & organic forms"
-  },
-  {
-    "id": "D15",
-    "a": "CI02",
-    "b": "FO02",
-    "rationale": "kinetic vs photography"
-  },
-  {
-    "id": "D16",
-    "a": "GE03",
-    "b": "PA02",
+    "a": "GE01",
+    "b": "PA01",
     "rationale": "geometric abstraction vs landscape"
   },
   {
-    "id": "D17",
-    "a": "MC05",
-    "b": "GS01",
-    "rationale": "warm minimalism & organic forms vs gestural abstraction"
+    "id": "D09",
+    "a": "GS05",
+    "b": "GE05",
+    "rationale": "gestural abstraction vs geometric abstraction"
   },
   {
-    "id": "D18",
+    "id": "D10",
+    "a": "IM01",
+    "b": "CI03",
+    "rationale": "imaginary vs kinetic"
+  },
+  {
+    "id": "D11",
+    "a": "IM02",
+    "b": "MC02",
+    "rationale": "imaginary vs warm minimalism & organic forms"
+  },
+  {
+    "id": "D12",
     "a": "FI06",
-    "b": "CO04",
-    "rationale": "figuration vs idea, object & pop"
+    "b": "MA01",
+    "rationale": "figuration vs material"
   },
   {
-    "id": "D19",
-    "a": "GE01",
-    "b": "MA09",
+    "id": "D13",
+    "a": "FO02",
+    "b": "CI02",
+    "rationale": "photography vs kinetic"
+  },
+  {
+    "id": "D14",
+    "a": "GE08",
+    "b": "MA10",
     "rationale": "geometric abstraction vs material"
   },
   {
+    "id": "D15",
+    "a": "GE07",
+    "b": "GS03",
+    "rationale": "geometric abstraction vs gestural abstraction"
+  },
+  {
+    "id": "D16",
+    "a": "GS02",
+    "b": "FO05",
+    "rationale": "gestural abstraction vs photography"
+  },
+  {
+    "id": "D17",
+    "a": "MC04",
+    "b": "CO04",
+    "rationale": "warm minimalism & organic forms vs idea, object & pop"
+  },
+  {
+    "id": "D18",
+    "a": "FO03",
+    "b": "FI02",
+    "rationale": "photography vs figuration"
+  },
+  {
+    "id": "D19",
+    "a": "IM05",
+    "b": "MC05",
+    "rationale": "imaginary vs warm minimalism & organic forms"
+  },
+  {
     "id": "D20",
-    "a": "FO04",
-    "b": "PA01",
-    "rationale": "photography vs landscape"
+    "a": "CO01",
+    "b": "FO01",
+    "rationale": "idea, object & pop vs photography"
   },
   {
     "id": "D21",
-    "a": "FI02",
-    "b": "MC04",
-    "rationale": "figuration vs warm minimalism & organic forms"
+    "a": "FI05",
+    "b": "MA08",
+    "rationale": "figuration vs material"
   },
   {
     "id": "D22",
-    "a": "MC03",
-    "b": "PA03",
-    "rationale": "warm minimalism & organic forms vs landscape"
+    "a": "MC07",
+    "b": "CI04",
+    "rationale": "warm minimalism & organic forms vs kinetic"
   },
   {
     "id": "D23",
-    "a": "CF02",
-    "b": "IM05",
-    "rationale": "color field vs imaginary"
+    "a": "MA09",
+    "b": "FO07",
+    "rationale": "material vs photography"
   },
   {
     "id": "D24",
     "a": "MA02",
-    "b": "CI01",
-    "rationale": "material vs kinetic"
+    "b": "CF03",
+    "rationale": "material vs color field"
   },
   {
     "id": "D25",
-    "a": "IM03",
-    "b": "MC08",
-    "rationale": "imaginary vs warm minimalism & organic forms"
+    "a": "MC06",
+    "b": "CF05",
+    "rationale": "warm minimalism & organic forms vs color field"
   },
   {
     "id": "D26",
-    "a": "CI04",
-    "b": "CO01",
-    "rationale": "kinetic vs idea, object & pop"
-  },
-  {
-    "id": "D27",
-    "a": "MC07",
-    "b": "FO01",
-    "rationale": "warm minimalism & organic forms vs photography"
-  },
-  {
-    "id": "D28",
-    "a": "MC01",
-    "b": "FI05",
-    "rationale": "warm minimalism & organic forms vs figuration"
-  },
-  {
-    "id": "D29",
-    "a": "CF03",
-    "b": "MA08",
+    "a": "CF01",
+    "b": "MA07",
     "rationale": "color field vs material"
   },
   {
-    "id": "D30",
+    "id": "D27",
+    "a": "CF06",
+    "b": "IM04",
+    "rationale": "color field vs imaginary"
+  },
+  {
+    "id": "D28",
     "a": "GE04",
     "b": "MA05",
     "rationale": "geometric abstraction vs material"
   },
   {
+    "id": "D29",
+    "a": "PA03",
+    "b": "MC03",
+    "rationale": "landscape vs warm minimalism & organic forms"
+  },
+  {
+    "id": "D30",
+    "a": "MC08",
+    "b": "IM03",
+    "rationale": "warm minimalism & organic forms vs imaginary"
+  },
+  {
     "id": "D31",
-    "a": "FO04",
-    "b": "CI01",
-    "rationale": "photography vs kinetic"
+    "a": "FO03",
+    "b": "CF03",
+    "rationale": "photography vs color field"
   },
   {
     "id": "D32",
-    "a": "PA01",
-    "b": "GE01",
-    "rationale": "landscape vs geometric abstraction"
+    "a": "MA07",
+    "b": "FO03",
+    "rationale": "material vs photography"
   }
 ]

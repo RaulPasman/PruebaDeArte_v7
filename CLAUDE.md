@@ -63,8 +63,8 @@ REVISAR_IMAGENES.html              → se genera solo, grilla visual de las 60 i
   (93% de usuarios al azar caían ahí). La versión nueva usa distancia coseno contra vectores de
   perfil *centrados* (restando el promedio de los perfiles, no el del catálogo). Validado con
   `SIMULADOR_MOTOR.html`. **Referencia actual (26/09/2026, curaduría 2.0 + vectores de perfiles
-  recalibrados, P03/P06/P09 ajustados, familia MC agregada): ~78% de acierto exacto, ~91%
-  contando perfil o matiz, máximo ~17% de usuarios al azar en un mismo perfil** (el azar puro da
+  recalibrados, P03/P06/P09 ajustados, familia MC agregada, reemplazos del 28/09): ~80% de acierto
+  exacto, ~92% contando perfil o matiz, máximo ~15% de usuarios al azar en un mismo perfil** (el azar puro da
   11%; objetivo de la revisión ≥60% / ≥85%). Con el catálogo v1 era ~59% / ~88%.
   - **Probá también con "personas"** (gusto definido por una fórmula sobre los ejes, no por un
     perfil), no sólo con usuarios sintéticos por perfil: el 26/09/2026 el simulador por perfil daba
@@ -79,7 +79,10 @@ REVISAR_IMAGENES.html              → se genera solo, grilla visual de las 60 i
   - Gustos de Raúl (para calibrar sin preguntarle de nuevo): abstracción serena y ordenada
     (Albers, Maldonado, Cruz-Diez, Gurfein, Frankenthaler, Sugimoto) y, para su casa,
     "minimalismo cálido": formas orgánicas en tonos tierra, planos de color sobrios, paisaje
-    brumoso, fotografía de arquitectura en blanco y negro. Referentes que marcó: Artsy, Musee,
+    brumoso, fotografía de arquitectura en blanco y negro. En su living (foto que mandó el 28/09)
+    le gustan sobre todo una foto de arquitectura en blanco y negro (columnas en perspectiva) y
+    una mancha roja suave sobre papel; por eso entraron Coppola (Roque Sáenz Peña), Rivas,
+    Gottlieb, Rothko rojo y Lee Ufan. Referentes que marcó: Artsy, Musee,
     Nook At You (ver `docs/RELEVAMIENTO_TENDENCIAS_2026.md`, sección 6). **Antes de tocar el motor o
   los datos, corré el simulador y compará contra estos números** — si algo baja, es una
   regresión. Varía ±1–2 puntos entre corridas.
@@ -245,6 +248,11 @@ Raúl viera el catálogo viejo con imágenes rotas justo después de publicar el
   `styles.css`, `tracking.js` o `config.js`** (hoy: 2.0.3).
 - Si alguien reporta obras viejas o imágenes rotas: pedirle Ctrl+F5 y "Empezar de nuevo" antes
   de buscar otro problema.
+- **Nunca reutilices un ID de obra** para otra obra: la imagen `assets/artworks/ID.jpg` puede
+  quedar guardada en el navegador y mostrarse la vieja. Usá un número nuevo en la misma familia
+  (ej. CF06, MC09). Para reemplazar obras: editar la lista `W` de `tools/curaduria_2_0.py`, copiar
+  la imagen a `assets/manual/ID.jpg`, correr `curaduria_2_0.py`, `fetch_images.py --force`,
+  `armar_duelos.py --escribir`, `validate.py` y el simulador.
 - **No edites archivos de texto con `Get-Content`/`Set-Content` de PowerShell 5.1**: leen el
   UTF-8 sin BOM como ANSI y rompen los acentos ("Descubrí" → "DescubrÃ­"; pasó con `index.html`
   el 27/09/2026). Usá la herramienta Edit/Write o Python con `encoding="utf-8"`.

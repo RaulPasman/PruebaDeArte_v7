@@ -65,11 +65,6 @@
   "fuente": "Nora Fisch",
   "url_original": "https://norafisch.com/wp-content/uploads/2018/01/Silvia-Gurfein-Halo-verones-Nuevas-conversaciones-en-la-era-de-plomo-Oil-on-canvas-74-x-52-cm-2024.jpg"
  },
- "CF02": {
-  "wiki": [],
-  "fuente": "WikiArt",
-  "url_original": "https://uploads3.wikiart.org/00158/images/mark-rothko/1.jpg"
- },
  "CF03": {
   "wiki": [],
   "fuente": "WikiArt",
@@ -120,20 +115,10 @@
   "fuente": "Ruth Benzacar",
   "url_original": "https://ruthbenzacar.com/wp-content/uploads/2016/11/chiachiogiannone_criollos-en-la-piscina2018_baja.jpg"
  },
- "MA04": {
-  "wiki": [],
-  "fuente": "Ruth Benzacar",
-  "url_original": "https://ruthbenzacar.com/wp-content/uploads/2017/02/0000016335_S_.jpg"
- },
  "MA05": {
   "wiki": [],
   "fuente": "Cecilia Brunson Projects",
   "url_original": "https://static-assets.artlogic.net/w_1600,h_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/cbprojects/images/view/e7c76c0e22a2b8c1c9d639aae8a8b875j.jpg"
- },
- "MA06": {
-  "wiki": [],
-  "fuente": "Piedras",
-  "url_original": "https://piedrasgaleria.com/wp-content/uploads/2022/03/DSC8050.jpg"
  },
  "MA07": {
   "wiki": [],
@@ -174,11 +159,6 @@
   "wiki": [],
   "fuente": "WikiArt",
   "url_original": "https://uploads5.wikiart.org/images/edward-hopper/morning-sun.jpg"
- },
- "FI07": {
-  "wiki": [],
-  "fuente": "WikiArt",
-  "url_original": "https://uploads3.wikiart.org/images/alex-katz/the-red-smile.jpg"
  },
  "FO01": {
   "wiki": [],
@@ -260,11 +240,6 @@
   "fuente": "WikiArt",
   "url_original": "https://uploads5.wikiart.org/images/yayoi-kusama/pumpkin-1990.jpg"
  },
- "MC01": {
-  "wiki": [],
-  "fuente": "WikiArt",
-  "url_original": "https://uploads2.wikiart.org/images/jean-arp/configuration.jpg"
- },
  "MC02": {
   "wiki": [],
   "fuente": "WikiArt",
@@ -299,5 +274,30 @@
   "wiki": [],
   "fuente": "Jorge Mara – La Ruche",
   "url_original": "https://www.jorgemaralaruche.com.ar/sitiodos/wp-content/uploads/2014/08/Zech_Circulos-XVII_Aluminio-pintura-bicapa_78x70x4_2018.jpg"
+ },
+ "FO06": {
+  "wiki": [],
+  "fuente": "Jorge Mara – La Ruche",
+  "url_original": "https://www.jorgemaralaruche.com.ar/sitiodos/wp-content/uploads/2014/08/Horacio-Coppola-Roque-Saenz-Pena-1936.jpg"
+ },
+ "FO07": {
+  "wiki": [],
+  "fuente": "Museo Nacional de Bellas Artes",
+  "url_original": "https://www.bellasartes.gob.ar/media/uploads/coleccion/9843.jpg"
+ },
+ "CF05": {
+  "wiki": [],
+  "fuente": "WikiArt",
+  "url_original": "https://uploads4.wikiart.org/images/adolph-gottlieb/white-ground-red-halo-1966.jpg"
+ },
+ "CF06": {
+  "wiki": [],
+  "fuente": "WikiArt",
+  "url_original": "https://uploads0.wikiart.org/images/mark-rothko/untitled-red-1956.jpg"
+ },
+ "MC09": {
+  "wiki": [],
+  "fuente": "WikiArt",
+  "url_original": "https://uploads2.wikiart.org/images/lee-ufan/untitled-2008.jpg"
  }
 }

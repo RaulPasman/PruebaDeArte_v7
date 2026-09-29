@@ -71,6 +71,11 @@ Planillas analizadas: `Sheet 270926 0122.xlsx`, `Sheet 270926 1832.xlsx`.
 - Preguntas: "Que se integre y cree clima" 19 de 28; presencia "sutil" o "equilibrada" 23 de 27;
   "qué me hace sentir" 17 de 28. Público de obra serena e integrada al ambiente.
 
+**Cambio del 28/09/2026:** salieron Labourt, De Caro, Katz y Arp (las que menos ganaban) y
+Rothko *Rust and Blue*; entraron Coppola *Roque Sáenz Peña*, Rivas *Buenos Aires*, Gottlieb,
+Rothko *Untitled (Red)* y Lee Ufan (obras parecidas a las del living de Raúl). Detalle en
+`docs/CURADURIA_2_0.md`. Al comparar tandas, tener en cuenta que el catálogo cambió.
+
 ## Hallazgos de la tanda 1
 
 1. **Reparto de perfiles razonable** (ninguno pasa de 4 de 12): arquitecto 4, atmósferas 3,
