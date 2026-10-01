@@ -245,7 +245,13 @@ GitHub Pages deja que el navegador reuse archivos hasta 10 minutos. El 26/09/202
 Raúl viera el catálogo viejo con imágenes rotas justo después de publicar el 2.0. Desde entonces:
 - `load()` en `app.js` pide los JSON de `data/` con `cache:'no-cache'` (siempre revalida).
 - `index.html` carga CSS/JS con `?v=X.Y.Z`. **Subí ese número en cada cambio de `app.js`,
-  `styles.css`, `tracking.js` o `config.js`** (hoy: 2.0.3).
+  `styles.css`, `tracking.js` o `config.js`** (hoy: 2.0.4).
+- Imágenes que fallan al cargar: `imgErr()` en `app.js` reintenta 2 veces (con `?r=` para saltear
+  la caché) antes de mostrar "Imagen no disponible" y manda el evento `img_error` (hoja Eventos).
+  El 01/10/2026 Raúl vio varias obras sin imagen justo después de un push con muchas imágenes:
+  en el servidor estaban todas bien (verificado una por una). Causa probable: GitHub Pages
+  terminando de publicar o conexión lenta; antes no había reintento. Después de un push con
+  imágenes, esperar ~5 minutos (Settings → Pages muestra "Last deployed") antes de probar.
 - Si alguien reporta obras viejas o imágenes rotas: pedirle Ctrl+F5 y "Empezar de nuevo" antes
   de buscar otro problema.
 - **Nunca reutilices un ID de obra** para otra obra: la imagen `assets/artworks/ID.jpg` puede
