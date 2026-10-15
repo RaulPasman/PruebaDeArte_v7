@@ -212,7 +212,31 @@ REVISAR_IMAGENES.html              → se genera solo, grilla visual de las 60 i
 - **Sitio publicado** (25/09/2026): https://raulpasman.github.io/PruebaDeArte_v7/ (GitHub Pages,
   repo público, rama main / root). `imagesBaseUrl` ya apunta a `.../assets/artworks/`.
 
-**F&F en curso (desde el 26/09/2026):** Raúl guarda los PDF de resultado en
+**Etapa actual (desde el 05/10/2026): curaduría final 3.0.** El F&F terminó (40 personas, 35
+completas). Investigación en `docs/INVESTIGACION_COMPETENCIA_Y_TENDENCIAS.md`; plan y decisiones
+en `docs/CURADURIA_3_0_PLAN.md`: 180 obras (25% conocidas / 75% poco conocidas; de estas, 60% AR,
+15% LatAm, 25% intl, USD 500–10.000), test de 60 duelos con duelos mezclados por persona.
+El catálogo 3.0 se arma aparte con `tools/curaduria_3_0.py` → `data/v3/` y `assets/v3/` (el test
+en uso sigue con `data/artworks.json`). Avance y pendientes en la sección "Avance" del plan.
+**Test de 60 ya implementado en paralelo (05/10/2026)**: se activa con `?v=3` en la dirección o
+`catalog:'v3'` en `config.js` (constantes `V3`, `TOTAL`, `NFIX`, `makePlan()` en `app.js`). Usa
+`data/v3/duels.json` (de `tools/armar_duelos_v3.py`) y `data/v3/profiles.json` (perfiles recalibrados
+para el catálogo 3.0; **nunca** escribir en `data/profiles.json` al tocar el test de 60). Referencia de
+simulación v3: ~89% principal / ~96% con matiz / máx. 15% al azar. Pruebas: functest (v2, 53 PASS),
+functest_v3 (20 PASS), gstest (11 PASS). Versión de archivos en `index.html`: 2.1.0.
+Ojo con los scripts sueltos de la carpeta temporal: el 05/10/2026 un `profiles_v3.py` viejo con el
+mismo nombre sobrescribió `data/profiles.json` (se restauró de la copia). Usar nombres nuevos siempre.
+**Etapa A terminada (05/10/2026): 180 obras con ficha completa.** Sigue la etapa B (vectores
+definitivos, perfiles, banco de duelos, test de 60, simulador). Los vectores actuales de las 134
+nuevas son borrador de Claude. Fuentes útiles para sumar obra: páginas de artista de galerías
+WordPress (la ficha está en la leyenda de la imagen), tiendas Shopify (`/products.json` trae título,
+precio y medidas: Tappan, FP Art Online), Tate (`media.tate.org.uk/.../XXXXX_10.jpg` = 1536 px; datos
+en github.com/tategallery/collection). Saatchi, Artsy, 1stDibs, MoMA y Americas Collection bloquean
+el acceso automático. Antes de
+difundir: mudar a Vercel y recién después hacer privado el repo (GitHub Pages gratis no funciona
+con repo privado). La carpeta del F&F se movió a `Desktop\Personal\F&F - Prueba de arte`.
+
+**F&F (26/09 al 05/10/2026, terminado):** Raúl guarda los PDF de resultado en
 `C:\Users\RaulPasman\Desktop\F&F - Prueba de arte`. Cuando pida analizarlos, analizar sólo los
 que no estén en el registro de `docs/FF_ANALISIS.md` y agregarlos ahí. Tanda 1 (12 personas)
 analizada el 27/09/2026 → versión 2.0.2 (duelos adaptativos de verdad + frase de ejes coherente).

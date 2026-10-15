@@ -32,7 +32,9 @@ const COLS_SESIONES = [
   'ejes_principales', 'duracion_min', 'acierto_1a5', 'descubrio_algo', 'quiere_ver_obras',
   'comentario', 'reflexion', 'mail_enviado', 'respuestas_json',
   // Agregadas el 26/09/2026 (siempre al final, para no correr las columnas viejas):
-  'grupo_prueba_perfil', 'prueba_perfil', 'la_tendria_en_casa'
+  'grupo_prueba_perfil', 'prueba_perfil', 'la_tendria_en_casa',
+  // Agregada el 05/10/2026: 'v2' = test de 24 (F&F) · 'v3' = test de 60 con la curaduría 3.0.
+  'catalogo'
 ];
 const TEXTO_PRUEBA_PERFIL = { own: 'eligió el suyo', other: 'eligió el otro', none: 'ninguna de las dos' };
 const COLS_EVENTOS = [
@@ -121,6 +123,7 @@ function actualizarSesion_(ss, d) {
         consentimiento: d.consent ? 'sí' : 'no', estado: 'iniciado', ultimo_paso: 'identificación',
         duelos_respondidos: 0,
         grupo_prueba_perfil: d.pt_group ? 'sí' : 'no',
+        catalogo: d.catalog || 'v2',
         dispositivo: d.device ? (d.device.mobile ? 'celular' : 'computadora') + ' ' + d.device.width + 'x' + d.device.height : ''
       });
       break;
@@ -235,7 +238,7 @@ function cuerpoMail_(d, nombre, primerNombre) {
       ${primerNombre ? 'Hola ' + html_(primerNombre) + ',' : 'Hola,'}
     </td></tr>
     <tr><td style="padding:10px 36px 0;font:16px/1.65 Georgia,serif;color:#444">
-      Ya recorriste las 24 obras y las preguntas. Con lo que elegiste — y, tanto o más,
+      Ya recorriste los ${Number(d.total) || 24} duelos y las preguntas. Con lo que elegiste — y, tanto o más,
       con lo que dejaste pasar — esto es lo que apareció:
     </td></tr>
     <tr><td style="padding:26px 36px 0">
